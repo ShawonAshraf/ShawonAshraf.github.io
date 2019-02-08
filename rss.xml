@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[A noobish blog]]></title><description><![CDATA[rumblings of an idiot]]></description><link>https://shawonashraf.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 19 Jan 2019 18:52:01 GMT</lastBuildDate><item><title><![CDATA[Find me elsewhere!]]></title><description><![CDATA[PSN :  XboxLive :  Battle.net :  Steam :  Origin :  YouTube :  Shawon Ashraf Twitch :  rockash93_bd Spotify :  rockash93 Apple Music…]]></description><link>https://shawonashraf.github.io/find-me/</link><guid isPermaLink="false">https://shawonashraf.github.io/find-me/</guid><content:encoded>&lt;ul&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[A noobish blog]]></title><description><![CDATA[rumblings of an idiot]]></description><link>https://shawonashraf.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 08 Feb 2019 22:03:37 GMT</lastBuildDate><item><title><![CDATA[Find me elsewhere!]]></title><description><![CDATA[PSN :  XboxLive :  Battle.net :  Steam :  Origin :  YouTube :  Shawon Ashraf Twitch :  rockash93_bd Spotify :  rockash93 Apple Music…]]></description><link>https://shawonashraf.github.io/find-me/</link><guid isPermaLink="false">https://shawonashraf.github.io/find-me/</guid><content:encoded>&lt;ul&gt;
 &lt;li&gt;PSN : &lt;code class=&quot;language-text&quot;&gt;rockash93&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;XboxLive : &lt;code class=&quot;language-text&quot;&gt;rockash93&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Battle.net : &lt;code class=&quot;language-text&quot;&gt;rockAsh93#1118&lt;/code&gt;&lt;/li&gt;
@@ -25,7 +25,138 @@
             height: 100%;
           &quot;&gt;&lt;/iframe&gt;
           &lt;/div&gt;
-          &lt;/div&gt;</content:encoded></item><item><title><![CDATA[কম্পিউটার লাইন ক্যামনে আঁকে?]]></title><description><![CDATA[…]]></description><link>https://shawonashraf.github.io/computer-line-draw/</link><guid isPermaLink="false">https://shawonashraf.github.io/computer-line-draw/</guid><content:encoded>&lt;p&gt;&lt;i&gt;এই খুশির ঠ্যালায়, আনন্দে আর ঘোরতে ঘোরতে আঁইকা ফেলে আরকি!&lt;/i&gt;&lt;/p&gt;
+          &lt;/div&gt;</content:encoded></item><item><title><![CDATA[ইমেজ কি জিনিস]]></title><description><![CDATA[ইমেজ কি আসলে? ইমেজ শব্দের আভিধানিক বাংলা হচ্ছে - বিম্ব / প্রতিবিম্ব। একটু Geeky…]]></description><link>https://shawonashraf.github.io/dip-what-is-image/</link><guid isPermaLink="false">https://shawonashraf.github.io/dip-what-is-image/</guid><content:encoded>&lt;h2&gt;ইমেজ কি আসলে?&lt;/h2&gt;
+&lt;p&gt;ইমেজ শব্দের আভিধানিক বাংলা হচ্ছে - বিম্ব / প্রতিবিম্ব। একটু Geeky সেন্সে বললে, কোন কিছু থেকে আলো এসে আমাদের চোখে পড়লে আমরা যা দেখি তাই বিম্ব বা ইমেজ। কিন্তু এই সংজ্ঞাটা না কেমন জানি । আমাদের দৈনন্দিন অভিজ্ঞতা বলে যে ইমেজ মানে হচ্ছে যেটা কিনা আমরা ক্যামেরা দিয়ে তুলি, অর্থাৎ ইমেজ মানে হচ্ছে ফটো । তাহলে এর সাথে মানুষের চোখের দেখার সম্পর্ক কী?&lt;/p&gt;
+&lt;p&gt;সম্পর্ক আছে। আসলে মানুষের চোখ যেভাবে দেখে, একটা ক্যামেরাও বলতে গেলে ঠিক সেভাবেই কাজ করে। চোখ আলো ছাড়া দেখে না । কোন কিছু থেকে আলো এসে চোখে যখন পড়ে, চোখ সেটাকে ওস্তাদ লাইট পাইসি বলে পাঠিয়ে দেয় মস্তিষ্কের কাছে । আপনার মস্তিষ্ক একটা জাদুর বাক্স। সে হিং টিং ছট বলে আলো থেকে ইমেজ বা বিম্ব তৈরি করে । আপনি চোখে যা দেখেন সব এই চোখ, আলো আর মস্তিষ্কের কারসাজি।&lt;/p&gt;
+&lt;p&gt;ক্যামেরাও একই ভাবে কাজ করে। এখন ক্যামেরার তো আর মস্তিষ্ক নেই! তার আছে প্রসেসর। সে লেন্স (চোখ) থেকে আলো পায়, সে অনুযায়ী ছবি দেখায়।&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/380838-3ef7f0c5192eba237738c872c6601acd-e7838.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 535px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 55.51401869158879%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAECAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHXtSJgH//EABoQAAEFAQAAAAAAAAAAAAAAAAEAAgMRMRP/2gAIAQEAAQUCif1jVqg1owZ//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGBAAAgMAAAAAAAAAAAAAAAAAAAEQESH/2gAIAQEABj8CtqjIwcf/xAAcEAEAAgIDAQAAAAAAAAAAAAABABEhQRBRcZH/2gAIAQEAAT8hTZSVfTDFmEPXyDVa3Gt3F//aAAwDAQACAAMAAAAQoM//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAdEAEAAgICAwAAAAAAAAAAAAABABEhQTFRcYHB/9oACAEBAAE/EOcvedg+QUQ0d7mDN2DEzn2isrRjU34n/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;img&quot;
+        title=&quot;&quot;
+        src=&quot;/static/380838-3ef7f0c5192eba237738c872c6601acd-e7838.png&quot;
+        srcset=&quot;/static/380838-3ef7f0c5192eba237738c872c6601acd-dcd45.png 200w,
+/static/380838-3ef7f0c5192eba237738c872c6601acd-d0fd1.png 400w,
+/static/380838-3ef7f0c5192eba237738c872c6601acd-e7838.png 535w&quot;
+        sizes=&quot;(max-width: 535px) 100vw, 535px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;ক্যামেরা তো ক্লিক করলে ছবি তোলে, আপনার চোখ প্রতি মিলিসেকেন্ডে কত ছবি তুলছে আন্দাজ করে দেখেন একবার!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;মিলিসেকেন্ড কেন? মানুষের মস্তিষ্ক জাদুর বাক্স হতে পারে তবে তার কিছু সীমাবদ্ধতা আছে । মিলিসেকেন্ড রেঞ্জের চাইতে ছোট সময়ে কোন কিছু ঘটলে সে ধরতে পারে না। আপনার চোখ সেটা দেখলেও লাভ নাই । মস্তিষ্ক প্রসেস করতে পারেনি, গান্ধীর বাঁদরের মতন আপনিও কিছু দেখেন নি । (যদি না আপনি সুপার হিউম্যান হন)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;তাহলে ইমেজ প্রসেসিং কী করে?&lt;/h2&gt;
+&lt;p&gt;এই যে বললাম, ক্যামেরাতে প্রসেসর থাকে । তার তো আলো থেকে তথ্য নিয়ে সেগুলোকে প্রসেস করতে হয়। কীভাবে করে সে? কী ধরণের এলগোরিদম কাজ করে সেখানে? এগুলো ইমেজ প্রসেসিং এর কাজ আসলে ।&lt;/p&gt;
+&lt;h2&gt;ইমেজ এবং সিগন্যাল&lt;/h2&gt;
+&lt;p&gt;সিগন্যাল শব্দটা শুনলে আমাদের মাথায় প্রথমে কি আসে? ট্রাফিক সিগন্যাল? ট্রেনের সিগন্যাল? ইত্যাদি ইত্যাদি । আমরা স্বাভাবিকভাবে সিগন্যাল বলতে বুঝি এমন কিছু যেটা আমাদের তথ্য দেয় । কিংবা কিছুর দিকে ইঙ্গিত করে । ইমেজ এবং সিগন্যাল একে ওপরের সঙ্গে ওতপ্রোত ভাবে জড়িত।&lt;/p&gt;
+&lt;p&gt;আলো ছাড়া আপনি ছবি পাবেন না । কথাটা আংশিক সত্য । আলো জগতের একমাত্র সিগন্যাল না । আলো এক প্রকার তড়িৎ চুম্বকীয় তরঙ্গ। আর তরঙ্গদৈর্ঘ্য এমন যে , তড়িৎ চুম্বকীয় তরঙ্গের বিশাল স্পেকট্রামের মাঝে একমাত্র তাকেই দেখা যায়। বাকিগুলা সব অদৃশ্য হয়ে ঘুরে বেড়ায়। (কি সাংঘাতিক তাই না!)&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/EM_spectrum_compare_level1_lg-dbaaa3a0f080f7ab9a14669e275e5758-857fb.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 750px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 37.46666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdyQsD//xAAUEAEAAAAAAAAAAAAAAAAAAAAQ/9oACAEBAAEFAn//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAQ/9oACAEBAAY/An//xAAYEAADAQEAAAAAAAAAAAAAAAAAAREhQf/aAAgBAQABPyGuvBLOip//2gAMAwEAAgADAAAAEPAP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGxABAAICAwAAAAAAAAAAAAAAAQARITFxgeH/2gAIAQEAAT8QoJe9j7KtuSwgzXU//9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;img&quot;
+        title=&quot;&quot;
+        src=&quot;/static/EM_spectrum_compare_level1_lg-dbaaa3a0f080f7ab9a14669e275e5758-857fb.jpg&quot;
+        srcset=&quot;/static/EM_spectrum_compare_level1_lg-dbaaa3a0f080f7ab9a14669e275e5758-a8180.jpg 200w,
+/static/EM_spectrum_compare_level1_lg-dbaaa3a0f080f7ab9a14669e275e5758-b7fcc.jpg 400w,
+/static/EM_spectrum_compare_level1_lg-dbaaa3a0f080f7ab9a14669e275e5758-857fb.jpg 750w&quot;
+        sizes=&quot;(max-width: 750px) 100vw, 750px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;যেকোন তরঙ্গ তথ্য বয়ে বেড়াতে পারে । ফোন কথা বলছেন? নেটওয়ার্ক এর তরঙ্গ আপনার কথা বয়ে নিয়ে যাচ্ছে গন্তব্যে। টেলিভিশন দেখছেন? তরঙ্গ স্যাটেলাইট থেকে আসছে আপনার পছন্দের টিভি শো নিয়ে । অর্থাৎ আপনি সিগন্যাল পাচ্ছেন।&lt;/p&gt;
+&lt;h3&gt;আলো ও এক প্রকার সিগন্যাল&lt;/h3&gt;
+&lt;p&gt;অর্থাৎ, আলো ছাড়া ছবি পাবেন না এইটাকে সঠিক ভাষায় বলা যায় যে সিগন্যাল ছাড়া ছবি পাবেন না । এখন মাথা চুলকিয়ে জিজ্ঞেস করতে পারেন, আলো না থাকলে ছবি যেটা পাবো অন্য সিগন্যাল থেকে সেটা দিয়ে আমার লাভ কি? ভালো প্রশ্ন। আপনার বোধহয় কোনদিন এক্স রে, আল্ট্রাসনোগ্রাফি, ইসিজি এসব করানোর দরকার পড়েনি। ওখানের ছবিগুলো কীভাবে আসে ভেবে দেখেন । ৫ মিনিটের জন্য বিরতি। &lt;strong&gt;Brainstorming!&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;ইমেজ ২ প্রকার&lt;/h2&gt;
+&lt;p&gt;সিগন্যাল থেকে ইমেজ আসে । সিগন্যাল অ্যানালগ বা ডিজিটাল হয় । তাই ইমেজ ও ২ প্রকার । &lt;strong&gt;অ্যানালগ&lt;/strong&gt; আর &lt;strong&gt;ডিজিটাল&lt;/strong&gt; । আমরা শুধু ডিজিটাল ইমেজ নিয়ে কথা বলবো । কারণ অ্যানালগ ইমেজ প্রসেসিং এর জন্য সিগন্যাল প্রসেসিং সম্পর্কে বেসিক আইডিয়া থাকা জরুরি। তাই সেদিকে যাচ্ছি না । শুধু বেসিক কিছু বিষয় নিয়ে কথা বলবো যাতে টার্মিনোলজি গুলো বুঝতে সুবিধা হয় ।&lt;/p&gt;
+&lt;h2&gt;কম্পিউটারে ইমেজ কীভাবে লোড হয়?&lt;/h2&gt;
+&lt;p&gt;কম্পিউটার মেমোরিতে যখন আমরা ডিজিটাল ইমেজ লোড করি তখন সেটা লোড হয় একটা ম্যাট্রিক্স হিসেবে । প্রোগ্রামিং টার্মিনোলজিতে বললে মাল্টি ডিমেনশনাল অ্যারে হিসেবে। ধরা যাক আপনার কাছে একটা ১৯২০ বাই ১০৮০ রেজুলেশনের ছবি আছে। তাহলে ম্যাট্রিক্সের রো হচ্ছে ১০৮০ টা , কলাম হচ্ছে ১৯২০ টা । অর্থাৎ ইমেজের রেজুলেশন যদি &lt;code class=&quot;language-text&quot;&gt;X&lt;/code&gt; by &lt;code class=&quot;language-text&quot;&gt;Y&lt;/code&gt; হয় , তাহলে সেটা একটা &lt;code class=&quot;language-text&quot;&gt;[X][Y]&lt;/code&gt; ম্যাট্রিক্সে লোড হবে ।&lt;/p&gt;
+&lt;h2&gt;ম্যাট্রিক্সের ইলিমেন্ট গুলো আসলে কি তাহলে?&lt;/h2&gt;
+&lt;p&gt;ইলিমেন্ট গুলো হচ্ছে পিক্সেল ভ্যালু । এখন এইটা কি জিনিস?&lt;/p&gt;
+&lt;p&gt;ম্যাথম্যাটিকালি একটা ইমেজ কে যদি ফাংশন হিসেবে দেখাই তাহলে দাঁড়াবে এমন :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;f(x, y) = i&lt;/code&gt;, যেখানে &lt;code class=&quot;language-text&quot;&gt;(x,y)&lt;/code&gt; হচ্ছে ম্যাট্রিক্সের ইলিমেন্টের ইন্ডেক্স মানে পিক্সেলের ইনডেক্স আর i হচ্ছে সেই ইমেজের সেই পিক্সেলে আলোর পরিমাণ বা লুমিনোসিটি আসলে কতটুকু। যদি &lt;code class=&quot;language-text&quot;&gt;i = 0&lt;/code&gt; হয় তাহলে ধরে নিতে হবে সেখানে কোন আলো নেই এবং পিক্সেলের রং কালো ।&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/image-function-5e563932472865812519c299db7a2f5e-00f71.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 78.97727272727273%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB/ElEQVQ4y51U227TQBD1b/MAb0jwgBBBqnigHwClqoT6hET7hHqJitMoFzkXJ3FiJ3ZiW7nHdpKDzkhe7LQUwUijXe+uz5w5s7PaeDxGr9eDYRiwbRudTgeDwQDdblfNoygCbb/fq/FPrs1mMziOg1qthjAMwQB0gtNHoxGSJMkBPWUa/sFSsO12i81mI8zVGG1kXUuj7na7HIPAD+C5HubzOZbLpWK5Xq9hWZZkNRwO4XmeyMJseE471IVGcHtgYzKZSHQ69+I4RqvVEieQaZq4ubqBP/EFVACxfyg2AelZI8N6vY6SXpIiUuf70j0Kb97hrngnWi8WizzDQ0tBCUZ9Lr5f4PjDR5htE67nwupZOP96juJtUb4VYFbsOIqx2/5m5wwdic6966trFN4WoP/UJWXq6Pu+0lGlzMO0sy9nuPx2KXMCsyBMMwgCOdNut+WbINSVGruuK4Bkx4xyDE8/n6L44xahGyKJE6noarWSlHmY2hH8yXuYBTx6f4QXz57j9ctXqjtSKabTqRTi8JI/6JSs+BT75NMJjLqhipJeF+pDtrzIWRJZMMXwf+2xf4UhdaHAFLbf70sHUGyusdc5p3M97RAyfQxUAJvNJnRdlypWq1XllUoFjUZD9vl4lMtl1W6HL1AOkNGoERmmzU6nZlxjtbnO8W8p/wKWDse2kZILwgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;img&quot;
+        title=&quot;&quot;
+        src=&quot;/static/image-function-5e563932472865812519c299db7a2f5e-48538.png&quot;
+        srcset=&quot;/static/image-function-5e563932472865812519c299db7a2f5e-bed0f.png 200w,
+/static/image-function-5e563932472865812519c299db7a2f5e-5fd34.png 400w,
+/static/image-function-5e563932472865812519c299db7a2f5e-48538.png 800w,
+/static/image-function-5e563932472865812519c299db7a2f5e-b70ec.png 1200w,
+/static/image-function-5e563932472865812519c299db7a2f5e-00f71.png 1408w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;অর্থাৎ , ছবিতে এত সব রং দেখি সব নির্ভর করছে পিক্সেলের ভ্যালু কত তার উপর ।&lt;/p&gt;
+&lt;h3&gt;পিক্সেল ভ্যালু তাহলে কই পায়?&lt;/h3&gt;
+&lt;p&gt;সহজ উত্তর । ছবি যদি আলো থেকে পাই, ছবিতে আলো কত সেটাও পাবো আলো থেকেই! ক্যামেরা যখন ছবি তুলছে, তখন সে প্রসেসিং এর সময় ভ্যালুটা সেট করে নিবে।&lt;/p&gt;
+&lt;h2&gt;টার্মিনোলজি গুলো কেমন যেন!&lt;/h2&gt;
+&lt;p&gt;হ্যাঁ একটু ঝামেলা মার্কা । তাই আমি এখানে লিখে অধ্যায়টা অযথা লম্বা করতে চাচ্ছি না । এতটুকু জেনে রাখুন যে যেকোন ইমেজ, যে ক্যামেরা দিয়েই তোলা হোক না কেন একটা ম্যাট্রিক্স বাদে আর কিছুই না ।&lt;/p&gt;</content:encoded></item><item><title><![CDATA[কম্পিউটার লাইন ক্যামনে আঁকে?]]></title><description><![CDATA[…]]></description><link>https://shawonashraf.github.io/computer-line-draw/</link><guid isPermaLink="false">https://shawonashraf.github.io/computer-line-draw/</guid><content:encoded>&lt;p&gt;&lt;i&gt;এই খুশির ঠ্যালায়, আনন্দে আর ঘোরতে ঘোরতে আঁইকা ফেলে আরকি!&lt;/i&gt;&lt;/p&gt;
 &lt;h2&gt;শুরু করার আগে, লাইন বা সরলরেখা খাতায় ক্যামনে আঁকে?&lt;/h2&gt;
 &lt;p&gt;স্কুল কলেজে তো অনেক লাইন এঁকেছেন, লাইন মেরেছেন, লাইন টেনেছেন। মহাবিশ্বে লাইনের অবদান এবং গুরুত্ব অনস্বীকার্য। এড়িয়ে যাবার উপায় নেই। কিন্তু এই মহাবিশ্বে কোনকিছু তো নিয়মের বাইরে চলে না। যে জিনিসের ব্যাখ্যা নেই কয়দিন বাদে কোন বেয়াড়া বিজ্ঞানী এসে সে জিনিসের জন্যও কয়েকটা সমীকরণ লিখে একটা ব্যাখ্যা দাঁড় করিয়ে দিবে। সরলরেখা বা লাইনের জন্যও কিন্তু একটা বেশ নিরীহদর্শন সমীকরণ আছে। স্কুলে পড়ে না থাকলে কলেজে স্থানাংক জ্যামিতির সাথে অবশ্যই পড়েছেন!&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;y &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; mx + c
@@ -355,71 +486,7 @@ Sum of vector is &lt;span class=&quot;token keyword&quot;&gt;:&lt;/span&gt; 162&
 &lt;h2&gt;কাজ শেষ!&lt;/h2&gt;
 &lt;p&gt;এখন যদি কাস্টম টাইপের যোগফল বের করতে হয়? আপনি এখন জানেন কীভাবে ইটারেটর দিয়ে অ্যাকসেস করে accumulate() এ পাঠাতে হয়! পাঠিয়ে দিন! লাইব্রেরী ফাংশন বসে থাকতে নিজে লুপ ঘুরিয়ে হাবিজাবি কাবজাব করে কষ্ট করার কি দরকার?&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt; আর্টিকেলটি এর  আগে &lt;a href=&quot;https://rockash93.wordpress.com/2016/01/06/c-%E0%A6%8F-accumulate-%E0%A6%AB%E0%A6%BE%E0%A6%82%E0%A6%B6%E0%A6%A8-%E0%A6%A6%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%AB%E0%A6%B2-%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%95/&quot;&gt;এখানে&lt;/a&gt;  পাবলিশ করা হয়েছিলো ।&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Animated gif loader in Java]]></title><description><![CDATA[Animated gifs are just all over the internet these days. Especially after people realized picture comments ain’t enough for their social…]]></description><link>https://shawonashraf.github.io/animated-gif-java/</link><guid isPermaLink="false">https://shawonashraf.github.io/animated-gif-java/</guid><content:encoded>&lt;p&gt;Animated gifs are just all over the internet these days. Especially after people realized picture comments ain’t enough for their social networking experience. Gifs are pretty good at expressing things in short - just like those tiny stories that float around on social networks. So how do you load them in a Java application? Or let’s say you want a gifloader that loads the gif of your choice?&lt;/p&gt;
-&lt;h2&gt;Animated Gif Loader !!! Ting Ting Ting!!!!&lt;/h2&gt;
-&lt;p&gt;We’ll write a simple animated gif loader using Java Swing components. We just need a &lt;code class=&quot;language-text&quot;&gt;JFrame&lt;/code&gt;, a &lt;code class=&quot;language-text&quot;&gt;JLabel&lt;/code&gt; and that’s it!&lt;/p&gt;
-&lt;p&gt;For testing whether our loader works or not we’ll use this animated gif : &lt;a href=&quot;http://i.giphy.com/xT0GqdXpoKAazgF8t2.gif&quot; target=&quot;_blank&quot;&gt;TotoroGif&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;How it’ll look like?&lt;/h2&gt;
-&lt;p&gt;We expect something like this : &lt;/p&gt;
-&lt;img class=&quot; aligncenter&quot; src=&quot;http://i.imgur.com/6Tk8YBC.png&quot; alt=&quot;gifLoader&quot; width=&quot;562&quot; height=&quot;578&quot;&gt;
-&lt;h2&gt;Breaking down the procedure&lt;/h2&gt;
-&lt;p&gt;JLabel can have Icon objects set to them as Icons. So what we’re going to do here is that we’re going to load the animated gif from the URL given earlier into an URL object. Then instantiate an Icon object with the URL. Finally, set the Icon object to the JLabel.
-Now here’s a catch. To make sure you get the animated gif and not a static frame or image, you’ve to load it as a stream via URL object and some exception handling will need to be taken care of. Let’s just keep things simple and use generic exception handlers.&lt;/p&gt;
-&lt;h2&gt;What about the size of the JFrame?&lt;/h2&gt;
-&lt;p&gt;Unless you know the size of the animated gif, it’s better to use pack() and let Swing do the work for you. Why take the hassle of measuring things? Chill!&lt;/p&gt;
-&lt;h2&gt;CODE&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; javax&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;swing&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;*&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; java&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;net&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;URL&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;GifLoader&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; JFrame frame&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; JLabel label&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; Icon icon&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; URL url&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-    &lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;GifLoader&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;token function&quot;&gt;initGUI&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;token function&quot;&gt;addWindowProperties&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;initGUI&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-        frame &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;JFrame&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Loader&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// windows title is Loader, change&lt;/span&gt;
-                                      &lt;span class=&quot;token comment&quot;&gt;// it if you don&apos;t like it!&lt;/span&gt;
-
-        &lt;span class=&quot;token keyword&quot;&gt;try&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-            url &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;URL&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;http://i.giphy.com/xT0GqdXpoKAazgF8t2.gif&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;catch&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Exception&lt;/span&gt; e&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// do nothing or just print a message }&lt;/span&gt;
-
-        icon &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;ImageIcon&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;url&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-        label &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;JLabel&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;icon&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;addWindowProperties&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-        frame&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;label&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-        frame&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;pack&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// you don&apos;t know the size of the gif, so pack&lt;/span&gt;
-        frame&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setDefaultCloseOperation&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;WindowConstants&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;EXIT_ON_CLOSE&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;token comment&quot;&gt;// you can also use JFrame.EXIT_ON_CLOSE&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-    &lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;loadApplication&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-        frame&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setVisible&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;What does what here?&lt;/h2&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;initGUI()&lt;/code&gt; instantiates the Swing components and the URL and the Icon and &lt;code class=&quot;language-text&quot;&gt;addWindowProperties()&lt;/code&gt; sets the &lt;code class=&quot;language-text&quot;&gt;JFrame&lt;/code&gt; properties. Both of them are called with the constructor to &lt;code class=&quot;language-text&quot;&gt;class GifLoader&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;loadApplication()&lt;/code&gt; makes the &lt;code class=&quot;language-text&quot;&gt;JFrame&lt;/code&gt; visible on screen. It wasn’t really necessary since we could’ve done inside &lt;code class=&quot;language-text&quot;&gt;addWindowProperties()&lt;/code&gt; but this makes sure our code is clean!&lt;/p&gt;
-&lt;h2&gt;Let’s run it shall we?&lt;/h2&gt;
-&lt;p&gt;Let’s create another class where we’ll create an object of the &lt;code class=&quot;language-text&quot;&gt;class GifLoader&lt;/code&gt; and instantiate it and call the &lt;code class=&quot;language-text&quot;&gt;loadApplication()&lt;/code&gt; method to run our Animated Gif Loader.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Main&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-
-    &lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;String&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; args&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-        GifLoader a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;GifLoader&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-        a&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;loadApplication&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;And that’s it!&lt;/h2&gt;
-&lt;p&gt;We’re done! You can tweak the frame properties and set different things. You can even go and add a textbox as address bar and a button to load so that any  animated gif can be loaded.(just make sure it’s streamable!)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;This article was originally published &lt;a href=&quot;https://rockash93.wordpress.com/2016/07/09/an-animated-gif-loader-in-java/&quot;&gt;here&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Cooking big Excel files with Python and Openpyxl]]></title><description><![CDATA[At least once in life, every computer user has to handle some spreadsheets or, excel files. Sometimes to put formulas in for accounting…]]></description><link>https://shawonashraf.github.io/cook-big-excel-py/</link><guid isPermaLink="false">https://shawonashraf.github.io/cook-big-excel-py/</guid><content:encoded>&lt;p&gt;At least once in life, every computer user has to handle some spreadsheets or, excel files. Sometimes to put formulas in for accounting stuff, sometimes to store data from Google forms or other surveys and etc. So what do you actually do when the spreadsheet contains just survey data or no number to apply formulas at all? I know you’ll get your hands dirty and do it manually. It’s fine if the there’s data from roughly a hundred people. What will you do if there’s data from a thousand or more? I’d have run away in such cases because I’m way too lazy to scroll down and have a look at those. Hopefully I know how to do magic tricks using Python and I’m going to show you this specific magic trick today.&lt;/p&gt;
+&lt;p&gt; আর্টিকেলটি এর  আগে &lt;a href=&quot;https://rockash93.wordpress.com/2016/01/06/c-%E0%A6%8F-accumulate-%E0%A6%AB%E0%A6%BE%E0%A6%82%E0%A6%B6%E0%A6%A8-%E0%A6%A6%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%AB%E0%A6%B2-%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%95/&quot;&gt;এখানে&lt;/a&gt;  পাবলিশ করা হয়েছিলো ।&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Cooking big Excel files with Python and Openpyxl]]></title><description><![CDATA[At least once in life, every computer user has to handle some spreadsheets or, excel files. Sometimes to put formulas in for accounting…]]></description><link>https://shawonashraf.github.io/cook-big-excel-py/</link><guid isPermaLink="false">https://shawonashraf.github.io/cook-big-excel-py/</guid><content:encoded>&lt;p&gt;At least once in life, every computer user has to handle some spreadsheets or, excel files. Sometimes to put formulas in for accounting stuff, sometimes to store data from Google forms or other surveys and etc. So what do you actually do when the spreadsheet contains just survey data or no number to apply formulas at all? I know you’ll get your hands dirty and do it manually. It’s fine if the there’s data from roughly a hundred people. What will you do if there’s data from a thousand or more? I’d have run away in such cases because I’m way too lazy to scroll down and have a look at those. Hopefully I know how to do magic tricks using Python and I’m going to show you this specific magic trick today.&lt;/p&gt;
 &lt;h2&gt;Let’s make a problem first&lt;/h2&gt;
 &lt;p&gt;I have a spreadsheet at my hand that has Name, Address and E-mail of 10,000 (Ten thousand, read that aloud) people. What I need to do is using this information I need to create .txt files for each of them using their names as the file name that’ll contain there Name, Address and E-mail. More like a business card.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;[ I generated the data in the file using Faker module, all data is fake ]&lt;/strong&gt;&lt;/p&gt;
@@ -484,7 +551,71 @@ fileNo &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span clas
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Attaching a screenshot for ye!&lt;/em&gt;&lt;/strong&gt;
 &lt;img src=&quot;http://i.imgur.com/AQS38nq.png&quot; alt=&quot;cook-big-excel-py-2&quot; height=&quot;600&quot; width=&quot;640&quot;&gt;&lt;/p&gt;
 &lt;h2&gt;So where can I find such large excel files?&lt;/h2&gt;
-&lt;p&gt;Well don’t ask me. Better keep your scripts ready when you face those nasty, huge, ugly spreadsheets! Till then I go incognito for chilling out, leaving you to scratch your heads over what just happened. &lt;strong&gt;&lt;em&gt;Sayonara!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Playing with images in python using pillow]]></title><description><![CDATA[Some basics on images we see everyday Ever wondered how the images you take everyday with your phones / cameras get stored? How image…]]></description><link>https://shawonashraf.github.io/image-manip/</link><guid isPermaLink="false">https://shawonashraf.github.io/image-manip/</guid><content:encoded>&lt;h2&gt;Some basics on images we see everyday&lt;/h2&gt;
+&lt;p&gt;Well don’t ask me. Better keep your scripts ready when you face those nasty, huge, ugly spreadsheets! Till then I go incognito for chilling out, leaving you to scratch your heads over what just happened. &lt;strong&gt;&lt;em&gt;Sayonara!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Animated gif loader in Java]]></title><description><![CDATA[Animated gifs are just all over the internet these days. Especially after people realized picture comments ain’t enough for their social…]]></description><link>https://shawonashraf.github.io/animated-gif-java/</link><guid isPermaLink="false">https://shawonashraf.github.io/animated-gif-java/</guid><content:encoded>&lt;p&gt;Animated gifs are just all over the internet these days. Especially after people realized picture comments ain’t enough for their social networking experience. Gifs are pretty good at expressing things in short - just like those tiny stories that float around on social networks. So how do you load them in a Java application? Or let’s say you want a gifloader that loads the gif of your choice?&lt;/p&gt;
+&lt;h2&gt;Animated Gif Loader !!! Ting Ting Ting!!!!&lt;/h2&gt;
+&lt;p&gt;We’ll write a simple animated gif loader using Java Swing components. We just need a &lt;code class=&quot;language-text&quot;&gt;JFrame&lt;/code&gt;, a &lt;code class=&quot;language-text&quot;&gt;JLabel&lt;/code&gt; and that’s it!&lt;/p&gt;
+&lt;p&gt;For testing whether our loader works or not we’ll use this animated gif : &lt;a href=&quot;http://i.giphy.com/xT0GqdXpoKAazgF8t2.gif&quot; target=&quot;_blank&quot;&gt;TotoroGif&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;How it’ll look like?&lt;/h2&gt;
+&lt;p&gt;We expect something like this : &lt;/p&gt;
+&lt;img class=&quot; aligncenter&quot; src=&quot;http://i.imgur.com/6Tk8YBC.png&quot; alt=&quot;gifLoader&quot; width=&quot;562&quot; height=&quot;578&quot;&gt;
+&lt;h2&gt;Breaking down the procedure&lt;/h2&gt;
+&lt;p&gt;JLabel can have Icon objects set to them as Icons. So what we’re going to do here is that we’re going to load the animated gif from the URL given earlier into an URL object. Then instantiate an Icon object with the URL. Finally, set the Icon object to the JLabel.
+Now here’s a catch. To make sure you get the animated gif and not a static frame or image, you’ve to load it as a stream via URL object and some exception handling will need to be taken care of. Let’s just keep things simple and use generic exception handlers.&lt;/p&gt;
+&lt;h2&gt;What about the size of the JFrame?&lt;/h2&gt;
+&lt;p&gt;Unless you know the size of the animated gif, it’s better to use pack() and let Swing do the work for you. Why take the hassle of measuring things? Chill!&lt;/p&gt;
+&lt;h2&gt;CODE&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; javax&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;swing&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;*&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; java&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;net&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;URL&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;GifLoader&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; JFrame frame&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; JLabel label&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; Icon icon&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; URL url&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;GifLoader&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token function&quot;&gt;initGUI&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token function&quot;&gt;addWindowProperties&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;initGUI&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        frame &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;JFrame&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Loader&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// windows title is Loader, change&lt;/span&gt;
+                                      &lt;span class=&quot;token comment&quot;&gt;// it if you don&apos;t like it!&lt;/span&gt;
+
+        &lt;span class=&quot;token keyword&quot;&gt;try&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            url &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;URL&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;http://i.giphy.com/xT0GqdXpoKAazgF8t2.gif&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;catch&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Exception&lt;/span&gt; e&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// do nothing or just print a message }&lt;/span&gt;
+
+        icon &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;ImageIcon&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;url&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        label &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;JLabel&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;icon&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;addWindowProperties&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        frame&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;label&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        frame&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;pack&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// you don&apos;t know the size of the gif, so pack&lt;/span&gt;
+        frame&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setDefaultCloseOperation&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;WindowConstants&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;EXIT_ON_CLOSE&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;// you can also use JFrame.EXIT_ON_CLOSE&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;loadApplication&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        frame&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setVisible&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;What does what here?&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;initGUI()&lt;/code&gt; instantiates the Swing components and the URL and the Icon and &lt;code class=&quot;language-text&quot;&gt;addWindowProperties()&lt;/code&gt; sets the &lt;code class=&quot;language-text&quot;&gt;JFrame&lt;/code&gt; properties. Both of them are called with the constructor to &lt;code class=&quot;language-text&quot;&gt;class GifLoader&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;loadApplication()&lt;/code&gt; makes the &lt;code class=&quot;language-text&quot;&gt;JFrame&lt;/code&gt; visible on screen. It wasn’t really necessary since we could’ve done inside &lt;code class=&quot;language-text&quot;&gt;addWindowProperties()&lt;/code&gt; but this makes sure our code is clean!&lt;/p&gt;
+&lt;h2&gt;Let’s run it shall we?&lt;/h2&gt;
+&lt;p&gt;Let’s create another class where we’ll create an object of the &lt;code class=&quot;language-text&quot;&gt;class GifLoader&lt;/code&gt; and instantiate it and call the &lt;code class=&quot;language-text&quot;&gt;loadApplication()&lt;/code&gt; method to run our Animated Gif Loader.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Main&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;String&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; args&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        GifLoader a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;GifLoader&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        a&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;loadApplication&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;And that’s it!&lt;/h2&gt;
+&lt;p&gt;We’re done! You can tweak the frame properties and set different things. You can even go and add a textbox as address bar and a button to load so that any  animated gif can be loaded.(just make sure it’s streamable!)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This article was originally published &lt;a href=&quot;https://rockash93.wordpress.com/2016/07/09/an-animated-gif-loader-in-java/&quot;&gt;here&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Playing with images in python using pillow]]></title><description><![CDATA[Some basics on images we see everyday Ever wondered how the images you take everyday with your phones / cameras get stored? How image…]]></description><link>https://shawonashraf.github.io/image-manip/</link><guid isPermaLink="false">https://shawonashraf.github.io/image-manip/</guid><content:encoded>&lt;h2&gt;Some basics on images we see everyday&lt;/h2&gt;
 &lt;p&gt;Ever wondered how the images you take everyday with your phones / cameras get stored? How image viewers read images and show them to you? How all the image editing applications can resize, rotate, apply filters etc. on an image?&lt;/p&gt;
 &lt;p&gt;Sometimes, it seems like magic. Simply because common folk don’t know how things get done in the hindsight. So lets explore some of those magic tricks.&lt;/p&gt;
 &lt;h2&gt;What we’re going to do?&lt;/h2&gt;
