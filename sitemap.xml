@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>https://shawonashraf.github.io/category/image-processing/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shawonashraf.github.io/category/c/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://shawonashraf.github.io/category/python/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shawonashraf.github.io/category/java/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://shawonashraf.github.io/category/python/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shawonashraf.github.io/category/workshop/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shawonashraf.github.io/category/csharp/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shawonashraf.github.io/dip-what-is-image/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shawonashraf.github.io/computer-line-draw/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shawonashraf.github.io/cpp-accumulate/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://shawonashraf.github.io/cook-big-excel-py/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shawonashraf.github.io/animated-gif-java/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://shawonashraf.github.io/cook-big-excel-py/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shawonashraf.github.io/image-manip/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shawonashraf.github.io/intro-node-nsu/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://shawonashraf.github.io/workshop-nix/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
