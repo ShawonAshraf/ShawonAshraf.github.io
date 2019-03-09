@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[A noobish blog]]></title><description><![CDATA[rumblings of an idiot]]></description><link>https://shawonashraf.github.io</link><generator>RSS for Node</generator><lastBuildDate>Mon, 25 Feb 2019 16:11:46 GMT</lastBuildDate><item><title><![CDATA[Find me elsewhere!]]></title><description><![CDATA[PSN :  XboxLive :  Battle.net :  Steam :  Origin :  YouTube :  Shawon Ashraf Twitch :  rockash93_bd Spotify :  rockash93 Apple Music…]]></description><link>https://shawonashraf.github.io/find-me/</link><guid isPermaLink="false">https://shawonashraf.github.io/find-me/</guid><content:encoded>&lt;ul&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[A noobish blog]]></title><description><![CDATA[rumblings of an idiot]]></description><link>https://shawonashraf.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 09 Mar 2019 22:10:55 GMT</lastBuildDate><item><title><![CDATA[Find me elsewhere!]]></title><description><![CDATA[PSN :  XboxLive :  Battle.net :  Steam :  Origin :  YouTube :  Shawon Ashraf Twitch :  rockash93_bd Spotify :  rockash93 Apple Music…]]></description><link>https://shawonashraf.github.io/find-me/</link><guid isPermaLink="false">https://shawonashraf.github.io/find-me/</guid><content:encoded>&lt;ul&gt;
 &lt;li&gt;PSN : &lt;code class=&quot;language-text&quot;&gt;rockash93&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;XboxLive : &lt;code class=&quot;language-text&quot;&gt;rockash93&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Battle.net : &lt;code class=&quot;language-text&quot;&gt;rockAsh93#1118&lt;/code&gt;&lt;/li&gt;
@@ -110,7 +110,40 @@
 &lt;h2&gt;ইমেজ ২ প্রকার&lt;/h2&gt;
 &lt;p&gt;সিগন্যাল থেকে ইমেজ আসে । সিগন্যাল অ্যানালগ বা ডিজিটাল হয় । তাই ইমেজ ও ২ প্রকার । &lt;strong&gt;অ্যানালগ&lt;/strong&gt; আর &lt;strong&gt;ডিজিটাল&lt;/strong&gt; । আমরা শুধু ডিজিটাল ইমেজ নিয়ে কথা বলবো । কারণ অ্যানালগ ইমেজ প্রসেসিং এর জন্য সিগন্যাল প্রসেসিং সম্পর্কে বেসিক আইডিয়া থাকা জরুরি। তাই সেদিকে যাচ্ছি না । শুধু বেসিক কিছু বিষয় নিয়ে কথা বলবো যাতে টার্মিনোলজি গুলো বুঝতে সুবিধা হয় ।&lt;/p&gt;
 &lt;h2&gt;কম্পিউটারে ইমেজ কীভাবে লোড হয়?&lt;/h2&gt;
-&lt;p&gt;কম্পিউটার মেমোরিতে যখন আমরা ডিজিটাল ইমেজ লোড করি তখন সেটা লোড হয় একটা ম্যাট্রিক্স হিসেবে । প্রোগ্রামিং টার্মিনোলজিতে বললে মাল্টি ডিমেনশনাল অ্যারে হিসেবে। ধরা যাক আপনার কাছে একটা ১৯২০ বাই ১০৮০ রেজুলেশনের ছবি আছে। তাহলে ম্যাট্রিক্সের রো হচ্ছে ১০৮০ টা , কলাম হচ্ছে ১৯২০ টা । অর্থাৎ ইমেজের রেজুলেশন যদি &lt;code class=&quot;language-text&quot;&gt;X&lt;/code&gt; by &lt;code class=&quot;language-text&quot;&gt;Y&lt;/code&gt; হয় , তাহলে সেটা একটা &lt;code class=&quot;language-text&quot;&gt;[X][Y]&lt;/code&gt; ম্যাট্রিক্সে লোড হবে ।&lt;/p&gt;
+&lt;p&gt;কম্পিউটার মেমোরিতে যখন আমরা ডিজিটাল ইমেজ লোড করি তখন সেটা লোড হয় একটা ম্যাট্রিক্স হিসেবে । প্রোগ্রামিং টার্মিনোলজিতে বললে মাল্টি ডিমেনশনাল অ্যারে হিসেবে। ধরা যাক আপনার কাছে একটা &lt;code class=&quot;language-text&quot;&gt;১৯২০&lt;/code&gt; বাই &lt;code class=&quot;language-text&quot;&gt;১০৮০&lt;/code&gt; রেজুলেশনের ছবি আছে। তাহলে ম্যাট্রিক্সে ভার্টিকালি পিক্সেল আছে &lt;code class=&quot;language-text&quot;&gt;১০৮০&lt;/code&gt; টা আর, হরাইজন্টালি পিক্সেল আছে ১৯২০ টা । অর্থাৎ ইমেজের রেজুলেশন যদি &lt;code class=&quot;language-text&quot;&gt;X&lt;/code&gt; by &lt;code class=&quot;language-text&quot;&gt;Y&lt;/code&gt; হয় , তাহলে সেটা একটা &lt;code class=&quot;language-text&quot;&gt;[X][Y]&lt;/code&gt; ম্যাট্রিক্সে লোড হবে আর, এই &lt;code class=&quot;language-text&quot;&gt;১৯২০&lt;/code&gt; বাই &lt;code class=&quot;language-text&quot;&gt;১০৮০&lt;/code&gt; এর জন্য ম্যাট্রিক্স টা হবে, &lt;code class=&quot;language-text&quot;&gt;[১৯২০][১০৮০]&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/sjwzUMU-0d5445782d64b5f9a1329493a25907fb-f3835.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 522px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 64.75095785440614%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABVUlEQVQ4y62T66qCQBCAe/8XSnqCCpLoomYldr+AXUyjLJvDN7CSx/Mj4gwMs9/u7NxWa6/XSxCsUcN5nn/MZq9mFu/yeDxKe/Dv83d5Pp+Ff80sDoeDDIdDWSwWylEUSa/Xk9Vqpbzf75U3m43ydrtV3u12pSRFwNPppM5Y5Hg8ynq9ljiOi4TvTEI4SRKtjipLAcnoeZ6EYajBqNR1XZnNZnI+n2U+nytjYfYNU0SWZeWAHLTbbRmNRnphOp1Kq9US3/flcrnIeDyWZrMpk8lEGT/OgyBQ/yKgeZTr9aqZaOl2u2krVArf7/eCCcZlrGHOKy0z3E6no60gzJOKl8ulMhZmbgh+MKMyL12qkApQMqK08QnTAVx5ZWbUaDTEtm11chxH6vW6dLtdvdjv95X5VNI01X3LsmQwGFRniJCFGWIJwBrHT7nS8n+I/np//cvfKvIDdcLk4sQVJVcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;img&quot;
+        title=&quot;&quot;
+        src=&quot;/static/sjwzUMU-0d5445782d64b5f9a1329493a25907fb-f3835.png&quot;
+        srcset=&quot;/static/sjwzUMU-0d5445782d64b5f9a1329493a25907fb-c7cad.png 200w,
+/static/sjwzUMU-0d5445782d64b5f9a1329493a25907fb-6b9ef.png 400w,
+/static/sjwzUMU-0d5445782d64b5f9a1329493a25907fb-f3835.png 522w&quot;
+        sizes=&quot;(max-width: 522px) 100vw, 522px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;h2&gt;ম্যাট্রিক্সের ইলিমেন্ট গুলো আসলে কি তাহলে?&lt;/h2&gt;
 &lt;p&gt;ইলিমেন্ট গুলো হচ্ছে পিক্সেল ভ্যালু । এখন এইটা কি জিনিস?&lt;/p&gt;
 &lt;p&gt;ম্যাথম্যাটিকালি একটা ইমেজ কে যদি ফাংশন হিসেবে দেখাই তাহলে দাঁড়াবে এমন :&lt;/p&gt;
