@@ -1,1 +1,4 @@
 User-agent: *
+Allow: /
+Sitemap: https://shawonashraf.github.io/sitemap.xml
+Host: https://shawonashraf.github.io

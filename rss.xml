@@ -1,67 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[A noobish blog]]></title><description><![CDATA[rumblings of an idiot]]></description><link>https://shawonashraf.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 09 Mar 2019 22:10:55 GMT</lastBuildDate><item><title><![CDATA[Find me elsewhere!]]></title><description><![CDATA[PSN :  XboxLive :  Battle.net :  Steam :  Origin :  YouTube :  Shawon Ashraf Twitch :  rockash93_bd Spotify :  rockash93 Apple Music…]]></description><link>https://shawonashraf.github.io/find-me/</link><guid isPermaLink="false">https://shawonashraf.github.io/find-me/</guid><content:encoded>&lt;ul&gt;
-&lt;li&gt;PSN : &lt;code class=&quot;language-text&quot;&gt;rockash93&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;XboxLive : &lt;code class=&quot;language-text&quot;&gt;rockash93&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Battle.net : &lt;code class=&quot;language-text&quot;&gt;rockAsh93#1118&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Steam : &lt;code class=&quot;language-text&quot;&gt;rockash93&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Origin : &lt;code class=&quot;language-text&quot;&gt;rockash93&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;YouTube : &lt;a href=&quot;https://www.youtube.com/channel/UCbG9ej0a4InsenZSplt4mjg&quot;&gt;Shawon Ashraf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Twitch : &lt;a href=&quot;https://www.twitch.tv/rockash93_bd&quot;&gt;rockash93_bd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Spotify : &lt;a href=&quot;https://open.spotify.com/user/rockash93?si=s9TGE8RGRCC2eW1rn-RaEQ&quot;&gt;rockash93&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Apple Music : &lt;code class=&quot;language-text&quot;&gt;Shawon Ashraf&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Github : &lt;a href=&quot;https://www.github.com/ShawonAshraf&quot;&gt;ShawonAshraf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Medium : &lt;a href=&quot;https://medium.com/@sashraf94&quot;&gt;Shawon Ashraf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Twitter : &lt;code class=&quot;language-text&quot;&gt;@shawon_ashraf&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div&gt;
-          &lt;div
-            class=&quot;gatsby-resp-iframe-wrapper&quot;
-            style=&quot;padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden;margin-bottom: 2em&quot;
-          &gt;
-            &lt;iframe src=&quot;https://www.youtube.com/embed/t-JWh6BUmpo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen style=&quot;
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-          &quot;&gt;&lt;/iframe&gt;
-          &lt;/div&gt;
-          &lt;/div&gt;</content:encoded></item><item><title><![CDATA[ইমেজ কি জিনিস]]></title><description><![CDATA[ইমেজ কি আসলে? ইমেজ শব্দের আভিধানিক বাংলা হচ্ছে - বিম্ব / প্রতিবিম্ব। একটু Geeky…]]></description><link>https://shawonashraf.github.io/dip-what-is-image/</link><guid isPermaLink="false">https://shawonashraf.github.io/dip-what-is-image/</guid><content:encoded>&lt;h2&gt;ইমেজ কি আসলে?&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Shawon Ashraf]]></title><description><![CDATA[I solemnly swear that I'm upto no good.]]></description><link>https://shawonashraf.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 24 May 2019 18:54:37 GMT</lastBuildDate><item><title><![CDATA[ইমেজ কি জিনিস]]></title><description><![CDATA[ফটোই তো! তাই না?]]></description><link>https://shawonashraf.github.io/content/blog/dip-what-is-image</link><guid isPermaLink="false">https://shawonashraf.github.ioblog/dip-what-is-imageইমেজ কি জিনিস</guid><dc:creator><![CDATA[ShawonAshraf]]></dc:creator><pubDate>Sat, 09 Feb 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;ইমেজ কি আসলে?&lt;/h2&gt;
 &lt;p&gt;ইমেজ শব্দের আভিধানিক বাংলা হচ্ছে - বিম্ব / প্রতিবিম্ব। একটু Geeky সেন্সে বললে, কোন কিছু থেকে আলো এসে আমাদের চোখে পড়লে আমরা যা দেখি তাই বিম্ব বা ইমেজ। কিন্তু এই সংজ্ঞাটা না কেমন জানি । আমাদের দৈনন্দিন অভিজ্ঞতা বলে যে ইমেজ মানে হচ্ছে যেটা কিনা আমরা ক্যামেরা দিয়ে তুলি, অর্থাৎ ইমেজ মানে হচ্ছে ফটো । তাহলে এর সাথে মানুষের চোখের দেখার সম্পর্ক কী?&lt;/p&gt;
 &lt;p&gt;সম্পর্ক আছে। আসলে মানুষের চোখ যেভাবে দেখে, একটা ক্যামেরাও বলতে গেলে ঠিক সেভাবেই কাজ করে। চোখ আলো ছাড়া দেখে না । কোন কিছু থেকে আলো এসে চোখে যখন পড়ে, চোখ সেটাকে ওস্তাদ লাইট পাইসি বলে পাঠিয়ে দেয় মস্তিষ্কের কাছে । আপনার মস্তিষ্ক একটা জাদুর বাক্স। সে হিং টিং ছট বলে আলো থেকে ইমেজ বা বিম্ব তৈরি করে । আপনি চোখে যা দেখেন সব এই চোখ, আলো আর মস্তিষ্কের কারসাজি।&lt;/p&gt;
 &lt;p&gt;ক্যামেরাও একই ভাবে কাজ করে। এখন ক্যামেরার তো আর মস্তিষ্ক নেই! তার আছে প্রসেসর। সে লেন্স (চোখ) থেকে আলো পায়, সে অনুযায়ী ছবি দেখায়।&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/380838-3ef7f0c5192eba237738c872c6601acd-e7838.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
+&lt;p&gt;&lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 535px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 535px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 55.51401869158879%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAECAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHXtSJgH//EABoQAAEFAQAAAAAAAAAAAAAAAAEAAgMRMRP/2gAIAQEAAQUCif1jVqg1owZ//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGBAAAgMAAAAAAAAAAAAAAAAAAAEQESH/2gAIAQEABj8CtqjIwcf/xAAcEAEAAgIDAQAAAAAAAAAAAAABABEhQRBRcZH/2gAIAQEAAT8hTZSVfTDFmEPXyDVa3Gt3F//aAAwDAQACAAMAAAAQoM//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAdEAEAAgICAwAAAAAAAAAAAAABABEhQTFRcYHB/9oACAEBAAE/EOcvedg+QUQ0d7mDN2DEzn2isrRjU34n/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+      style=&quot;padding-bottom: 55.51401869158879%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIBAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHXtUGJD//EABsQAAICAwEAAAAAAAAAAAAAAAECAAMREyEx/9oACAEBAAEFAqn21zMACqDxfP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABgQAAMBAQAAAAAAAAAAAAAAAAABERAh/9oACAEBAAY/Aq1DmODz/8QAHBABAAIBBQAAAAAAAAAAAAAAAQARURAhQXGR/9oACAEBAAE/IcpSV0w2sgyvyVprmMs6H//aAAwDAQACAAMAAAAQs8//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAbEAEBAAIDAQAAAAAAAAAAAAABEQAhMUFhwf/aAAgBAQABPxBnaW8+HzABCR73c0lX5eGEleV2m+cZCpiXfpmf/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;img&quot;
         title=&quot;&quot;
-        src=&quot;/static/380838-3ef7f0c5192eba237738c872c6601acd-e7838.png&quot;
-        srcset=&quot;/static/380838-3ef7f0c5192eba237738c872c6601acd-dcd45.png 200w,
-/static/380838-3ef7f0c5192eba237738c872c6601acd-d0fd1.png 400w,
-/static/380838-3ef7f0c5192eba237738c872c6601acd-e7838.png 535w&quot;
+        src=&quot;/static/3ef7f0c5192eba237738c872c6601acd/b5d63/380838.png&quot;
+        srcset=&quot;/static/3ef7f0c5192eba237738c872c6601acd/5548e/380838.png 250w,
+/static/3ef7f0c5192eba237738c872c6601acd/be6d3/380838.png 500w,
+/static/3ef7f0c5192eba237738c872c6601acd/b5d63/380838.png 535w&quot;
         sizes=&quot;(max-width: 535px) 100vw, 535px&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
+  &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;ক্যামেরা তো ক্লিক করলে ছবি তোলে, আপনার চোখ প্রতি মিলিসেকেন্ডে কত ছবি তুলছে আন্দাজ করে দেখেন একবার!&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;মিলিসেকেন্ড কেন? মানুষের মস্তিষ্ক জাদুর বাক্স হতে পারে তবে তার কিছু সীমাবদ্ধতা আছে । মিলিসেকেন্ড রেঞ্জের চাইতে ছোট সময়ে কোন কিছু ঘটলে সে ধরতে পারে না। আপনার চোখ সেটা দেখলেও লাভ নাই । মস্তিষ্ক প্রসেস করতে পারেনি, গান্ধীর বাঁদরের মতন আপনিও কিছু দেখেন নি । (যদি না আপনি সুপার হিউম্যান হন)&lt;/li&gt;
@@ -71,39 +31,26 @@
 &lt;h2&gt;ইমেজ এবং সিগন্যাল&lt;/h2&gt;
 &lt;p&gt;সিগন্যাল শব্দটা শুনলে আমাদের মাথায় প্রথমে কি আসে? ট্রাফিক সিগন্যাল? ট্রেনের সিগন্যাল? ইত্যাদি ইত্যাদি । আমরা স্বাভাবিকভাবে সিগন্যাল বলতে বুঝি এমন কিছু যেটা আমাদের তথ্য দেয় । কিংবা কিছুর দিকে ইঙ্গিত করে । ইমেজ এবং সিগন্যাল একে ওপরের সঙ্গে ওতপ্রোত ভাবে জড়িত।&lt;/p&gt;
 &lt;p&gt;আলো ছাড়া আপনি ছবি পাবেন না । কথাটা আংশিক সত্য । আলো জগতের একমাত্র সিগন্যাল না । আলো এক প্রকার তড়িৎ চুম্বকীয় তরঙ্গ। আর তরঙ্গদৈর্ঘ্য এমন যে , তড়িৎ চুম্বকীয় তরঙ্গের বিশাল স্পেকট্রামের মাঝে একমাত্র তাকেই দেখা যায়। বাকিগুলা সব অদৃশ্য হয়ে ঘুরে বেড়ায়। (কি সাংঘাতিক তাই না!)&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/EM_spectrum_compare_level1_lg-dbaaa3a0f080f7ab9a14669e275e5758-857fb.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
+&lt;p&gt;&lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 750px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 750px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 37.46666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdyQsD//xAAUEAEAAAAAAAAAAAAAAAAAAAAQ/9oACAEBAAEFAn//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAQ/9oACAEBAAY/An//xAAYEAADAQEAAAAAAAAAAAAAAAAAAREhQf/aAAgBAQABPyGuvBLOip//2gAMAwEAAgADAAAAEPAP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGxABAAICAwAAAAAAAAAAAAAAAQARITFxgeH/2gAIAQEAAT8QoJe9j7KtuSwgzXU//9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+      style=&quot;padding-bottom: 37.46666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3KFB/8QAFRABAQAAAAAAAAAAAAAAAAAAEEH/2gAIAQEAAQUCp//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEABj8Cf//EABgQAAMBAQAAAAAAAAAAAAAAAAABIRFB/9oACAEBAAE/IdqCU6LT/9oADAMBAAIAAwAAABDzz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABoQAQADAAMAAAAAAAAAAAAAAAEAETEhcfH/2gAIAQEAAT8QuArdPZVpdsIOU2f/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;img&quot;
         title=&quot;&quot;
-        src=&quot;/static/EM_spectrum_compare_level1_lg-dbaaa3a0f080f7ab9a14669e275e5758-857fb.jpg&quot;
-        srcset=&quot;/static/EM_spectrum_compare_level1_lg-dbaaa3a0f080f7ab9a14669e275e5758-a8180.jpg 200w,
-/static/EM_spectrum_compare_level1_lg-dbaaa3a0f080f7ab9a14669e275e5758-b7fcc.jpg 400w,
-/static/EM_spectrum_compare_level1_lg-dbaaa3a0f080f7ab9a14669e275e5758-857fb.jpg 750w&quot;
+        src=&quot;/static/dbaaa3a0f080f7ab9a14669e275e5758/71105/EM_spectrum_compare_level1_lg.jpg&quot;
+        srcset=&quot;/static/dbaaa3a0f080f7ab9a14669e275e5758/63bc5/EM_spectrum_compare_level1_lg.jpg 250w,
+/static/dbaaa3a0f080f7ab9a14669e275e5758/d2fef/EM_spectrum_compare_level1_lg.jpg 500w,
+/static/dbaaa3a0f080f7ab9a14669e275e5758/71105/EM_spectrum_compare_level1_lg.jpg 750w&quot;
         sizes=&quot;(max-width: 750px) 100vw, 750px&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
+  &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;যেকোন তরঙ্গ তথ্য বয়ে বেড়াতে পারে । ফোন কথা বলছেন? নেটওয়ার্ক এর তরঙ্গ আপনার কথা বয়ে নিয়ে যাচ্ছে গন্তব্যে। টেলিভিশন দেখছেন? তরঙ্গ স্যাটেলাইট থেকে আসছে আপনার পছন্দের টিভি শো নিয়ে । অর্থাৎ আপনি সিগন্যাল পাচ্ছেন।&lt;/p&gt;
 &lt;h3&gt;আলো ও এক প্রকার সিগন্যাল&lt;/h3&gt;
 &lt;p&gt;অর্থাৎ, আলো ছাড়া ছবি পাবেন না এইটাকে সঠিক ভাষায় বলা যায় যে সিগন্যাল ছাড়া ছবি পাবেন না । এখন মাথা চুলকিয়ে জিজ্ঞেস করতে পারেন, আলো না থাকলে ছবি যেটা পাবো অন্য সিগন্যাল থেকে সেটা দিয়ে আমার লাভ কি? ভালো প্রশ্ন। আপনার বোধহয় কোনদিন এক্স রে, আল্ট্রাসনোগ্রাফি, ইসিজি এসব করানোর দরকার পড়েনি। ওখানের ছবিগুলো কীভাবে আসে ভেবে দেখেন । ৫ মিনিটের জন্য বিরতি। &lt;strong&gt;Brainstorming!&lt;/strong&gt;&lt;/p&gt;
@@ -111,136 +58,95 @@
 &lt;p&gt;সিগন্যাল থেকে ইমেজ আসে । সিগন্যাল অ্যানালগ বা ডিজিটাল হয় । তাই ইমেজ ও ২ প্রকার । &lt;strong&gt;অ্যানালগ&lt;/strong&gt; আর &lt;strong&gt;ডিজিটাল&lt;/strong&gt; । আমরা শুধু ডিজিটাল ইমেজ নিয়ে কথা বলবো । কারণ অ্যানালগ ইমেজ প্রসেসিং এর জন্য সিগন্যাল প্রসেসিং সম্পর্কে বেসিক আইডিয়া থাকা জরুরি। তাই সেদিকে যাচ্ছি না । শুধু বেসিক কিছু বিষয় নিয়ে কথা বলবো যাতে টার্মিনোলজি গুলো বুঝতে সুবিধা হয় ।&lt;/p&gt;
 &lt;h2&gt;কম্পিউটারে ইমেজ কীভাবে লোড হয়?&lt;/h2&gt;
 &lt;p&gt;কম্পিউটার মেমোরিতে যখন আমরা ডিজিটাল ইমেজ লোড করি তখন সেটা লোড হয় একটা ম্যাট্রিক্স হিসেবে । প্রোগ্রামিং টার্মিনোলজিতে বললে মাল্টি ডিমেনশনাল অ্যারে হিসেবে। ধরা যাক আপনার কাছে একটা &lt;code class=&quot;language-text&quot;&gt;১৯২০&lt;/code&gt; বাই &lt;code class=&quot;language-text&quot;&gt;১০৮০&lt;/code&gt; রেজুলেশনের ছবি আছে। তাহলে ম্যাট্রিক্সে ভার্টিকালি পিক্সেল আছে &lt;code class=&quot;language-text&quot;&gt;১০৮০&lt;/code&gt; টা আর, হরাইজন্টালি পিক্সেল আছে ১৯২০ টা । অর্থাৎ ইমেজের রেজুলেশন যদি &lt;code class=&quot;language-text&quot;&gt;X&lt;/code&gt; by &lt;code class=&quot;language-text&quot;&gt;Y&lt;/code&gt; হয় , তাহলে সেটা একটা &lt;code class=&quot;language-text&quot;&gt;[X][Y]&lt;/code&gt; ম্যাট্রিক্সে লোড হবে আর, এই &lt;code class=&quot;language-text&quot;&gt;১৯২০&lt;/code&gt; বাই &lt;code class=&quot;language-text&quot;&gt;১০৮০&lt;/code&gt; এর জন্য ম্যাট্রিক্স টা হবে, &lt;code class=&quot;language-text&quot;&gt;[১৯২০][১০৮০]&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/sjwzUMU-0d5445782d64b5f9a1329493a25907fb-f3835.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
+&lt;p&gt;&lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 522px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 522px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
       style=&quot;padding-bottom: 64.75095785440614%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABVUlEQVQ4y62T66qCQBCAe/8XSnqCCpLoomYldr+AXUyjLJvDN7CSx/Mj4gwMs9/u7NxWa6/XSxCsUcN5nn/MZq9mFu/yeDxKe/Dv83d5Pp+Ff80sDoeDDIdDWSwWylEUSa/Xk9Vqpbzf75U3m43ydrtV3u12pSRFwNPppM5Y5Hg8ynq9ljiOi4TvTEI4SRKtjipLAcnoeZ6EYajBqNR1XZnNZnI+n2U+nytjYfYNU0SWZeWAHLTbbRmNRnphOp1Kq9US3/flcrnIeDyWZrMpk8lEGT/OgyBQ/yKgeZTr9aqZaOl2u2krVArf7/eCCcZlrGHOKy0z3E6no60gzJOKl8ulMhZmbgh+MKMyL12qkApQMqK08QnTAVx5ZWbUaDTEtm11chxH6vW6dLtdvdjv95X5VNI01X3LsmQwGFRniJCFGWIJwBrHT7nS8n+I/np//cvfKvIDdcLk4sQVJVcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    &gt;&lt;/span&gt;
+    &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;img&quot;
         title=&quot;&quot;
-        src=&quot;/static/sjwzUMU-0d5445782d64b5f9a1329493a25907fb-f3835.png&quot;
-        srcset=&quot;/static/sjwzUMU-0d5445782d64b5f9a1329493a25907fb-c7cad.png 200w,
-/static/sjwzUMU-0d5445782d64b5f9a1329493a25907fb-6b9ef.png 400w,
-/static/sjwzUMU-0d5445782d64b5f9a1329493a25907fb-f3835.png 522w&quot;
+        src=&quot;/static/0d5445782d64b5f9a1329493a25907fb/80f9c/sjwzUMU.png&quot;
+        srcset=&quot;/static/0d5445782d64b5f9a1329493a25907fb/f648a/sjwzUMU.png 250w,
+/static/0d5445782d64b5f9a1329493a25907fb/8a861/sjwzUMU.png 500w,
+/static/0d5445782d64b5f9a1329493a25907fb/80f9c/sjwzUMU.png 522w&quot;
         sizes=&quot;(max-width: 522px) 100vw, 522px&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
+  &lt;/span&gt;&lt;/p&gt;
 &lt;h2&gt;ম্যাট্রিক্সের ইলিমেন্ট গুলো আসলে কি তাহলে?&lt;/h2&gt;
 &lt;p&gt;ইলিমেন্ট গুলো হচ্ছে পিক্সেল ভ্যালু । এখন এইটা কি জিনিস?&lt;/p&gt;
 &lt;p&gt;ম্যাথম্যাটিকালি একটা ইমেজ কে যদি ফাংশন হিসেবে দেখাই তাহলে দাঁড়াবে এমন :&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;f(x, y) = i&lt;/code&gt;, যেখানে &lt;code class=&quot;language-text&quot;&gt;(x,y)&lt;/code&gt; হচ্ছে ম্যাট্রিক্সের ইলিমেন্টের ইন্ডেক্স মানে পিক্সেলের ইনডেক্স আর i হচ্ছে সেই ইমেজের সেই পিক্সেলে আলোর পরিমাণ বা লুমিনোসিটি আসলে কতটুকু। যদি &lt;code class=&quot;language-text&quot;&gt;i = 0&lt;/code&gt; হয় তাহলে ধরে নিতে হবে সেখানে কোন আলো নেই এবং পিক্সেলের রং কালো ।&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/image-function-5e563932472865812519c299db7a2f5e-00f71.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
+&lt;p&gt;&lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
       style=&quot;padding-bottom: 78.97727272727273%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB/ElEQVQ4y51U227TQBD1b/MAb0jwgBBBqnigHwClqoT6hET7hHqJitMoFzkXJ3FiJ3ZiW7nHdpKDzkhe7LQUwUijXe+uz5w5s7PaeDxGr9eDYRiwbRudTgeDwQDdblfNoygCbb/fq/FPrs1mMziOg1qthjAMwQB0gtNHoxGSJMkBPWUa/sFSsO12i81mI8zVGG1kXUuj7na7HIPAD+C5HubzOZbLpWK5Xq9hWZZkNRwO4XmeyMJseE471IVGcHtgYzKZSHQ69+I4RqvVEieQaZq4ubqBP/EFVACxfyg2AelZI8N6vY6SXpIiUuf70j0Kb97hrngnWi8WizzDQ0tBCUZ9Lr5f4PjDR5htE67nwupZOP96juJtUb4VYFbsOIqx2/5m5wwdic6966trFN4WoP/UJWXq6Pu+0lGlzMO0sy9nuPx2KXMCsyBMMwgCOdNut+WbINSVGruuK4Bkx4xyDE8/n6L44xahGyKJE6noarWSlHmY2hH8yXuYBTx6f4QXz57j9ctXqjtSKabTqRTi8JI/6JSs+BT75NMJjLqhipJeF+pDtrzIWRJZMMXwf+2xf4UhdaHAFLbf70sHUGyusdc5p3M97RAyfQxUAJvNJnRdlypWq1XllUoFjUZD9vl4lMtl1W6HL1AOkNGoERmmzU6nZlxjtbnO8W8p/wKWDse2kZILwgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    &gt;&lt;/span&gt;
+    &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;img&quot;
         title=&quot;&quot;
-        src=&quot;/static/image-function-5e563932472865812519c299db7a2f5e-48538.png&quot;
-        srcset=&quot;/static/image-function-5e563932472865812519c299db7a2f5e-bed0f.png 200w,
-/static/image-function-5e563932472865812519c299db7a2f5e-5fd34.png 400w,
-/static/image-function-5e563932472865812519c299db7a2f5e-48538.png 800w,
-/static/image-function-5e563932472865812519c299db7a2f5e-b70ec.png 1200w,
-/static/image-function-5e563932472865812519c299db7a2f5e-00f71.png 1408w&quot;
-        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+        src=&quot;/static/5e563932472865812519c299db7a2f5e/267e5/image-function.png&quot;
+        srcset=&quot;/static/5e563932472865812519c299db7a2f5e/a9340/image-function.png 250w,
+/static/5e563932472865812519c299db7a2f5e/83ff7/image-function.png 500w,
+/static/5e563932472865812519c299db7a2f5e/267e5/image-function.png 1000w,
+/static/5e563932472865812519c299db7a2f5e/31ae2/image-function.png 1408w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
+  &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;অর্থাৎ , ছবিতে এত সব রং দেখি সব নির্ভর করছে পিক্সেলের ভ্যালু কত তার উপর ।&lt;/p&gt;
 &lt;h3&gt;পিক্সেল ভ্যালু তাহলে কই পায়?&lt;/h3&gt;
 &lt;p&gt;সহজ উত্তর । ছবি যদি আলো থেকে পাই, ছবিতে আলো কত সেটাও পাবো আলো থেকেই! ক্যামেরা যখন ছবি তুলছে, তখন সে প্রসেসিং এর সময় ভ্যালুটা সেট করে নিবে।&lt;/p&gt;
 &lt;h2&gt;টার্মিনোলজি গুলো কেমন যেন!&lt;/h2&gt;
-&lt;p&gt;হ্যাঁ একটু ঝামেলা মার্কা । তাই আমি এখানে লিখে অধ্যায়টা অযথা লম্বা করতে চাচ্ছি না । এতটুকু জেনে রাখুন যে যেকোন ইমেজ, যে ক্যামেরা দিয়েই তোলা হোক না কেন একটা ম্যাট্রিক্স বাদে আর কিছুই না ।&lt;/p&gt;</content:encoded></item><item><title><![CDATA[কম্পিউটার লাইন ক্যামনে আঁকে?]]></title><description><![CDATA[…]]></description><link>https://shawonashraf.github.io/computer-line-draw/</link><guid isPermaLink="false">https://shawonashraf.github.io/computer-line-draw/</guid><content:encoded>&lt;p&gt;&lt;i&gt;এই খুশির ঠ্যালায়, আনন্দে আর ঘোরতে ঘোরতে আঁইকা ফেলে আরকি!&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;হ্যাঁ একটু ঝামেলা মার্কা । তাই আমি এখানে লিখে অধ্যায়টা অযথা লম্বা করতে চাচ্ছি না । এতটুকু জেনে রাখুন যে যেকোন ইমেজ, যে ক্যামেরা দিয়েই তোলা হোক না কেন একটা ম্যাট্রিক্স বাদে আর কিছুই না ।&lt;/p&gt;</content:encoded></item><item><title><![CDATA[কম্পিউটার লাইন ক্যামনে আঁকে?]]></title><description><![CDATA[এই খুশির ঠ্যালায়, আনন্দে আর ঘোরতে ঘোরতে আঁইকা ফেলে আরকি!]]></description><link>https://shawonashraf.github.io/content/blog/computer-line-draw</link><guid isPermaLink="false">https://shawonashraf.github.ioblog/computer-line-drawকম্পিউটার লাইন ক্যামনে আঁকে?</guid><dc:creator><![CDATA[ShawonAshraf]]></dc:creator><pubDate>Thu, 17 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;i&gt;এই খুশির ঠ্যালায়, আনন্দে আর ঘোরতে ঘোরতে আঁইকা ফেলে আরকি!&lt;/i&gt;&lt;/p&gt;
 &lt;h2&gt;শুরু করার আগে, লাইন বা সরলরেখা খাতায় ক্যামনে আঁকে?&lt;/h2&gt;
 &lt;p&gt;স্কুল কলেজে তো অনেক লাইন এঁকেছেন, লাইন মেরেছেন, লাইন টেনেছেন। মহাবিশ্বে লাইনের অবদান এবং গুরুত্ব অনস্বীকার্য। এড়িয়ে যাবার উপায় নেই। কিন্তু এই মহাবিশ্বে কোনকিছু তো নিয়মের বাইরে চলে না। যে জিনিসের ব্যাখ্যা নেই কয়দিন বাদে কোন বেয়াড়া বিজ্ঞানী এসে সে জিনিসের জন্যও কয়েকটা সমীকরণ লিখে একটা ব্যাখ্যা দাঁড় করিয়ে দিবে। সরলরেখা বা লাইনের জন্যও কিন্তু একটা বেশ নিরীহদর্শন সমীকরণ আছে। স্কুলে পড়ে না থাকলে কলেজে স্থানাংক জ্যামিতির সাথে অবশ্যই পড়েছেন!&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;y &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; mx + c
-যেখানে m &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; সরলেখার ঢাল,
-c &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; কোন একটা বেয়াড়া সংখ্যা&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;y = mx + c
+যেখানে m = সরলেখার ঢাল,
+c = কোন একটা বেয়াড়া সংখ্যা&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;br&gt;
 &lt;p&gt;ধরা যাক আপনাকে দুটি বিন্দু দেয়া হলো। একটার নাম a, আরেকটার নাম b । কাগজে আঁকলে আপনি কি করতেন? a থেকে b পর্যন্ত একটা ধাপ করে রেখা টেনে দিতেন।&lt;/p&gt;
-
-  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/line-ddd3e448c9062b6c526e1802e428c4a8-a120c.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
-  
-  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 54.90196078431373%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAgUlEQVQoz62SUQ7DIAxDuf91SQIjAa9BMKmqqg1WS+HPT8ZJaK3hyQm7Rpe/fwOnLCc0LRdoWAaZgZnxEgZU94CuWitEpMMcuvVlDEPOGcSEUson6dJSphxARB34DXQLdOnoKaV0Srp8Nr10ipAYYUdnv6a6T+hm01E3HjrsTdCcN1ZXaPrzrrVBAAAAAElFTkSuQmCC&amp;apos;); background-size: cover; display: block;&quot;&gt;
-      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot; alt=&quot;line&quot; title=&quot;&quot; src=&quot;/static/line-ddd3e448c9062b6c526e1802e428c4a8-48538.png&quot; srcset=&quot;/static/line-ddd3e448c9062b6c526e1802e428c4a8-bed0f.png 200w,
-/static/line-ddd3e448c9062b6c526e1802e428c4a8-5fd34.png 400w,
-/static/line-ddd3e448c9062b6c526e1802e428c4a8-48538.png 800w,
-/static/line-ddd3e448c9062b6c526e1802e428c4a8-a120c.png 1122w&quot; sizes=&quot;(max-width: 800px) 100vw, 800px&quot;&gt;
-    &lt;/span&gt;
+&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 54.90196078431373%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAgUlEQVQoz62SUQ7DIAxDuf91SQIjAa9BMKmqqg1WS+HPT8ZJaK3hyQm7Rpe/fwOnLCc0LRdoWAaZgZnxEgZU94CuWitEpMMcuvVlDEPOGcSEUson6dJSphxARB34DXQLdOnoKaV0Srp8Nr10ipAYYUdnv6a6T+hm01E3HjrsTdCcN1ZXaPrzrrVBAAAAAElFTkSuQmCC&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+    &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot; alt=&quot;line&quot; title src=&quot;/static/ddd3e448c9062b6c526e1802e428c4a8/267e5/line.png&quot; srcset=&quot;/static/ddd3e448c9062b6c526e1802e428c4a8/a9340/line.png 250w,
+/static/ddd3e448c9062b6c526e1802e428c4a8/83ff7/line.png 500w,
+/static/ddd3e448c9062b6c526e1802e428c4a8/267e5/line.png 1000w,
+/static/ddd3e448c9062b6c526e1802e428c4a8/e8318/line.png 1122w&quot; sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;&gt;
   &lt;/span&gt;
-  
-  &lt;/a&gt;
-    
 &lt;p&gt;কাগজে আঁকার সময় তো আপনাকে এত সমীকরণের হিসাব নিয়ে চিন্তা করা লাগতো না। কিন্তু সমীকরণ যখন আছে, সেটা ব্যবহার করে যদি লাইনটা আঁকতে হতো , ধরুন আপনাকে একটা গ্রাফ পেপার দিয়ে বললাম লাইনটা আঁকতে। কি করবেন ?
 আপনি একের পর এক x এর মান বসিয়ে y এর মান বের করতেন , গ্রাফ পেপারে বসাতেন। ধরে নিন আপনাকে m এর জন্য একটা নির্দিষ্ট মান বলে দেয়া আছে। ব্যস হয়ে গেলো!
 কিন্তু ধরেন আপনাকে বলে দেয়া হলো a , b দুটি বিন্দুর ই কার্তেসিয়ান স্থানাংক আছে। (কার্তেসিয়ান স্থানাংক কি না জানলে এটুকু মাথায় রাখেন যে গ্রাফ পেপারে যে সিস্টেম ইউস করেন সেটাই কার্তেসিয়ান কোঅরডিনেট সিস্টেম)। এখন আপনি কি করবেন? ধরা যাক স্থানাংক এমন —&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;a&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x,y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-b&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p,q&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;a(x,y)
+b(p,q)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;খুব সহজভাবে চিন্তা করলে আপনি আগে এই দুইটা বিন্দু গ্রাফ পেপারে বসাবেন। এরপর স্কেল টেনে দিবেন। ব্যস লাইন হয়ে গেলো। কিন্তু আপনাকে যদি আগের মতন একের পর এক x এর মান বের করে এরপর সেটা দিয়ে লাইন আঁকতে বলে ? আপনার কিন্তু ঢাল জানা লাগবে । ঢাল ক্যামনে বের করে? কলেজ ম্যাথ রিফ্রেশার। দুই বিন্দুর স্থানাংক থাকলে ঢাল হবে —&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;m &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p - x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; / &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;q - y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;m = (p - x) / (q - y)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;মানে দুই বিন্দুর x আর y স্থানাংকের পার্থক্য। ঘুরে ফিরে কিন্তু সমীকরণ তাই রইলো ! সেই আদি y = mx + c , আপাতত c কে বাদ দিন । এর ব্যাপারে পরে ভাবা যাবে । আর লাইন যদি (0,0) দিয়ে একবার যেতে পারে c এমনিতেই নাই হয়ে যাবে । এখন এই যে কাজ করলেন এইটাকে যদি সুডোকোড আঁকারে লেখি তাহলে কেমন দাঁড়াবে?&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;swift&quot;&gt;&lt;pre class=&quot;language-swift&quot;&gt;&lt;code class=&quot;language-swift&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;p&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; q&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-dx &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; p &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; a
-dy &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; q &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; y
-c &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// some value you already have&lt;/span&gt;
-slope &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; dy &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; dx
-&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; x to dx &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-  y &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; slope &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; c
-  draw the point on &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-done&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/2rcrqj-23414c5ef7fc0e68d08bc283a6b376c3-b75b8.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
-  
-  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; ; max-width: 600px; margin-left: auto; margin-right: auto;&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECAwQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAeZoSKSBZ//EABwQAAICAgMAAAAAAAAAAAAAAAECABEDEhMhMf/aAAgBAQABBQI9s3pUXimgrlaf/8QAFREBAQAAAAAAAAAAAAAAAAAAEEH/2gAIAQMBAT8Bh//EABURAQEAAAAAAAAAAAAAAAAAABBB/9oACAECAQE/Aaf/xAAbEAABBAMAAAAAAAAAAAAAAAAAAQIQITFxkf/aAAgBAQAGPwKhLKaO2Jnsf//EABwQAQADAAIDAAAAAAAAAAAAAAEAESExUWFxgf/aAAgBAQABPyG2DO4ds/bjEonuCzbwJrK0eYRovDxP/9oADAMBAAIAAwAAABCXH//EABcRAAMBAAAAAAAAAAAAAAAAAAABEVH/2gAIAQMBAT8QTkaRH//EABcRAAMBAAAAAAAAAAAAAAAAAAABITH/2gAIAQIBAT8Qa0U//8QAGxABAAIDAQEAAAAAAAAAAAAAAQARITFRYUH/2gAIAQEAAT8QCqKIPGMQgTYfclaAiMTpSX7mVJwA04r2LJ6aOcqpVpQosNE//9k=&amp;apos;); background-size: cover; display: block;&quot;&gt;
-      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot; alt=&quot;ei-lon&quot; title=&quot;&quot; src=&quot;/static/2rcrqj-23414c5ef7fc0e68d08bc283a6b376c3-b75b8.png&quot; srcset=&quot;/static/2rcrqj-23414c5ef7fc0e68d08bc283a6b376c3-e10ab.png 200w,
-/static/2rcrqj-23414c5ef7fc0e68d08bc283a6b376c3-f8041.png 400w,
-/static/2rcrqj-23414c5ef7fc0e68d08bc283a6b376c3-b75b8.png 600w&quot; sizes=&quot;(max-width: 600px) 100vw, 600px&quot;&gt;
-    &lt;/span&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;let a(x, y), b(p, q)
+dx = p - a
+dy = q - y
+c = // some value you already have
+slope = dy / dx
+for ( i = x to dx ):
+  y = slope * i + c
+  draw the point on (x, y)
+done!&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block;  max-width: 600px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECAwQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAeZoSKSBZ//EABwQAAICAgMAAAAAAAAAAAAAAAECABEDEhMhMf/aAAgBAQABBQI9s3pUXimgrlaf/8QAFREBAQAAAAAAAAAAAAAAAAAAEEH/2gAIAQMBAT8Bh//EABURAQEAAAAAAAAAAAAAAAAAABBB/9oACAECAQE/Aaf/xAAbEAABBAMAAAAAAAAAAAAAAAAAAQIQITFxkf/aAAgBAQAGPwKhLKaO2Jnsf//EABwQAQADAAIDAAAAAAAAAAAAAAEAESExUWFxgf/aAAgBAQABPyG2DO4ds/bjEonuCzbwJrK0eYRovDxP/9oADAMBAAIAAwAAABCXH//EABcRAAMBAAAAAAAAAAAAAAAAAAABEVH/2gAIAQMBAT8QTkaRH//EABcRAAMBAAAAAAAAAAAAAAAAAAABITH/2gAIAQIBAT8Qa0U//8QAGxABAAIDAQEAAAAAAAAAAAAAAQARITFRYUH/2gAIAQEAAT8QCqKIPGMQgTYfclaAiMTpSX7mVJwA04r2LJ6aOcqpVpQosNE//9k=&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+    &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot; alt=&quot;ei-lon&quot; title src=&quot;/static/23414c5ef7fc0e68d08bc283a6b376c3/691e7/2rcrqj.png&quot; srcset=&quot;/static/23414c5ef7fc0e68d08bc283a6b376c3/17594/2rcrqj.png 250w,
+/static/23414c5ef7fc0e68d08bc283a6b376c3/95af7/2rcrqj.png 500w,
+/static/23414c5ef7fc0e68d08bc283a6b376c3/691e7/2rcrqj.png 600w&quot; sizes=&quot;(max-width: 600px) 100vw, 600px&quot;&gt;
   &lt;/span&gt;
-  
-  &lt;/a&gt;
-    
 &lt;h2&gt;এখন কম্পিউটার কীভাবে আঁকে? — লাইন স্ক্যানার&lt;/h2&gt;
 &lt;p&gt;আপনি যদি আদি আমলের প্যানাসনিক ,নিপ্পন, ন্যাশনাল কিংবা সিংগারের নব ঘোরানো , ঝিরঝির করলে কয়েকটা থাবড় দিয়ে ঠিক করতে হয় এমন টিভি দেখে থাকেন (তাহলে আপনি আমার মতই বেশ বুড়া, নাহলে আপনি বিটিভির স্বর্ণযুগ মিস করেছেন) তাহলে মনে করে দেখেন, কোন কারণে টিভির সিগন্যাল দূর্বল হয়ে গেলে পর্দায় একের পর এক লাইন দেখা যেত। ট্রিনিট্রন প্রযুক্তি আসার আগ পর্যন্ত এটা খুব কমন ব্যাপার ছিলো। এই লাইনগুলোকে বলা হতো স্ক্যান লাইন। কম্পিউটার গ্রাফিক্সের খুব ফান্ডামেন্টাল টেকনিক গুলোর একটা। লাইন স্ক্যানিং কীভাবে কাজ করে ?&lt;/p&gt;
 &lt;p&gt;একটা কালো রঙের কাগজ নিন। তাতে কালি নেই এমন একটা কলম দিয়ে আঁকিবুঁকি করুন । একটু জোরেশোরেই করুন যাতে কাগজে দাগ পড়ে। এরপর কাগজের উপর পাউডার (ট্যালকম বা চক পাউডার যেটা খুশি) । দেখবেন আপনি যে আঁকিবুঁকি করেছেন সেগুলো সুন্দর দেখা যাচ্ছে । আপনি পাউডার দিয়ে ম্যানুয়ালি লাইন স্ক্যানিং করলেন একটা। লাইন স্ক্যানিং এই কাজটাই করে। উপর থেকে নিচ পর্যন্ত চেক করে যাবে, স্ক্রীনে আঁকার মতন কিছু পেলে সেটা আঁকবে, স্ক্রীনে দেখা যাবে, না থাকলে ঐ জায়গাটা ফাঁকা থাকবে। কম্পিউটার বা টিভি স্ক্রীন পয়েন্ট বলতে বুঝে পিক্সেল । যদি পিক্সেলে আঁকার মতন তথ্য না থাকে, লাইন স্ক্যানার সেটা এড়িয়ে যাবে।&lt;/p&gt;
@@ -266,22 +172,15 @@ done&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;/code&gt;&lt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;কিন্তু এখানে হচ্ছেটা কি?&lt;/h2&gt;
 &lt;figure&gt;
-  
-  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/inc-13e967c660c89f2be4cc2207d2a92d6d-38fae.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
-  
-  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 60.36615536862939%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwAEBf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAB7YIObqjj/8QAGBAAAwEBAAAAAAAAAAAAAAAAAAERAjH/2gAIAQEAAQUC04Vi5soj/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGBAAAwEBAAAAAAAAAAAAAAAAAAERMSH/2gAIAQEAAT8hk2FN4cDSZVGcP//aAAwDAQACAAMAAAAQWy//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAbEAEAAwEAAwAAAAAAAAAAAAABABEhMUFRcf/aAAgBAQABPxAQXRC2F8sd297GABn25job8y+lnfRGbZ//2Q==&amp;apos;); background-size: cover; display: block;&quot;&gt;
-      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot; alt=&quot;inc naive&quot; title=&quot;&quot; src=&quot;/static/inc-13e967c660c89f2be4cc2207d2a92d6d-48538.png&quot; srcset=&quot;/static/inc-13e967c660c89f2be4cc2207d2a92d6d-bed0f.png 200w,
-/static/inc-13e967c660c89f2be4cc2207d2a92d6d-5fd34.png 400w,
-/static/inc-13e967c660c89f2be4cc2207d2a92d6d-48538.png 800w,
-/static/inc-13e967c660c89f2be4cc2207d2a92d6d-b70ec.png 1200w,
-/static/inc-13e967c660c89f2be4cc2207d2a92d6d-d134a.png 1600w,
-/static/inc-13e967c660c89f2be4cc2207d2a92d6d-38fae.png 2021w&quot; sizes=&quot;(max-width: 800px) 100vw, 800px&quot;&gt;
-    &lt;/span&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 60.36615536862939%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwAEBf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAB7YIObqjj/8QAGBAAAwEBAAAAAAAAAAAAAAAAAAERAjH/2gAIAQEAAQUC04Vi5soj/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGBAAAwEBAAAAAAAAAAAAAAAAAAERITH/2gAIAQEAAT8hk7C2PDIxGXR3D//aAAwDAQACAAMAAAAQWC//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAbEAEAAwEAAwAAAAAAAAAAAAABABEhMUFRcf/aAAgBAQABPxAQXRC2a7Du3vYgAM+3NuivmW0s76its//Z&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+    &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot; alt=&quot;inc naive&quot; title src=&quot;/static/13e967c660c89f2be4cc2207d2a92d6d/267e5/inc.png&quot; srcset=&quot;/static/13e967c660c89f2be4cc2207d2a92d6d/a9340/inc.png 250w,
+/static/13e967c660c89f2be4cc2207d2a92d6d/83ff7/inc.png 500w,
+/static/13e967c660c89f2be4cc2207d2a92d6d/267e5/inc.png 1000w,
+/static/13e967c660c89f2be4cc2207d2a92d6d/d12ef/inc.png 1500w,
+/static/13e967c660c89f2be4cc2207d2a92d6d/5c01d/inc.png 2000w,
+/static/13e967c660c89f2be4cc2207d2a92d6d/4dffc/inc.png 2021w&quot; sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;&gt;
   &lt;/span&gt;
-  
-  &lt;/a&gt;
-    
   &lt;figcaption&gt;Computer Graphics Principles and Practice in C&amp;#x200A;&amp;#x2014;&amp;#x200A;Foley et al.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;লাইন খাতায় আঁকতে গেলে আপনি অবচেতন মনে যেটা করেন যে, আপনি ঢাল কীভাবে কাজ করছে সেটা নিয়ে বিশেষ একটা মাথা ঘামান না। আদতে ঢালের কাজ কি? খুব সহজ ভাষায় বললে ঢাল ডিফাইন করে আপনার লাইনটা কীভাবে সামনের দিকে যাবে। মানে বেসলাইন থেকে কতটা উপরে বা নিচে সরে যাবে। এজন্য সচরাচর বলা হয় ঢাল হচ্ছে আপনার সরলরেখা x অক্ষ থেকে কোন অ্যাঙ্গেলে সরে থাকবে।&lt;/p&gt;
@@ -356,37 +255,21 @@ done&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;/code&gt;&lt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Bresenham%27s_line_algorithm&quot;&gt;ডেরিভেশনটা এখান থেকে&lt;/a&gt; দেখে নিতে পারেন । কিন্তু ব্রেজেনহাম সাহেবের অ্যালগোরিদমের প্রবলেম ছিলো যে এই জিনিস দিয়ে বৃত্ত কিংবা কনিক আঁকতে গেলে ভালো রেজাল্ট পাওয়া যেত না। এইটা একটা বেশ বড় সমস্যা ছিলো। এর সমাধান দিয়েছিলেন পিটওয়ে এবং ভন অ্যাকেন । তারা একটা নতুন অ্যালগোরিদম দিলেন । নাম মিডপয়েন্ট অ্যালগোরিদম ।&lt;/p&gt;
-
-  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/2rcrll-af40122daa2b3b23b724096366ef6e33-edd43.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
-  
-  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; ; max-width: 500px; margin-left: auto; margin-right: auto;&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAUEAgP/xAAXAQEBAQEAAAAAAAAAAAAAAAADAgAE/9oADAMBAAIQAxAAAAGv1A2jVZEafGic6YQhf//EABwQAAICAgMAAAAAAAAAAAAAAAACAQMSIRETMv/aAAgBAQABBQLrIWYNlTzngoztDVeuC7T/AP/EABkRAAIDAQAAAAAAAAAAAAAAAAABAhExA//aAAgBAwEBPwFRstI5YS0//8QAGxEAAQQDAAAAAAAAAAAAAAAAAAECAzESE1H/2gAIAQIBAT8BdLjZsXhLY2j/xAAbEAADAAIDAAAAAAAAAAAAAAAAAREQMTJBof/aAAgBAQAGPwLZy8Nk6ZYyKQWf/8QAHxABAAEDBAMAAAAAAAAAAAAAAQARMUEhUWGBcdHw/9oACAEBAAE/IfFfn3FlBV+ZgZ19TQDgazTOjHggQFvMoqu95YG0/9oADAMBAAIAAwAAABDs7wP/xAAYEQEBAQEBAAAAAAAAAAAAAAABABEhcf/aAAgBAwEBPxDLoyrFn37E3f/EABkRAQEBAAMAAAAAAAAAAAAAAAEAETGx4f/aAAgBAgEBPxAFghDe3k28d//EABwQAQEBAQACAwAAAAAAAAAAAAERACExYUFxsf/aAAgBAQABPxAhoHlwGUkfrX5hjmvRM02JFcjgPkBUon3k1JAO33luhsx8ZdRZgfDpAQJ5v//Z&amp;apos;); background-size: cover; display: block;&quot;&gt;
-      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot; alt=&quot;pitteway&quot; title=&quot;&quot; src=&quot;/static/2rcrll-af40122daa2b3b23b724096366ef6e33-edd43.png&quot; srcset=&quot;/static/2rcrll-af40122daa2b3b23b724096366ef6e33-1c603.png 200w,
-/static/2rcrll-af40122daa2b3b23b724096366ef6e33-bb811.png 400w,
-/static/2rcrll-af40122daa2b3b23b724096366ef6e33-edd43.png 500w&quot; sizes=&quot;(max-width: 500px) 100vw, 500px&quot;&gt;
-    &lt;/span&gt;
+&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block;  max-width: 500px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAUEAgP/xAAXAQEBAQEAAAAAAAAAAAAAAAADAgAE/9oADAMBAAIQAxAAAAGv1A2jVZEafGic6YQhf//EABwQAAICAgMAAAAAAAAAAAAAAAACAQMSIRETMv/aAAgBAQABBQLrIWYNlTzngoztDVeuC7T/AP/EABkRAAIDAQAAAAAAAAAAAAAAAAABAhExA//aAAgBAwEBPwFRstI5YS0//8QAGxEAAQQDAAAAAAAAAAAAAAAAAAECAzESE1H/2gAIAQIBAT8BdLjZsXhLY2j/xAAbEAADAAIDAAAAAAAAAAAAAAAAAREQMTJBof/aAAgBAQAGPwLZy8Nk6ZYyKQWf/8QAHxABAAEDBAMAAAAAAAAAAAAAAQARMUEhUWGBcdHw/9oACAEBAAE/IfFfn3FlBV+ZgZ19TQDgazTOjHggQFvMoqu95YG0/9oADAMBAAIAAwAAABDs7wP/xAAYEQEBAQEBAAAAAAAAAAAAAAABABEhcf/aAAgBAwEBPxDLoyrFn37E3f/EABkRAQEBAAMAAAAAAAAAAAAAAAEAETGx4f/aAAgBAgEBPxAFghDe3k28d//EABwQAQEBAQACAwAAAAAAAAAAAAERACExYUFxsf/aAAgBAQABPxAhoHlwGUkfrX5hjmvRM02JFcjgPkBUon3k1JAO33luhsx8ZdRZgfDpAQJ5v//Z&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+    &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot; alt=&quot;pitteway&quot; title src=&quot;/static/af40122daa2b3b23b724096366ef6e33/bf9a4/2rcrll.png&quot; srcset=&quot;/static/af40122daa2b3b23b724096366ef6e33/fbc2a/2rcrll.png 250w,
+/static/af40122daa2b3b23b724096366ef6e33/bf9a4/2rcrll.png 500w&quot; sizes=&quot;(max-width: 500px) 100vw, 500px&quot;&gt;
   &lt;/span&gt;
-  
-  &lt;/a&gt;
-    
 &lt;h2&gt;পিটওয়ে এর মিডপয়েন্ট অ্যালগোরিদম&lt;/h2&gt;
 &lt;figure&gt;
-  
-  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/midpoint-af08c1e77a0c2383e53f1eb0cfce1466-6cd03.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
-  
-  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 85.42795232936079%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAARABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH3czB2UIGgf//EABsQAAIBBQAAAAAAAAAAAAAAAAABEQIQISJB/9oACAEBAAEFAmSSN7J0iyu2/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAGBABAAMBAAAAAAAAAAAAAAAAAQAQITH/2gAIAQEABj8C7HaCOlF//8QAGxABAAICAwAAAAAAAAAAAAAAAQARIVEQMUH/2gAIAQEAAT8hWTpEekDu42ZQ7YK5B0I3GRx//9oADAMBAAIAAwAAABDTBzz/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EB//xAAeEAEAAgIBBQAAAAAAAAAAAAABABEhMUFRYYGxwf/aAAgBAQABPxCguTXiCAhWlwRJhd1RNZcsoXHFbzAra5Uy9LgigdJPcnzDRP/Z&amp;apos;); background-size: cover; display: block;&quot;&gt;
-      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot; alt=&quot;inc naive&quot; title=&quot;&quot; src=&quot;/static/midpoint-af08c1e77a0c2383e53f1eb0cfce1466-48538.png&quot; srcset=&quot;/static/midpoint-af08c1e77a0c2383e53f1eb0cfce1466-bed0f.png 200w,
-/static/midpoint-af08c1e77a0c2383e53f1eb0cfce1466-5fd34.png 400w,
-/static/midpoint-af08c1e77a0c2383e53f1eb0cfce1466-48538.png 800w,
-/static/midpoint-af08c1e77a0c2383e53f1eb0cfce1466-b70ec.png 1200w,
-/static/midpoint-af08c1e77a0c2383e53f1eb0cfce1466-d134a.png 1600w,
-/static/midpoint-af08c1e77a0c2383e53f1eb0cfce1466-6cd03.png 1846w&quot; sizes=&quot;(max-width: 800px) 100vw, 800px&quot;&gt;
-    &lt;/span&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 85.42795232936079%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAARABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH3czJ1USBsH//EABsQAQEAAQUAAAAAAAAAAAAAAAEAEQIQISIx/9oACAEBAAEFAmzZl7DpjkfTb//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABgQAQADAQAAAAAAAAAAAAAAAAEAECEx/9oACAEBAAY/Aux2gjpRf//EABsQAQACAwEBAAAAAAAAAAAAAAEAETFBURAh/9oACAEBAAE/IV9MIjZA9uNqD1gLkXQjfqGJ/9oADAMBAAIAAwAAABDDAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EB//xAAdEAEAAgMAAwEAAAAAAAAAAAABABEhMUFRcbGB/9oACAEBAAE/EKC6a/IICFaXBEmPZUTeGNlC45W8zLMcqNvi4IgHpPr+Tv1Nc//Z&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+    &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot; alt=&quot;inc naive&quot; title src=&quot;/static/af08c1e77a0c2383e53f1eb0cfce1466/267e5/midpoint.png&quot; srcset=&quot;/static/af08c1e77a0c2383e53f1eb0cfce1466/a9340/midpoint.png 250w,
+/static/af08c1e77a0c2383e53f1eb0cfce1466/83ff7/midpoint.png 500w,
+/static/af08c1e77a0c2383e53f1eb0cfce1466/267e5/midpoint.png 1000w,
+/static/af08c1e77a0c2383e53f1eb0cfce1466/d12ef/midpoint.png 1500w,
+/static/af08c1e77a0c2383e53f1eb0cfce1466/4d7a1/midpoint.png 1846w&quot; sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;&gt;
   &lt;/span&gt;
-  
-  &lt;/a&gt;
-    
   &lt;figcaption&gt;Computer Graphics Principles and Practice in C&amp;#x200A;&amp;#x2014;&amp;#x200A;Foley et al.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;পিটওয়ে সাহেবের অ্যালগোরিদম টা কিঞ্চিত জটিল । উনি ব্রেজেনহামের মতন ধরে নেননি যে লাইন কখনো নিজের ঢাল বদলাবে না (যেমন বৃত্ত কিংবা কনিকে , যেখানে প্রতি বিন্দুর ঢাল আলাদা হয়)। উনি ভিন্নভাবে চিন্তা করলেন যে সব সমস্যা তো ঐ y এর মান নিয়েই, তাহলে এইভাবে দেখা যাক, ঢাল হিসাব করার দরকার ই নেই, থ্রেশোল্ড নিয়ে মারামারির ও দরকার নেই। যেহেতু পুরো স্ক্রিনটাই একটা গ্রাফ পেপারের মতন রেক্টাঙ্গুলার গ্রিড, এবং লাইনকে গ্রিডের সেল পার করেই যেতে হবে, তাহলে সেলের মাঝে এমন একটা বিন্দু নিবো যেটাকে বলবো মিডপয়েন্ট (M)। এরপর দেখবো আবার লাইন মিডপয়েন্টের উপরে আছে নাকি নিচে । যদি উপরে থাকে, তাহলে উপরে যাবে। নিচে থাকলে নিচে। এই অ্যালগোরিদম যদি C++ এ লেখি এমন দাঁড়াবে। ভালো হয় যদি এর &lt;a href=&quot;https://academic.oup.com/comjnl/article/10/3/282/494116&quot;&gt;ডেরিভেশনটাও&lt;/a&gt; দেখে আসতে পারেন । যথেষ্ট বড় ডেরিভেশন, সেটা এখানে ডিসকাস করে আপনার আমার ভেজা ফ্রাই করার মানে হয় না ।&lt;/p&gt;
@@ -445,19 +328,11 @@ g++ main.cpp -std&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;c++1
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;শেষ!&lt;/h2&gt;
 &lt;p&gt;কম্পিউটার গ্রাফিক্স বিশাল বড় একটা ফিল্ড। আপনি যদি এই বিরক্তিকর পোস্ট পড়ে, একগাদা সমীকরণ দেখে আরো ঘাটাঘাটি করতে ইন্টারেস্ট পান তাহলে Edx, Coursera তে ভালো কিছু কোর্স আছে। এছাড়া রেফারেন্স ম্যাটারিয়াল গুলো পড়তে পারেন।&lt;/p&gt;
-
-  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/2rcru5-37fe8f28090a293ab4d4a263ee7067ad-2acd7.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
-  
-  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; ; max-width: 460px; margin-left: auto; margin-right: auto;&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 113.69565217391305%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAXABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwT/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAP/2gAMAwEAAhADEAAAAeXXEa2WJAKQ3//EABsQAAEEAwAAAAAAAAAAAAAAAAABAiIxAxES/9oACAEBAAEFAkMjW8tosQiRE0f/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAXEAEBAQEAAAAAAAAAAAAAAAABEAAx/9oACAEBAAY/AsJQnXdZ/8QAHRABAAICAgMAAAAAAAAAAAAAAQAhETEQkVGBof/aAAgBAQABPyEQHseBcSxs8Q4yOxiVz0RHfyldL1P/2gAMAwEAAgADAAAAEKsAgP/EABgRAAMBAQAAAAAAAAAAAAAAAAABERAh/9oACAEDAQE/EE+ZCH//xAAVEQEBAAAAAAAAAAAAAAAAAAARIP/aAAgBAgEBPxAj/8QAHBABAQEBAQADAQAAAAAAAAAAAREhADFBYXGx/9oACAEBAAE/EKXm1j4KteYL95hjL1tEDj7eljIHeghp7DP7wDvu533TeBVe/IO//9k=&amp;apos;); background-size: cover; display: block;&quot;&gt;
-      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot; alt=&quot;robert ugh&quot; title=&quot;&quot; src=&quot;/static/2rcru5-37fe8f28090a293ab4d4a263ee7067ad-2acd7.png&quot; srcset=&quot;/static/2rcru5-37fe8f28090a293ab4d4a263ee7067ad-9b9ac.png 200w,
-/static/2rcru5-37fe8f28090a293ab4d4a263ee7067ad-ffdd5.png 400w,
-/static/2rcru5-37fe8f28090a293ab4d4a263ee7067ad-2acd7.png 460w&quot; sizes=&quot;(max-width: 460px) 100vw, 460px&quot;&gt;
-    &lt;/span&gt;
+&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block;  max-width: 460px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 113.69565217391305%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAXABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIDBP/EABYBAQEBAAAAAAAAAAAAAAAAAAABA//aAAwDAQACEAMQAAAB5dcU1lRLFSD/xAAdEAABAgcAAAAAAAAAAAAAAAAAAiIBAxAREjFB/9oACAEBAAEFAoExKcac0NLJGn//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAcEAABAwUAAAAAAAAAAAAAAAAAARGhEBIhMTL/2gAIAQEABj8CEVKsZOoHug3B/8QAGxAAAwACAwAAAAAAAAAAAAAAAAEREEEhMVH/2gAIAQEAAT8hQQc87w3CtpoSp2Q1CrCloJ6j/9oADAMBAAIAAwAAABCr9zz/xAAXEQEAAwAAAAAAAAAAAAAAAAABABAR/9oACAEDAQE/EBvJ/8QAFREBAQAAAAAAAAAAAAAAAAAAESD/2gAIAQIBAT8QI//EAB0QAQACAgIDAAAAAAAAAAAAAAEAESExQWFRofD/2gAIAQEAAT8Qsg6DQWtsKCIMYuNtKFo7jYIEpFmGB52D3EQYnOm+TMfP/O5//9k=&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+    &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot; alt=&quot;robert ugh&quot; title src=&quot;/static/37fe8f28090a293ab4d4a263ee7067ad/96ffd/2rcru5.png&quot; srcset=&quot;/static/37fe8f28090a293ab4d4a263ee7067ad/64d27/2rcru5.png 250w,
+/static/37fe8f28090a293ab4d4a263ee7067ad/96ffd/2rcru5.png 460w&quot; sizes=&quot;(max-width: 460px) 100vw, 460px&quot;&gt;
   &lt;/span&gt;
-  
-  &lt;/a&gt;
-    
 &lt;h2&gt;রেফারেন্স&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Computer Graphics Principles and Practices in C, Foley et al, 2nd edition.&lt;/li&gt;
@@ -469,133 +344,18 @@ g++ main.cpp -std&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;c++1
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://bitbucket.org/shawon_ashraf/linedrawingopengl/src/master/&quot;&gt;https://bitbucket.org/shawon_ashraf/linedrawingopengl/src/master/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;em&gt;এই পোস্টটি আমার &lt;a href=&quot;https://medium.com/@sashraf94/কম্পিউটার-লাইন-ক্যামনে-আঁকে-cc7992d3a29e&quot;&gt;মিডিয়াম ব্লগেও&lt;/a&gt; পড়তে পারেন&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[C++ এ accumulate() ফাংশন দিয়ে যোগফল বের করা]]></title><description><![CDATA[…]]></description><link>https://shawonashraf.github.io/cpp-accumulate/</link><guid isPermaLink="false">https://shawonashraf.github.io/cpp-accumulate/</guid><content:encoded>&lt;p&gt;ধরুন আপনাকে একটা &lt;code class=&quot;language-text&quot;&gt;array / vector&amp;lt;T&amp;gt;&lt;/code&gt; দেয়া হলো । বলা হলো  &lt;code class=&quot;language-text&quot;&gt;C++&lt;/code&gt; এ এই &lt;code class=&quot;language-text&quot;&gt;array/vector&amp;lt;T&amp;gt;&lt;/code&gt; এর সব ইলিমেন্টের যোগফল বের করে দিতে হবে । আপনি কীভাবে করবেন? একটা লুপ চালাবেন অ্যারে / ভেক্টরের  এর সাইজ পর্যন্ত? আচ্ছা যদি লিস্ট থাকে অ্যারে বা ভেক্টরের জায়গায়? কিংবা কোন রেঞ্জড কালেকশন? হতে পারে কোন কাস্টম টাইপের কালেকশন । তখন কি করবেন? &lt;code class=&quot;language-text&quot;&gt;C++11&lt;/code&gt; এ &lt;code class=&quot;language-text&quot;&gt;&amp;lt;numeric&amp;gt;&lt;/code&gt;হেডার ফাইলের আন্ডারে একটা ফাংশন আছে , নাম &lt;code class=&quot;language-text&quot;&gt;accumulate()&lt;/code&gt; , এইটা আপনার কাজ সহজ করে দেবে । আসুন দেখা যাক কীভাবে করতে হবে!&lt;/p&gt;
-&lt;p&gt;শুরু করার আগে দেখে নিন আপনার কাছে &lt;code class=&quot;language-text&quot;&gt;gcc 4.8&lt;/code&gt; বা লেটেস্ট কিংবা &lt;code class=&quot;language-text&quot;&gt;Microsoft C++&lt;/code&gt; কম্পাইলারের লেটেস্ট ভার্শন করা আছে কিনা । না থাকলে আপডেট করে নিন । উইন্ডোজে &lt;code class=&quot;language-text&quot;&gt;gcc&lt;/code&gt; করতে চাইলে   &lt;code class=&quot;language-text&quot;&gt;cygwin&lt;/code&gt; দিয়ে করতে পারবেন &lt;a href=&quot;https://youtu.be/XjZQVHbu5E4&quot; target=&quot;_blank&quot;&gt;(লিংক)&lt;/a&gt; , আর &lt;code class=&quot;language-text&quot;&gt;Microsoft C++&lt;/code&gt; এর জন্য ভিজুয়াল স্টুডিও ২০১৩ / ২০১৫ /  ২০১৭ থাকলে যথেষ্ট ।&lt;/p&gt;
-&lt;h2&gt;কোড&lt;/h2&gt;
-&lt;p&gt;চলুন একটা সাধারণ ইন্টিজার  অ্যারে নেই(চাইলে অন্য কিছু ও নিতে পারেন ) আর একটা খালি &lt;code class=&quot;language-text&quot;&gt;vector&lt;/code&gt; নেই । অ্যারে আর &lt;code class=&quot;language-text&quot;&gt;vector&lt;/code&gt; এ কিছু ডেটা রাখি । কোডটা এরকম দাঁড়াবে -&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;cpp&quot;&gt;&lt;pre class=&quot;language-cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;&lt;span class=&quot;token macro property&quot;&gt;#&lt;span class=&quot;token directive keyword&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&amp;lt;iostream&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token macro property&quot;&gt;#&lt;span class=&quot;token directive keyword&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&amp;lt;numeric&gt;&lt;/span&gt;&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;namespace&lt;/span&gt; std&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; sum&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; sum_vec&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; array&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;56&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;78&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;90&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-    vector&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;vec&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// খালি ভেক্টর&lt;/span&gt;
-    vec&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;push_back&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;23&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    vec&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;push_back&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;59&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    vec&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;push_back&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-    &lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; length &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;sizeof&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;sizeof&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token comment&quot;&gt;// অ্যারে এর সাইজ বের করার জন্য&lt;/span&gt;
-
-    sum &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;accumulate&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt; array&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; array &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; length&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token comment&quot;&gt;// ( স্টার্টিং পজিশন , ফাইনাল পজিশন , ইনিশিয়াল ভ্যালু )&lt;/span&gt;
-
-    cout &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Sum of array is : &quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; sum &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; endl&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-    sum_vec &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;accumulate&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt; vec&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;begin&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; vec&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    cout &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Sum of vector is : &quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; sum_vec &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; endl&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;কম্পাইল + রান&lt;/h2&gt;
-&lt;p&gt;কোডটা কম্পাইল করে রান করি । আপনি যদি ভিজুয়াল স্টুডিও তে কোড লিখে থাকেন, Microsoft C++ কম্পাইলার নিজে থেকেই সব করে নিবে । তবে gcc  তে কম্পাইল করাতে চাইলে খেয়াল রাখবেন যে আপনার কম্পাইল কমান্ডে C++11 এর ফ্ল্যাগ দেয়া আছে কিনা । যেমন আমার sum.cpp নামের ফাইলটাকে কম্পাইল করার জন্য কমান্ড টা এমন দেখাবে -&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;g++ -std&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;c++11 sum.cpp -o &lt;span class=&quot;token function&quot;&gt;sum&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;এইবার রান করলে দেখা যাবে যোগফল এসেছে  225, 162 । আবার 1 + 56 + 78 + 90 = 225 , 23 + 59 + 80 = 162, তার মানে  আমরা যোগফল পেয়ে গেছি! কীভাবে হলো?&lt;/p&gt;
-&lt;h2&gt;অ্যাঁ! কীভাবে হলো?&lt;/h2&gt;
-&lt;p&gt;accumulate() আর্গুমেন্ট হিসেবে রেঞ্জ ইটারেটর মানে যে রেঞ্জের যোগফল বের করতে হবে তার শুরু এবং শেষ ইলিমেন্টের ইটারেটর নেয় , আর সাথে নেয় যোগফলের প্রাথমিক মান । এমনো হতে পারে যে আপনার ভেরিয়েবল কোন কিছুর যোগফলের প্রাথমিক মান ০ না ধরে ৫ ধরতে পারে । তখন 0 এর জায়গায় 5  আর্গুমেন্ট হিসেবে পাস করাতে হবে ।&lt;/p&gt;
-&lt;h2&gt;ইটারেটর কি?&lt;/h2&gt;
-&lt;p&gt;এখন প্রশ্ন আসে , ইটারেটর কি? সহজ ভাষায় বললে ইটারেটর পয়েন্টারের মতন কাজ করে , তবে আসলে পয়েন্টার না । ইটারেটর কোন কালেকশনের ইলিমেন্ট গুলোর রেফারেন্স স্টোর করে রাখতে পারে , তখন সে রেফারেন্স দিয়ে তাদের অ্যাক্সেস পাওয়া যায় ( অনেকটা ইনডেক্স ধরে অ্যারে থেকে ইলিমেন্ট পাওয়ার মতন ) । আমি এখানে অ্যারে এবং ভেক্টরের শুরু থেকে শেষ অবধি সব ডেটা কে রেঞ্জে নিয়ে যোগফল বের করতে দিয়েছি ।&lt;/p&gt;
-&lt;p&gt;vector এর শুরু এবং শেষ ইলিমেন্টের ইটারেটর পাওয়ার জন্য begin() এবং end() ফাংশন  C++ এ ডিফাইন করে দেয়াই আছে (&lt;strong&gt;অন্যান্য STL কন্টেইনার যেমন list, array এর জন্যও আছে&lt;/strong&gt;) । কিন্তু সাধারণ C স্টাইল অ্যারে মানে আমরা যেটা এখানে লিখেছি, তার জন্য ইটারেটর আছে কি? আছে । কারণ একটা অ্যারের প্রতিটা ইলিমেন্টের নিজস্ব অ্যাড্রেস রেফারেন্স আছে । এবং পয়েন্টার ধরে সেগুলো কে সহজে অ্যাকসেস করা যায় ।&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;এখানে একটা ছোট্ট প্রশ্ন , array + length দিলাম কেন?&lt;/strong&gt; একটা অ্যারে কে যদি একটা পয়েন্টার p দিয়ে পয়েন্ট করা হয় মানে p = array দেয়া হয় , পয়েন্টার p অ্যারের প্রথম ইলিমেন্ট মানে array[0] কে পয়েন্ট করবে । তাহলে এমন দাঁড়াচ্ছে ,&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;p + 1 হচ্ছে  array[1] ,  p + 2 হচ্ছে  array[2],  p + 3 হচ্ছে  array[3].&lt;/strong&gt;&lt;/p&gt;
-&lt;h2&gt;এহেম এহেম …&lt;/h2&gt;
-&lt;p&gt;তাহলে , &lt;code class=&quot;language-text&quot;&gt;p + 4&lt;/code&gt; কি হবে? অ্যারেতে ইলিমেন্ট তো দিলাম ই ৪ টা! এটা তখন  NULL হয়ে যাবে, কারণ অ্যারে শেষ , এখানে জেনে রাখা ভালো যে যেকোন কালেকশনের টার্মিনাল রেফারেন্স NULL হয় , ভেক্টর, লিস্ট , অ্যারে কন্টেইনারের ব্যাপারেও একই কথা প্রযোজ্য  । তো accumulate() তার প্রয়োজনীয় আর্গুমেন্ট পেয়ে গেলো ! যোগফল বের করার কাজটা তাকেই করতে দিন!&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;Sum of array is &lt;span class=&quot;token keyword&quot;&gt;:&lt;/span&gt; 225
-Sum of vector is &lt;span class=&quot;token keyword&quot;&gt;:&lt;/span&gt; 162&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;কাজ শেষ!&lt;/h2&gt;
-&lt;p&gt;এখন যদি কাস্টম টাইপের যোগফল বের করতে হয়? আপনি এখন জানেন কীভাবে ইটারেটর দিয়ে অ্যাকসেস করে accumulate() এ পাঠাতে হয়! পাঠিয়ে দিন! লাইব্রেরী ফাংশন বসে থাকতে নিজে লুপ ঘুরিয়ে হাবিজাবি কাবজাব করে কষ্ট করার কি দরকার?&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt; আর্টিকেলটি এর  আগে &lt;a href=&quot;https://rockash93.wordpress.com/2016/01/06/c-%E0%A6%8F-accumulate-%E0%A6%AB%E0%A6%BE%E0%A6%82%E0%A6%B6%E0%A6%A8-%E0%A6%A6%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A6%AB%E0%A6%B2-%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%95/&quot;&gt;এখানে&lt;/a&gt;  পাবলিশ করা হয়েছিলো ।&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Cooking big Excel files with Python and Openpyxl]]></title><description><![CDATA[At least once in life, every computer user has to handle some spreadsheets or, excel files. Sometimes to put formulas in for accounting…]]></description><link>https://shawonashraf.github.io/cook-big-excel-py/</link><guid isPermaLink="false">https://shawonashraf.github.io/cook-big-excel-py/</guid><content:encoded>&lt;p&gt;At least once in life, every computer user has to handle some spreadsheets or, excel files. Sometimes to put formulas in for accounting stuff, sometimes to store data from Google forms or other surveys and etc. So what do you actually do when the spreadsheet contains just survey data or no number to apply formulas at all? I know you’ll get your hands dirty and do it manually. It’s fine if the there’s data from roughly a hundred people. What will you do if there’s data from a thousand or more? I’d have run away in such cases because I’m way too lazy to scroll down and have a look at those. Hopefully I know how to do magic tricks using Python and I’m going to show you this specific magic trick today.&lt;/p&gt;
-&lt;h2&gt;Let’s make a problem first&lt;/h2&gt;
-&lt;p&gt;I have a spreadsheet at my hand that has Name, Address and E-mail of 10,000 (Ten thousand, read that aloud) people. What I need to do is using this information I need to create .txt files for each of them using their names as the file name that’ll contain there Name, Address and E-mail. More like a business card.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;[ I generated the data in the file using Faker module, all data is fake ]&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;A screenshot of a portion of the file for your reference :&lt;/p&gt;
-&lt;img src=&quot;http://i.imgur.com/2WSIXMt.png&quot; alt=&quot;cook-big-excel-py-1&quot; width=&quot;720&quot;&gt;
-&lt;h2&gt;What we need&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;python3&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;openpyxl&lt;/code&gt; Module. Install it using the following command in your command prompt / shell:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;pip &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; openpyxl&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;A text editor of your choice : Atom, VS Code, Sublime, Emacs, Vim whatever you like.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;So let’s get to code&lt;/h2&gt;
-&lt;p&gt;Our spreadsheet file name is : &lt;strong&gt;TestBook.xlsx&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/ShawonAshraf/OpenpyxlBlogPost&quot;&gt; All files and code is on this github repo link&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; openpyxl &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; opx
-
-fileName &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;../excelFile/TestBook.xlsx&apos;&lt;/span&gt;
-sheetName &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Sheet1&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Now we’re going to load the file or the workbook using load_workbook() method of openpyxl&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;workBook &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; opx&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;load_workbook&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;fileName&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;We all know the structure of a spreadsheet. Data is always stored in sheets. So we need to get the sheet where our data is. Now MS Excel has genereously given us the name Sheet1 so we don’t have to cry here and there to get the name. So, houston, let’s launch the shuttles and load the sheet!&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;sheet &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; workBook&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;get_sheet_by_name&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;sheetName&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Now we get the row and column count from the workbook. (Let’s see if python can load all those records or not! Brute force test ;) )&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;maxRows &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; sheet&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;max_row
-&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;maxRows&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-maxCol &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; sheet&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;max_column
-&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;maxCol&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# output&lt;/span&gt;
-10001
-3&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;Aw yes! xD&lt;/h2&gt;
-&lt;p&gt;So it does load all those things. Fascinating! Now to the real part of thing, where we read people’s private data( This is where you feel like Google! Although this data is fake. ) and write them to files xD&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; maxRows &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-    name &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; sheet&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;cell&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;row&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; column&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value
-    outputFile &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;../dump/{}.txt&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;name&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;w&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-
-    &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; j &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; maxCol &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-        outputFile&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;write&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;sheet&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;cell&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;row&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; column&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;j&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;\n&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-    outputFile&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;close&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-
-    &lt;span class=&quot;token comment&quot;&gt;# just checking for a count of the write op actually!&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Written file number : {}&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Let’s Just add a nice message at the end so people can be assured that we’re done!&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Done writing your business card hooman!&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;Are there actually 10,000 text files written? OMG!&lt;/h2&gt;
-&lt;p&gt;Why don’t we just find it out with another python script?&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; os
-
-path &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;../dump/&apos;&lt;/span&gt;
-fileList &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; os&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;listdir&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;path&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-
-fileNo &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;fileList&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;fileNo&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# output&lt;/span&gt;
-
-9382&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;Come on! Can’t see 10,000 files on my computer! [ Neither can I ]&lt;/h2&gt;
-&lt;p&gt;Our very friendly Faker generator did some witty stuff and generated some duplicate entries. And that led to the discovery that we’re actually looking at 9382 files. Well duplicates will get overwritten easily since we’re naming with each person’s name after all!&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Attaching a screenshot for ye!&lt;/em&gt;&lt;/strong&gt;
-&lt;img src=&quot;http://i.imgur.com/AQS38nq.png&quot; alt=&quot;cook-big-excel-py-2&quot; height=&quot;600&quot; width=&quot;640&quot;&gt;&lt;/p&gt;
-&lt;h2&gt;So where can I find such large excel files?&lt;/h2&gt;
-&lt;p&gt;Well don’t ask me. Better keep your scripts ready when you face those nasty, huge, ugly spreadsheets! Till then I go incognito for chilling out, leaving you to scratch your heads over what just happened. &lt;strong&gt;&lt;em&gt;Sayonara!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Animated gif loader in Java]]></title><description><![CDATA[Animated gifs are just all over the internet these days. Especially after people realized picture comments ain’t enough for their social…]]></description><link>https://shawonashraf.github.io/animated-gif-java/</link><guid isPermaLink="false">https://shawonashraf.github.io/animated-gif-java/</guid><content:encoded>&lt;p&gt;Animated gifs are just all over the internet these days. Especially after people realized picture comments ain’t enough for their social networking experience. Gifs are pretty good at expressing things in short - just like those tiny stories that float around on social networks. So how do you load them in a Java application? Or let’s say you want a gifloader that loads the gif of your choice?&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;এই পোস্টটি আমার &lt;a href=&quot;https://medium.com/@sashraf94/কম্পিউটার-লাইন-ক্যামনে-আঁকে-cc7992d3a29e&quot;&gt;মিডিয়াম ব্লগেও&lt;/a&gt; পড়তে পারেন&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Animated gif loader in Java]]></title><description><![CDATA[Let's load some gifs in a JFrame]]></description><link>https://shawonashraf.github.io/content/blog/animated-gif-java</link><guid isPermaLink="false">https://shawonashraf.github.ioblog/animated-gif-javaAnimated gif loader in Java</guid><dc:creator><![CDATA[ShawonAshraf]]></dc:creator><pubDate>Tue, 15 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Animated gifs are just all over the internet these days. Especially after people realized picture comments ain&apos;t enough for their social networking experience. Gifs are pretty good at expressing things in short - just like those tiny stories that float around on social networks. So how do you load them in a Java application? Or let&apos;s say you want a gifloader that loads the gif of your choice?&lt;/p&gt;
 &lt;h2&gt;Animated Gif Loader !!! Ting Ting Ting!!!!&lt;/h2&gt;
-&lt;p&gt;We’ll write a simple animated gif loader using Java Swing components. We just need a &lt;code class=&quot;language-text&quot;&gt;JFrame&lt;/code&gt;, a &lt;code class=&quot;language-text&quot;&gt;JLabel&lt;/code&gt; and that’s it!&lt;/p&gt;
-&lt;p&gt;For testing whether our loader works or not we’ll use this animated gif : &lt;a href=&quot;http://i.giphy.com/xT0GqdXpoKAazgF8t2.gif&quot; target=&quot;_blank&quot;&gt;TotoroGif&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;How it’ll look like?&lt;/h2&gt;
+&lt;p&gt;We&apos;ll write a simple animated gif loader using Java Swing components. We just need a &lt;code class=&quot;language-text&quot;&gt;JFrame&lt;/code&gt;, a &lt;code class=&quot;language-text&quot;&gt;JLabel&lt;/code&gt; and that&apos;s it!&lt;/p&gt;
+&lt;p&gt;For testing whether our loader works or not we&apos;ll use this animated gif : &lt;a href=&quot;http://i.giphy.com/xT0GqdXpoKAazgF8t2.gif&quot; target=&quot;_blank&quot;&gt;TotoroGif&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;How it&apos;ll look like?&lt;/h2&gt;
 &lt;p&gt;We expect something like this : &lt;/p&gt;
 &lt;img class=&quot; aligncenter&quot; src=&quot;http://i.imgur.com/6Tk8YBC.png&quot; alt=&quot;gifLoader&quot; width=&quot;562&quot; height=&quot;578&quot;&gt;
 &lt;h2&gt;Breaking down the procedure&lt;/h2&gt;
-&lt;p&gt;JLabel can have Icon objects set to them as Icons. So what we’re going to do here is that we’re going to load the animated gif from the URL given earlier into an URL object. Then instantiate an Icon object with the URL. Finally, set the Icon object to the JLabel.
-Now here’s a catch. To make sure you get the animated gif and not a static frame or image, you’ve to load it as a stream via URL object and some exception handling will need to be taken care of. Let’s just keep things simple and use generic exception handlers.&lt;/p&gt;
+&lt;p&gt;JLabel can have Icon objects set to them as Icons. So what we&apos;re going to do here is that we&apos;re going to load the animated gif from the URL given earlier into an URL object. Then instantiate an Icon object with the URL. Finally, set the Icon object to the JLabel.
+Now here&apos;s a catch. To make sure you get the animated gif and not a static frame or image, you&apos;ve to load it as a stream via URL object and some exception handling will need to be taken care of. Let&apos;s just keep things simple and use generic exception handlers.&lt;/p&gt;
 &lt;h2&gt;What about the size of the JFrame?&lt;/h2&gt;
-&lt;p&gt;Unless you know the size of the animated gif, it’s better to use pack() and let Swing do the work for you. Why take the hassle of measuring things? Chill!&lt;/p&gt;
+&lt;p&gt;Unless you know the size of the animated gif, it&apos;s better to use pack() and let Swing do the work for you. Why take the hassle of measuring things? Chill!&lt;/p&gt;
 &lt;h2&gt;CODE&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; javax&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;swing&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;*&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; java&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;net&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;URL&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
@@ -636,9 +396,9 @@ Now here’s a catch. To make sure you get the animated gif and not a static fra
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;What does what here?&lt;/h2&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;initGUI()&lt;/code&gt; instantiates the Swing components and the URL and the Icon and &lt;code class=&quot;language-text&quot;&gt;addWindowProperties()&lt;/code&gt; sets the &lt;code class=&quot;language-text&quot;&gt;JFrame&lt;/code&gt; properties. Both of them are called with the constructor to &lt;code class=&quot;language-text&quot;&gt;class GifLoader&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;loadApplication()&lt;/code&gt; makes the &lt;code class=&quot;language-text&quot;&gt;JFrame&lt;/code&gt; visible on screen. It wasn’t really necessary since we could’ve done inside &lt;code class=&quot;language-text&quot;&gt;addWindowProperties()&lt;/code&gt; but this makes sure our code is clean!&lt;/p&gt;
-&lt;h2&gt;Let’s run it shall we?&lt;/h2&gt;
-&lt;p&gt;Let’s create another class where we’ll create an object of the &lt;code class=&quot;language-text&quot;&gt;class GifLoader&lt;/code&gt; and instantiate it and call the &lt;code class=&quot;language-text&quot;&gt;loadApplication()&lt;/code&gt; method to run our Animated Gif Loader.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;loadApplication()&lt;/code&gt; makes the &lt;code class=&quot;language-text&quot;&gt;JFrame&lt;/code&gt; visible on screen. It wasn&apos;t really necessary since we could&apos;ve done inside &lt;code class=&quot;language-text&quot;&gt;addWindowProperties()&lt;/code&gt; but this makes sure our code is clean!&lt;/p&gt;
+&lt;h2&gt;Let&apos;s run it shall we?&lt;/h2&gt;
+&lt;p&gt;Let&apos;s create another class where we&apos;ll create an object of the &lt;code class=&quot;language-text&quot;&gt;class GifLoader&lt;/code&gt; and instantiate it and call the &lt;code class=&quot;language-text&quot;&gt;loadApplication()&lt;/code&gt; method to run our Animated Gif Loader.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Main&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
 
     &lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;String&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; args&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
@@ -646,743 +406,6 @@ Now here’s a catch. To make sure you get the animated gif and not a static fra
         a&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;loadApplication&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;And that’s it!&lt;/h2&gt;
-&lt;p&gt;We’re done! You can tweak the frame properties and set different things. You can even go and add a textbox as address bar and a button to load so that any  animated gif can be loaded.(just make sure it’s streamable!)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;This article was originally published &lt;a href=&quot;https://rockash93.wordpress.com/2016/07/09/an-animated-gif-loader-in-java/&quot;&gt;here&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Playing with images in python using pillow]]></title><description><![CDATA[Some basics on images we see everyday Ever wondered how the images you take everyday with your phones / cameras get stored? How image…]]></description><link>https://shawonashraf.github.io/image-manip/</link><guid isPermaLink="false">https://shawonashraf.github.io/image-manip/</guid><content:encoded>&lt;h2&gt;Some basics on images we see everyday&lt;/h2&gt;
-&lt;p&gt;Ever wondered how the images you take everyday with your phones / cameras get stored? How image viewers read images and show them to you? How all the image editing applications can resize, rotate, apply filters etc. on an image?&lt;/p&gt;
-&lt;p&gt;Sometimes, it seems like magic. Simply because common folk don’t know how things get done in the hindsight. So lets explore some of those magic tricks.&lt;/p&gt;
-&lt;h2&gt;What we’re going to do?&lt;/h2&gt;
-&lt;p&gt;The first job is to read images and store them in memory for manipulation. Then let’s see what magic tricks we can pull on them!&lt;/p&gt;
-&lt;h2&gt;What we need&lt;/h2&gt;
-&lt;p&gt;You’ll need to install the following modules.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;numpy&lt;/li&gt;
-&lt;li&gt;pillow&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;How?&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;pip &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; numpy pillow&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;You’re good to go!&lt;/p&gt;
-&lt;h2&gt;First thing first, import the modules&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; PIL
-&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; numpy &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; np&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;Before diving in, what’s an image actually?&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;1024 X 768&lt;/li&gt;
-&lt;li&gt;640 x 480&lt;/li&gt;
-&lt;li&gt;4096 X 2160&lt;/li&gt;
-&lt;li&gt;1920 X 1080&lt;/li&gt;
-&lt;li&gt;5120 X 2880&lt;/li&gt;
-&lt;li&gt;8K&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;What do these numbers mean? Well go to properties of an image stored on your computer. Look at the resolution of that image and try to find the resemblance. No shit sherlock, these look like image resolutions.&lt;/p&gt;
-&lt;p&gt;Also if you look closely these can also be regarded as 2D grids of height X width dimension. &lt;/p&gt;
-&lt;h3&gt;So images are …&lt;/h3&gt;
-&lt;p&gt;Yes, images you see and take with your camera are actually 2D grids and the resolution just states the dimension. But hold on for a sec! Computer doesn’t understand what a grid is. It only understands numbers… oh wait!&lt;/p&gt;
-&lt;h3&gt;Matrices anybody?&lt;/h3&gt;
-&lt;p&gt;An image is actually stored as a 2D matrix in a computer storage / memory (both are different, mind you!). So an image of resolution 4 X 4 would look like this as a matrix: &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/sjwzUMU.png&quot; alt=&quot;Imgur&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Now fine we get it images are all glorious 2D matrices, but what do the elements contain? &lt;/p&gt;
-&lt;h3&gt;Pixels…a whole lotta pixels&lt;/h3&gt;
-&lt;p&gt;A pixel is the unit element of an image. A pretty text bookish definition. Let’s clear it up. &lt;/p&gt;
-&lt;p&gt;Each element of the 2D matrix from an image is a pixel. A pixel contains a fixed value that represents the &lt;strong&gt;color value of that cell in the 2D image grid.&lt;/strong&gt;&lt;/p&gt;
-&lt;h3&gt;Color value, which means …&lt;/h3&gt;
-&lt;p&gt;Which means if you change the pixel values, the color of the image would change as well. That’s how you get those wonderful instagram filters.&lt;/p&gt;
-&lt;h3&gt;Read from image?&lt;/h3&gt;
-&lt;p&gt;All right let’s get on with it. Let’s get an image first. We’ll use this image for now. If you go into advance studies in Digital Image Processing, you’ll see how significant this image was in the history of image processing. I’ll just leave the history for you to explore.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/WauRhpF.jpg&quot; alt=&quot;Imgur&quot;&gt;&lt;/p&gt;
-&lt;h3&gt;Let’s get some code&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;image_path &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;lena.jpg&quot;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# path for our image&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# let&apos;s add a function for reading image so we can use it later&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;read_image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;path&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;try&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-        image &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; PIL&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Image&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;path&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; image
-    &lt;span class=&quot;token keyword&quot;&gt;except&lt;/span&gt; Exception &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; e&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;e&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;image &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; read_image&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image_path&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-image&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/output_9_0-e364df4a9eccc4364f03cf34a65a9286-21213.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 400px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAAEsElEQVQ4yw3QaVMaBwDG8f0YbeqFICysssDuciywsMt97LKIIocoGAQRBQ9iakwkEq1GQzE1xiMY745oYlI1R6NJ0zbGNM1Mx8kkM3nf9k2n7zrTvqwf4Dfz/B9gL2zowaCLKrhglhcZfNmFrzGqu07FglO5YEeXnNgdRvUVhWwFyJdJ69Oo6UW34/3N2LhDcVEnBR62Up0yUUZRd8OIzdnxIq2ZY4gFn32jq2WrKzjPavMUPEYhRbdmL2I6iBjWParT0dBGFwt/fg7Yi1ARWNgth8ZI2TdWxaRFOW7X3Wqy7V6Ivr517WQxv9jRnEIEm03EUr1mw0vc92vWvRpGJhKVlQMPWqgwLEwi0KhONmFArurRaZq4XU/eT4ffzuc/bq992t+eCPuW3aqcEYljdfsRS0AqrPmsTMnjnWFjixg8Wz5plo8b0VESm6G1axH2+UjfcWHk3Z3C+28Xf91avxevn3IoC71d79YX1CBYV1aZseqAR+2WdqmoUwrONxB5qzynRxc91E688Wgw/vJK58n1gVf57GH+2oupy29uj33cXnqSz6E8ngeRlDo8wPdxa0wmitbxV0PGB63UuEFZ9FCrAcesv2EuHCz43WvJ8A+Tg2/vFk6WZrYHEimbXlpZVfDZtxMe4DBhO8Mxcc2sV3/Yw06Y8Rla36/TmCFEB+FhknyYTb2czq5c6J5uZocdWllVtQeV7HQ3bSYagKNOR1wmSkoFYwZ0t9N13aiKYKiSB2FcoR9X71zpP7qa/jQ/fifibVYgpJB/VvslbSilfOtn+EXS2YFAaUQ4ScluMkQERVEeKKnih9T43mCi2Nb4Y2/z3yuTu6kwXQedPWwQCZeizHrCPX+eBX5K0ylU1ItBsw2GkFKuhlRSLqgRCLb6omMuU5pQbwftT/vavGIRK4VxHr9Ni5US7rV2ej5CA697mSG8LkPq3EqdQoiZUD1Sxc3QxtUQsxdyHqZbD1pdx8N9lzUytxQ2QdBoPbXV4Z4NOVbiNPAqRQ9pkICc1EoMCqGEFNScJ5RJi35IUXsSY0/S3lI98Xaoc8yoMIGCiFaxGLYtR5mZZtuHG0HguIe+pJYxsEID68wo6VMqeqykmse9ppU+8xmeNFv229ij7mBjLR/nVOdc1Go7PdPi3Oxw/rXRC7zuZy/pcUokVUv0jQRbCLiNEF9WUZlAoJJLXXLhB37buEWNVZQb+TVTXuNmsj4ftN/r9/7zZPysmU1r5AgX1GOmZluLR4WLy8rkHI6Ww7moEt/3m58nm2I6Re25MgYCsy4yH7RcYo2lwdb/HueAN/2eblIFVwt0sMqiphuNDQQIwhXlRDUnq0NKXupZV8Pp9ECxp80uAkdc+lw9FVVJjrL+Z1f8wLsBTxiXglU8OR9SCeVBe4hRaiQVX4Rg/rQZO/CTh+306Uj7vwfFr2OhSS85FbAtRp1/LndnzTLglwzbqpTwy6slHC4KSmiCocQyise5jNeuMPgjH/E4ZPi53/f7ev504fowQwwx1HcZz28TgRjMBY77XGGlhFdWKa7iYKDELKfqKir9tdycTrzrJR4H9Ps+4ijm+HAj88fO3ZRJawVrSknrsB2z1dT8D2chvEhS48qnAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;png&quot;
-        title=&quot;&quot;
-        src=&quot;/static/output_9_0-e364df4a9eccc4364f03cf34a65a9286-21213.png&quot;
-        srcset=&quot;/static/output_9_0-e364df4a9eccc4364f03cf34a65a9286-ab9c0.png 200w,
-/static/output_9_0-e364df4a9eccc4364f03cf34a65a9286-21213.png 400w&quot;
-        sizes=&quot;(max-width: 400px) 100vw, 400px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;Whoah! That was quick. Let’s check around a bit with the image we got from the function.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;class &lt;span class=&quot;token string&quot;&gt;&apos;PIL.JpegImagePlugin.JpegImageFile&apos;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;Enter &lt;code class=&quot;language-text&quot;&gt;numpy&lt;/code&gt; : converting image to array&lt;/h3&gt;
-&lt;p&gt;So far we’ve been using the PIL objects. Let’s get our hands dirty and read raw pixel values&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;img_array &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-img_array&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;    array&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;194, 108,  73&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;198, 112,  77&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;193, 109,  73&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;150,  82,  61&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;143,  79,  54&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;141,  81,  55&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-
-           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;196, 110,  75&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;198, 114,  78&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;194, 110,  74&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;150,  79,  57&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;145,  79,  55&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;147,  85,  60&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-
-           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;197, 113,  77&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;199, 115,  79&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;196, 112,  76&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;153,  81,  59&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;146,  80,  56&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;147,  83,  58&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-
-           &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.,
-           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;161,  86,  57&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;169,  94,  65&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;178, 101,  71&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; 69,  39,  37&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; 70,  40,  38&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; 71,  41,  39&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-
-           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;164,  89,  60&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;168,  93,  64&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;174,  97,  67&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; 69,  39,  39&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; 70,  40,  38&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; 72,  41,  39&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-
-           &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;159,  84,  55&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;166,  91,  62&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;175,  98,  68&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; 69,  39,  39&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; 71,  41,  39&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;,
-            &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; 72,  41,  39&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;, dtype&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;uint8&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;So Pillow has stored the image in our computers RAM as a PIL object. And the rest of the output should be obvious to you. It’s a jpeg image after all. And using &lt;code class=&quot;language-text&quot;&gt;numpy&lt;/code&gt; we can convert it to an array and confirm that the image is a 2D grid. Nice!&lt;/p&gt;
-&lt;p&gt;So now that we have read the image, what else can we do? Well let’s start with the most obvious. Resizing.&lt;/p&gt;
-&lt;h3&gt;Resizing image&lt;/h3&gt;
-&lt;p&gt;Let’s resize the image. But hold on, resize to what? I mean we need a dimension to get started with first. So if we write a function, we need to pass the &lt;code class=&quot;language-text&quot;&gt;height&lt;/code&gt; and the &lt;code class=&quot;language-text&quot;&gt;width&lt;/code&gt; of the new size as params. Okay let’s do it. &lt;/p&gt;
-&lt;p&gt;But how do we resize? Well, PIL.Image has a resize function for you to use. It takes a tuple as agrument. The tuple should be of the format (height, width) of the new size. Let’s resize this image. But first, let’s check the resolution of the current image.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;get_image_res&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; image&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;size
-
-&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;get_image_res&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;(400, 400)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;So, we have a 400 X 400 image. Let’s get onto resizing then.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;resize_image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; height&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; width&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-    resized_image &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; image&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;resize&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;height&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; width&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; resized_image&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Let’s resize the image into 300 X 300&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;resize_image &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; resize_image&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;300&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;300&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-resize_image&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/output_20_0-30b5735d4fa173d4fecdfc41b9ea0785-bf2d1.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 300px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAAErklEQVQ4yxXPWVMaBwDA8f0YrTEGOZZ7OZdrYXdhAbl2V44IgggegEIQ8citYhIlqQSjpiMVS6IkkZSkTdTENpImmdHESdJz7KTvnfahD33oS2f6VPsBfv+ZP7DVQ2RVwtMaSdGqXqV0t2jdGq2ruFQlp3rFCVcoTZnWzZjktaDxZdK20295nrIfLsRnHeqzuBzYjJrSCsGISlQg4GWHbtWlK5GGkt92JxXeSAVLtL5ogmYJRbkd2eyxPOk1V72a76dD9RGvtOkYsN1L9En5KaXwCi5fsqnnrJq8Hbvpdzwcj+0tXdr/rFAeCA/JudUOw22v/p4fexg03AsYvEqhoPk48DhK9Eh4SYXwMia/RiimMMW8C/vUY6wPhd8uFw7vr314XMtHAhW3ZtYK9ysEW1Frj5LP+bhZxWIBjyJEVMIbkPLnrHDeAl/GlYsuw1qEauSy+8Xp96s3Du+tvLtfrSc8BafqajL2prJIQJCw6XjGYgB24m0JuSAp4y3RukWXZgpVrHhM9cTJ3XOJl5PJg2tn9oq5xvWZ53MTr5cufXhwq7GYR3g8EhJvJDzAswHboEIQg8BywPgogudNqlUvsR50rIY7Pu8LL4Y866loI3/6XWX+7dryg/PpM7RF3Nzyic9WT/qARtI+cITFnCUfujtMz1q0iy5sHNc7IdgM6bsx/MuL6Vc3ctVzmYWwZ5rGNByQkkK1ZMfdQR/wPOUcVAhTMm4OlW2mPXMWbUyl1LCFCibfq1LXLmQbl4Z/XZ5difpDKoWRDwqaWkYdeC3trx7hl2kyBQvTcl4eky7RaB8MK5lcKYPjV6sen0vcGQi+yob/WivsjMcpsVDDYuM8brmXrA66S33twF6GysKCtFKw0kF0q5WISCtn8XUcsJrpueq1nzJo7vitu2N9fomQlkEIBwzrFLUBdzVGlnpI4GCUnkREY7jBq8W1QrVZickZrCE7vhZp/yrkaGSim2HX/tToJKqkIJFFJJqksdqg+9OwoxIngf1hMofBQbURlZnVArmRx+lFNWm76axK8CZGHwz7a27Du4un8maVhQtGEHWpu+12jFoI2n66FgTeZKlJg4KUqPUStE1FeGHlqJ0wgOwpBHoWIJ52tW1GyRfD3X4RB2GxJknjer/rZje5HnP+uZ4BDsbcF41aQiBFZHg74poPeW0inrzlRELOr9HI/XZku9NecKA6JsMMgle9prtJTzHk2Mj4/t6eOXp2Z1FY1gpisDVo6wogiKj5GMxg6FsZ4xqoHrB8m/L362H+R00uAXeCROe7bBMeS3Ws69+v/8eeEbMOYvJQSNuGUF6T18DlSVuOI8zWCUzxRYfxm5Tvh+J4Kd1tF/KmKHTabezXSZ+c73gxHQK+O+tL6OW8FraKK1Tz4aAjTGv0kuamTjFYMCu3O427MdeP07F/tsrFeDjvxa93ORbCbX+sDc04YeD9ac9RCWxhSplsJShxGShCChvZrRd0olVS98SPPg0TeyOB39YLP5fnchQ60U48yNC/FCODMjbwepSOI3LWsRMQoxXmSiywSXyi9aSQmUPFD0+iO534VgDbjTsOC2O/1yujdtzCYW2csl+h1HaQ8x/bPLv1cOOu4wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;png&quot;
-        title=&quot;&quot;
-        src=&quot;/static/output_20_0-30b5735d4fa173d4fecdfc41b9ea0785-bf2d1.png&quot;
-        srcset=&quot;/static/output_20_0-30b5735d4fa173d4fecdfc41b9ea0785-20df6.png 200w,
-/static/output_20_0-30b5735d4fa173d4fecdfc41b9ea0785-bf2d1.png 300w&quot;
-        sizes=&quot;(max-width: 300px) 100vw, 300px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;Let’s check the size of the resized image.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;get_image_res&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;resize_image&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;(300, 300)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Voila! We resized the image! Next up : Cropping.&lt;/p&gt;
-&lt;h3&gt;Cropping image&lt;/h3&gt;
-&lt;h3&gt;Cropping basics&lt;/h3&gt;
-&lt;p&gt;Cropping an image basically means that you select a certain rectangular area from an image and disregard the rest. Leaving only the rectangular area or cropped area behind.&lt;/p&gt;
-&lt;p&gt;PIL.Image has a crop function to assist us in here. Again we have to supply a tuple with the coordinates of the recatngular area.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;crop&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; left&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; top&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; right&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; bottom&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-    cropped &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; image&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;crop&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;left&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; top&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; right&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; bottom&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; cropped&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Let’s do an arbitrary crop of the original image (not the resized one, leave it be there)&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;cropped &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; crop&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;250&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;350&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-cropped&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/output_27_0-fc06b4ce937be55d1c6d1b539d05910f-a9cf2.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 150px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAAEkElEQVQ4yxWT6VMTBxjG979olWTP3OTc7Ca7OXbDLjk355I7QCDEJKCCQgFFxg4Wi1dVxgOxpQqiY4tJQBQQHaoWdayMdTrtTK8PzvQf6Trzfv29z/O887wA32pm9E6mlaS0JguioNVmC4LgqCZrNTWH8jsXTqxNfXFB9I3ThnHGPEjqJmjT9zH326HMX+fHAJfWyuOcQ2vGEaVdbSCVWlrdSiDIbCG8M31kZ/bsCZ+DkbUQMjBmdx7L5g/h6sUwvVUM/XvlFEBr8JAz5jbQermcUGisENy6v6XkIpvjlZ3LZ+ZzwqV2+wRjO0oRc5UD78/PzIXdVzl8syf8cekqwOJsxJMJUiG9DDKDkBGEvRrlYp+4O3vqUjIw76e2+xLbfWK9EHxQEB5Wco2SuBRxPs4H/rvzLdBO8mEmEaE8dhQ1QpAJhMc5avf8xJlcfNKqaqT4nQPi3mjp18nq3mTtl2N9W32xepJrdHg+3r4JWCWrCmXMYim57RoZGNCq6iPl746UePm+KxxeT7DbxfDbI4U/TvZ/OFl9PVJ40is0UtxKlP7n+kWAwDBOpTzEMcf9LA6BY+305vSYV6/xo/BFj2klzmwW/K8q8b2h3N5o4eXBjma6bTnqWA4RH04fl2BF1WkbZCkcRtOU5XYtN9Du0nz2edaom3Hp70ed6ynup2LwRTny84C4XQ4vCrblmGMpaN0dKgAONeox4E5URSuUS4eLl3uSxpZ9JIL24oZvGOM9gV7t8DzrCjzvDb+oxp9VYispz5wXv8JZHlfTQMKgsUDoRDI5HQ+cjPtcaqUFlNsRpEyYZz3me4J9VfRsZb0S//JA4nlN3CpHn1bF385O/HltBuC0hlOF/MKh8ihHCyYdIQddCtSBInmz8SxjvB91NEV2I80/yrQ1k561nLeZ8613Bd5N9O+OVYDrmfDmudNTkbZuJ2GQtbgwzImirAIL6rSjpO52iLwXoVZT7OMcf9OLX2OMy17ybpRfyyduhTlgsTO+VE5/KTjNEGgBISsMSbJuBG5TYN0GlSQ+5yPuRuhHWc96hl0OkT+E7BuZ4HaXWO+MAeOJVH0wb4db9J/IT7wNhp0SjyIBFVY1qmbcljsC3ehgG5LzHL/W5X/YI6z2CDdFDii53D6DRrW/BYcREoEICMEhyIZ8is1iiB9D0lrFlMu0IDhX0u1PyonXw8XdkeJWf3aIMgDlSM5HuDQQSMIQjSJWCJKqgkMwhSFOFPIpMVGnGqZM57z2G1Gm3hV50p/a6M+sDuS+zgSBKCvWop1BRxsByWgMIWDIAslxGJJ2ORCYV2CTjHUh4r6VYJdTfKPT/6DT3yyF33w18PfCaSAjVApeMe7guVYjDslpBDaDcisCScNhCKtARijz1YBtPuK6n+YfZPlGwfv0YMe7qdrvF0eBQricEYrd3nCGaTeAMgqRvhKUwltgMG9UJzTYYZvphkDfFdlGlm/m+Y3e4PPB5Jvj3e+na4CPDFRywynGX42KLn0rJR1c8ozCFhA8SurKJlXVqv8x7lrpcDcynvUCv9UT2KnFXg1n9yZ7/wdWrpGYwpa+0QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;png&quot;
-        title=&quot;&quot;
-        src=&quot;/static/output_27_0-fc06b4ce937be55d1c6d1b539d05910f-a9cf2.png&quot;
-        srcset=&quot;/static/output_27_0-fc06b4ce937be55d1c6d1b539d05910f-a9cf2.png 150w&quot;
-        sizes=&quot;(max-width: 150px) 100vw, 150px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;h3&gt;Center Crop&lt;/h3&gt;
-&lt;p&gt;Now let’s make it interesting, what if we want to crop only the center of an image? Let’s aboard the math train. An image is a 2D matrix, however its dimension also makes it a rectangle. Since we know the dimensions, to get to the center we just need to know the center of the rectangle.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;center_image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-    width&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; height &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; image&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;size
-    left &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; width &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;
-    top &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; height &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;
-    right &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; width &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;
-    bottom &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; height &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;
-    
-    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;left&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; top&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; right&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; bottom&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;center &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; center_image&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-center&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;100.0, 100.0, 300.0, 300.0&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Now that we have the center, let’s do a center crop.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;left&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; top&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; right&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; bottom &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; center &lt;span class=&quot;token comment&quot;&gt;# unpack the tuple&lt;/span&gt;
-center_cropped &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; crop&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; left&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; top&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; right&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; bottom&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-center_cropped&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/output_32_0-b66c8d1a877126fa21411e8a7b3abef0-e3cee.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 200px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAAEsklEQVQ4yxXS6VIaBwDA8X2LTCfItdxyX8u5LOwKyH1YRBRBAkqkiighQowQFW/xSDxCmqJJU4+Y1qCRNFijqSamyUyTmaaTTjr90PEN+gJNHuA3/y9/4AYimjbIZwzyNZ9hvc32OO6vZi5XM53PBmJHw4mT8atnc0MvZgZPb+ZfFwtHi4Xq4nw1Ezoe7X1bmgOysHBSL7/7NVby6u+3WjY7PLuJYCUZ+iXdXk1Hn6aj1Vz38UTmaOr6Xi7542CyMjFwVpx6W5p/U5r/glccumWHtuTBVptMD4LO7fbGcnfb9jet+/GWSm/rQX+0ko5t94Z3+jufT6ZeLeVPb0+fFgtv7i0Dn7OzZnXRgSzbkBU3VmqyjtnMCdQ40ujLOhtGnPaEXn/VXL+Tan+5kDtbHju+Nfbmu4U/frhzvDgF5HSyeQu8YFbPWeHbTl3OgPoh2MiRuuQmAx+GKFyExVqKNJ4UBn69NXI4mzstTj+/OXanK3ytTgYULPBUvXrSABdMSLdSbmALJWSGks6uY0tQHmyXyDevRF7NZ5+MJHeGeg9mrm+lokGVIoLVlWMuIF+nmDDAk/VYRCpD6HwIZKkYfBlIk5CpGF89Fmo7mkqXc32PBrqr+dSHxfxRf9THZQTRunG3HshrJROo7JKIB30BFAWFpeMpRVRWg7C20OJ5cC25Mxjf6Gk7uR77Z2n4fG3u/M5kn5yrr+VFMQ0wY9L6eDwBkSajMCUkEALpCqbYJZasR1w/j6TW+nsqV8Ivk8GPoz3/FkfPV2f/+2m11GJVEIkdqBZoh6QymgBicKQgXUQCZTQuQmMu+a3PBmOV4dS9gK3o0O11eD9ko59mUucrw39OZwo2BMLjvmCEJYbZCoheK6YwIFqtgEgZtCKnM5l7yWinXBDgMy5J+QMK7tNA/d/TVx/Fmn1cmoMBSmtq2nUaAOYoED7MJ5KlVCYPT7Jwa8uZzv3h/iEUctPAMKK739c7oRVuuZG/5rPdGkVUo3WwGYwLFzowLYBJDVbYzSeCPAJBhK9ZDDj3b/QtmOFyi6kcsG232g7ioS1f/aZd/WllejcemtUrInyG6OJXUUwHaASwWYpgLBb9Ii6sFD/JxpMIdFcvPgw7f++PvB+8fHYluB+0PrSrPt6aOh1KbLiQnIoP4XAhWAUIiSQHn9ONqYW4i6sxf6/D2ADWrFsVlWbjb13ed5nQaU/jYy/2wCR+Pz74ejS92YAkIY4Eh2uCJICWyYwqJBiLkajXFPxOAZ5wiccoGSV7HvS4zXzS6aqGLd9bZXcx3ouewKsb8ZJF3sCiSAl4I4sJaBhUlC3wSMXLEa+ewxTU4BMQr6QX77iRA7/hOGI/7HA+9CD3XdrDZPhZzDOqEYnxNVoKWUUiAvUcbtbrGXOb7Pzaz1JJoXRJeatG8Y4LedqIVnx1lYCp7De8Tre/G08/8ls+v8nD1RjpFBWJABTDratd4WYpV0QgqECyGgS/ZjMXUMGmTb7n1W46FN+igg2zstzs2G4051GxhICXEgkGOlUDkoG1UNOECxWRCHw8HiISVWQiRiUnxMybqHDDrtz1atetsi2berfJsu0zu9gULg6nIBFMTBpKBf8HImLHmwJxh30AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;png&quot;
-        title=&quot;&quot;
-        src=&quot;/static/output_32_0-b66c8d1a877126fa21411e8a7b3abef0-e3cee.png&quot;
-        srcset=&quot;/static/output_32_0-b66c8d1a877126fa21411e8a7b3abef0-e3cee.png 200w&quot;
-        sizes=&quot;(max-width: 200px) 100vw, 200px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;h3&gt;Rotating image&lt;/h3&gt;
-&lt;p&gt;Well images can rotated at a certain angle from their base as well. It’s actually like this.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;Example 1&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;Example 2&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;&lt;img src=&quot;https://i.imgur.com/HGwCpLg.png&quot; alt=&quot;Imgur&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;&lt;img src=&quot;https://i.imgur.com/ndiNj8P.png&quot; alt=&quot;Imgur&quot;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;We will be using the rotate function from PIL.Image to rotate the image. &lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;rotate_image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; angle&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; image&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;rotate&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;angle&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;rotated_by_30 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; rotate_image&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-rotated_by_30&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/output_35_0-765e2b5434742ed88a08dbd77601ca3e-21213.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 400px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAAEiklEQVQ4yz2U21MTZxjGF7WMndY6PVEYgZhASCDnzWazOSy7m90khIQclhASEiIRSELCIQgFscghiggeEhAElBYSjaADthWFERC1ttp2LFPb8aa37UUv+yc0Rtpnvpn3u3h+3zvvzPt8AJBRVuak9V72gWoeI0pIE3b07jHytgu/7yVStBwvYggKmWFSyfj48Bv/W3e6ZGWu+/dlqQtzxjXChAkeI8RnCMnaMWqEgnrUovXeJheOcnKPjNcYOrVwhsra65kW95PDvcrSBRt6w1Nx3W2IOyo6lJLJSlmyWuGUg69WEomhk7y8I8NW7Wqrg5v3aRrZl+Zz3j/YLC1JmpFkDZnqbNwe7/tpPvbqTvK7L6eSp07cbTRuRSO7N2YXIo0Qk9VjwDZ6vAM2/O2wwIQBXqbRuSo07qhcOE5vDLTtfnXl91vzr5fnd1PzDy9GdxfjjydGorRWyixqxBXLrbU3ww4Fm/EGvmpAZozKCwb1eGX5DE2sRnwv4tHnseEX8cHN4a7tsb6ns5eut3hPUDAnL9+jhFIhOhWyjTqod7PfAc5roJhOFsWlFwyqaVpzr7Ph0UDbzin/7XD9lM/5ND74INodwpQ1MCQsKDSDwmSzebHRlPBbGwkB0KsQXNTJhsol50n5jAVbPm5dCbomPS47jEXd1VvnPv9jdvT7oUiNWGAQClXFxdcaTIkm81R95a9jdUAYLDtHQVMW5UlENG3GFh3UJbNOx5epueCV1sDOqeCfk/2P+8MVbJYVBHU8/lmauBW0xFz6l+c8gF9S1i3n3/FpF2nFqBa5aiFCSgRk8ewQuNITjFdXLDl1693+UX15dSnbgcBfmNBUwBp3V94IWQCfqLRFzDmrl//cX3PNToxQ6iq+gF9Q3GnULQRcHTh6y2V80u79ZaC9RcpVFRWfNuE3A+bZJtsZpwE4r4O8Am6bhBOzomuttgFMrubweAWsDiO1GqzbbKJf9jakzIpnXb5+rRLKz6+VCud8ptFabUSvBh4G9C3SsqCY2weXTRoVYTVSLkBK85l+Cp2wau47NM8C1nse3Y6/tl+DCPLyCBYzQirGasi+Kgzo1AjueEh3GbtLVjZHlzvlMCrGSL44QKrqZJIYLtl0kqs0uu7SxWyUsxxp1mI2ES/u1se9RuCDg9nfNusHcbBFzO3W4hSISYq4lQJ+SItpSjm1fO44Lp43Kr72GrdPeF7Hu/5eurxzOXrWTvYZ0TdLZhOznoSNXTDPryZQEY5LNWZI1m81wIwCOYuJMo92IKKlanzDZ3je5fxtrP2fb67/tTQbwJG9DU96iQUa9YEwKUTUYo1bYztt0UsYBSCjUMZkeISchFm15sQf1FM/Ruy70eBEqIGR+1kmWQAAMXJ+aDf1qSCTUKoQKqswh5OymxS4qoSdfsIn4sS0si0PseXGL+hAYd5H/2d5jx8xwxvNxiqeEGLzNDKShA21eo9La1Ky2R4Be7oCmq9CdKzc/RlzGvnvP8iUwg8PPWozDepV0mKunCMAi0oxCW4jrLLiEgv3qJ6Veyj7wFvzHgYA/wK/h3rWBk/idgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;png&quot;
-        title=&quot;&quot;
-        src=&quot;/static/output_35_0-765e2b5434742ed88a08dbd77601ca3e-21213.png&quot;
-        srcset=&quot;/static/output_35_0-765e2b5434742ed88a08dbd77601ca3e-ab9c0.png 200w,
-/static/output_35_0-765e2b5434742ed88a08dbd77601ca3e-21213.png 400w&quot;
-        sizes=&quot;(max-width: 400px) 100vw, 400px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;rotated_by_60 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; rotate_image&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;60&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-rotated_by_60&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/output_36_0-e2a63ade175c661c47c962fc3dff164d-21213.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 400px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAAEhUlEQVQ4y1WU+U9jBRDHH6yLKy6J2UQxQEsptKUH7Wvfez1e+3q8tq+lLa8HRy+gQKEFqgtdCrIrtMjNCiyyHK7cy3ItpxEhuBxrIKtGTdZsosYf/E3jb/7gP2Cxuonzw2Qmmc/MDzPfAQAASEqKOyDrjdS9KvyzKnzbo1wrUxjYDEZ6RhUq3mwoWQra3Sj/tZSUf4qTkhNAwhJxh15wHjKvudXzNvRRhfH4/lCQNPMyMnscxG7Ys3HT1eckZHmUK8mX1XE+bped4gn9RtqMTb7h0exU4G1ygROVPt+YPRmOmoUFsjzGqNey3OBYa7TN+q3jVTjGybwc+XJ4WMYZIZCYkj9lRtZLpdMOxVdzY0eD74cJBS+TSooES3XkSpCcqDA9Dln/mG+YaSmhpd+4JDHaWw9J6bBW2KlHe92OldbQSXfzt/OjB0PR4VK9Mp/JyaB4ZaLVelu8xZjHuBww/7kT+32zA7j+6tUhLbjgwNYjtd+vzv20t/pia/louOfZ9MB6Z6QGlZAg3wIKZLkMPwavBItm/OQ9r6nfY/5y0A+UcqiLpfhe9N3v5kZfrM7/8HDq2XjvQefNs5GO48Hb57HmPqseZ+YVI3AxDEVJ1Vo9ORuwxYqJkBICHhihBZ99szVw1BX+emLwYjh63t086ravtAWf9rf+tTZ+2F5fA3KreQyCzSoWgb02zcc1lk6LMmrXAgtF6Hhp4USJbsFHnvbcOukI7TZVlYqVPT7vSVfT03ech43Oi67Ik5DbW8BAqNRCNqtaIux3qCd9JmCGVAwYFPeKlFMl2r2miv2myh6bHWVCAcKw01Z/R48tlhkPfZbTZt+2v1hNz4YoFFMBN6jFhpx6YNqM9uFwv156vwibKyOWveZWXCXKYbukko1wdUSDXrT6j2stj8s0Z0FXTCupL8SfT0Z/23zwy/IEMKJHPtTBHQowpoLGLapZB35Hg6IMnjSPM17r2qq2n/utF0H7vke/aVUcNZR980HDz0OhH4dv/TrdBdxG+QM4FL+KUSNyVwsNEvIeLaZksHhUulsu+chr7Zbxdu3YrgN7ZMM23MR+peFJneWsvuiLoAWoE3LDCLdbLdryGy4i1u2AZcyscIAwzBKIsmlhM06CvGoBuxFi+/j5o4Rkz6neK1OeVmiqQToQEHHcHGajML8J4QyYZEuVhgWXthxGFHzMIJRUyREPioAUqjgnR5xDq+CzRnTQoUezaJWmpbwCrHrVkyTqB9mVBaxGkNkiyh/RwVGTUsaVIrmM+HlF7YViGgWkZAmoWXge7T0p9xOzlKC/nZDx67FC0ee1xF2DuJzLrOWz2mUF7YVaJV+hgnQEpIra7U5UhgsQQgCK6bmuAmY5j/avqhLKgqhvzriwg1pjVA3VcHMjCtQh1sp5cg1MWNVOJ+Eu1rm8Zq8RlguzqenXU/+DE7IGgCvJyVZBzqdB4tBPxJTCACy2CRApW6iC4ntXyzhilQi3KCwsSk6C+t8zSaRp16626ATnTUVLJfKIXGLigXAuS8YGwVwmL5suYvBSr6W+pP4G4nN7iK2vlYQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;png&quot;
-        title=&quot;&quot;
-        src=&quot;/static/output_36_0-e2a63ade175c661c47c962fc3dff164d-21213.png&quot;
-        srcset=&quot;/static/output_36_0-e2a63ade175c661c47c962fc3dff164d-ab9c0.png 200w,
-/static/output_36_0-e2a63ade175c661c47c962fc3dff164d-21213.png 400w&quot;
-        sizes=&quot;(max-width: 400px) 100vw, 400px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;And you can just keep it rotating! Just pass in the angle.&lt;/p&gt;
-&lt;h3&gt;Enough cropping resizing. Let’s change the colors.&lt;/h3&gt;
-&lt;p&gt;Okay let’s get onto real image manipulation. Popular image editors allow you to run an image to black and white, grayscale etc. We’ll explore two of those here. Grayscale and pure B&amp;#x26;W.&lt;/p&gt;
-&lt;h3&gt;Let’s turns things grayscale!&lt;/h3&gt;
-&lt;p&gt;Here however we need to go for another math ride. Because understanding the concepts will come in handy later on.&lt;/p&gt;
-&lt;h3&gt;Difference between color and grayscale images&lt;/h3&gt;
-&lt;p&gt;Remember when I said an image is a 2D grid? Well for color images, that’s a bit different. For a color image, it’s actually 3 layers of 2D grids stacked on one another. These layers are called color channels. Which means, each pixel has 3 values from 3 channels. That’s how color images get their color. The following image will give you some idea.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/M5fY4IJ.png&quot; alt=&quot;Imgur&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Then how does grayscale differ? Well a grayscale image has only 1 color layer. So, it’s a single 2D grid.&lt;/p&gt;
-&lt;p&gt;But there’s more! We haven’t talked about image depth yet!&lt;/p&gt;
-&lt;h3&gt;Image depth&lt;/h3&gt;
-&lt;p&gt;16 bit image, 32 bit image, have you ever wondered why they call it so? Well these bits actually mean the range of colors the pixels can have. It’s called color depth. The bigger the color depth the more life like color the images will show. However at a cost. Higher color depth means the images will store more information and will take more memory. But memory is cheap these days. Even mobile phones are getting over 100GB of storage.&lt;/p&gt;
-&lt;h3&gt;Further reading material on this&lt;/h3&gt;
-&lt;p&gt;I wrote this post long ago in my blog. I used OpenCV back then. OpenCV is kinda hard to use for learning. Don’t worry about the code. Just get the concepts.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://rockash93.wordpress.com/2017/04/11/%E0%A6%93%E0%A6%AA%E0%A7%87%E0%A6%A8%E0%A6%B8%E0%A6%BF%E0%A6%AD%E0%A6%BF-%E0%A6%AA%E0%A6%BE%E0%A6%87%E0%A6%A5%E0%A6%A8%E0%A7%87-%E0%A6%87%E0%A6%AE%E0%A7%87%E0%A6%9C-%E0%A6%AA%E0%A7%8D%E0%A6%B0-5/&quot;&gt;ওপেনসিভি + পাইথনে ইমেজ প্রসেসিং # ৫ – বহুরূপী ইমেজ – ১&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://rockash93.wordpress.com/2017/04/11/%E0%A6%93%E0%A6%AA%E0%A7%87%E0%A6%A8%E0%A6%B8%E0%A6%BF%E0%A6%AD%E0%A6%BF-%E0%A6%AA%E0%A6%BE%E0%A6%87%E0%A6%A5%E0%A6%A8%E0%A7%87-%E0%A6%87%E0%A6%AE%E0%A7%87%E0%A6%9C-%E0%A6%AA%E0%A7%8D%E0%A6%B0-3/&quot;&gt;ওপেনসিভি + পাইথনে ইমেজ প্রসেসিং # ৩ – ইমেজ কি জিনিস?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Enough chatter, let’s convert that image to grayscale.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;img_array&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;shape&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;400, 400, 3&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Now look carefully, 400, 400 is the image resolution. But what is that 3? Since it’s a color image, we’ve that additional dimension added in. &lt;/p&gt;
-&lt;p&gt;So, to turn things grayscale we need to make that 3 -&gt; 1. We can just directly manipulate the numpy array and apply some sophisticated algorithm like &lt;a href=&quot;https://en.wikipedia.org/wiki/Otsu%27s_method&quot;&gt;Otsu’s method&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;But nope, let’s keep it simple. We’ll use Pillow only. It’s easier.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;convert_to_grayscale&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-    grayscale &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; image&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;convert&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;L&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# just one line, done&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; grayscale&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;grayscale &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; convert_to_grayscale&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-grayscale&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/output_43_0-cb1510a22b82279e7ff448b2dec137a7-21213.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 400px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAADSElEQVQ4yy2U2TO6URjHzx9i7GtUCPlpkWQZYmwVyZaUJfu+VLK1MCMXyGAYMyYuuLBc6c70f/0+vTkXzfue9znf7XlOYn19vaWlpaOjY2hoyOl0ulyuqampiYmJ8fHxsbExHtgcGBhYWFjY39/f3t4OBoMPDw92u72rq0usrq4ajcb29nabzUa1U1ozMzO7u7t7e3uTk5NWq5XDgEKzsbHh8XguLy9BycnJEWzpdDrI+/v7HQ4H/KBScXh4+Pj4+Pz8TEFzc/Pc3ByKAF1cXOS3vr4+NzdXrKysaLVaPvf19Vkslt7eXvjhCQQCnPz+/k4mk7Ozs263m6+UQU59VlaWTCZLy+YF5YODgyiEH7cgXlxc3N/fv7y8fEgLnSMjI/y+vb3J5fK8vDwqBe+NjY0GgwFsBMOPPDZPT0/Pz8/j8fjt7e3NzQ0PT09PX19fPJSWlsK3tbUlCKapqYkX8kQF5Bien5/HJPZ43tnZub6+fn19TSQSR0dHoBcWFsLEvvD5fNCSGe8HBweIR3Z3d3dNTU11dTUtRMLd3R0dwjlxFhcXw0Qj0sx+v98gLfoBGMwIKS8vLysrI55wOByLxaBdWlpiX6lU4haIv8O0nl3qCBNOnrFUVFRE8zhJcicnJ1gl/NraWhCrqqrY3NzcBE5gw2QyUUpOZM63kpIS8gR0dHTUbDZTRM0/adGetrY24lxbWyMRAXBnZ2dPTw/KFQpFQ0MDrpi2TH4co7G0jRT4BDSICCZOzqeZ+YDauro6hbQYVUaFqCAHmpywjanKysrW1lZAkc2QkaI4Pj5GG+OGJbBBofvIQwtFwMNDF9RqNVkwJ+xAi+fPz08RCoWooyscxg+QaKOT+PdICwj6R4REzT3B8PT0NKJ+f3//PBMSeaAW5zQD2wSLclKhwzxwDUAfHh7ODCJm04fpBzcTYKaCOaUO2/n5+RnlXq8XEq4Xg6hSqbh2BEZ3zs7OotGoYIBocqYaYZADUVBQoNFoYFheXmYerq6uUqkUPeOqw8zm+/s7QyUikQj2UIXUiooKUJHAAynikAMkRC7MCbNtlxb5cT30en06MA5nZ2fDxhnmFhWEjwSuB63mPOT89fz8/GCEOMmMKUbmfw/yvmIQUeWiAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;png&quot;
-        title=&quot;&quot;
-        src=&quot;/static/output_43_0-cb1510a22b82279e7ff448b2dec137a7-21213.png&quot;
-        srcset=&quot;/static/output_43_0-cb1510a22b82279e7ff448b2dec137a7-ab9c0.png 200w,
-/static/output_43_0-cb1510a22b82279e7ff448b2dec137a7-21213.png 400w&quot;
-        sizes=&quot;(max-width: 400px) 100vw, 400px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;h3&gt;Moment of truth! Let’s confirm the channels!&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;gray_arr &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;grayscale&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;gray_arr&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;shape&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;400, 400&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;We did it! xD Now let’s convert to black and white. Or in technical terms, binary image.&lt;/p&gt;
-&lt;h3&gt;So what’s a binary image&lt;/h3&gt;
-&lt;p&gt;In simplest of terms, the pixels in a binary image can only have two colors, either white (which has a value of 255) or black (which is 0). Now why 255 and 0? Remember color depth? B&amp;#x26;W images are 8 bit, meaning pixels can have value only in the range 0~255 ( which is 0 ~ 2^8 - 1 )&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Example of a binary image&lt;/strong&gt;&lt;/p&gt;
-&lt;img src=&quot;http://i.imgur.com/VKoNkZw.jpg&quot; alt=&quot;bin image&quot; height=&quot;480&quot; width=&quot;640&quot;&gt;
-&lt;h3&gt;Converting to binary&lt;/h3&gt;
-&lt;p&gt;So how do we approach this problem? Well it’s kinda simple. You make the image(converted to grayscale beforehand) an array, and then go through each pixel and apply a boolean operation. For this you need a threshold value. That value can be anything.  We’ll apply 100 here. But to get the best results you can apply Otsus method yourself.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/xsGsV71.png&quot; alt=&quot;Imgur&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Let’s do it then!&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;get_binary_image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; threshold&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-    grayscale &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; convert_to_grayscale&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-    arr &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; np&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;grayscale&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-    
-    &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;arr&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; j &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;arr&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; arr&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;j&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;=&lt;/span&gt; threshold&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-                arr&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;j&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;255&lt;/span&gt;
-            &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-                arr&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;j&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
-                
-    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; PIL&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Image&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fromarray&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;arr&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;bin_image &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; get_binary_image&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;image&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-bin_image&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/output_49_0-8bdf9299f06fadf893699e05f27b120f-21213.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 400px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAADZklEQVQ4yz2UWSi+URDGX/u+75El2wUhkexbiPRxIXJDobhyQbaSJRQplEJKciMXyB7iQkQhhaSQrRQpskZ/fP/fa8opr3PmzHNm5plnPuXs7MzY2FhRFEdHx6Kioo6OjoGBgYKCgpiYmJKSktLS0tDQUG5XVla0Wu3n5yffg4MDMzMzU1NT5eLiQsAsS0vL+Pj4zMzM/v7+5eXl9vb2wMBAuRodHQX273exqaqqUq0nJydGRkZ/YDc3NxcXl4mJCe3venp6Ki4u5mphYWF+fn57exsjyQYEBKiA/f19fX19NgYGBra2tmzS09OHh4cvLy/x+/n54ZuTkzM1NdXU1BQREcExLS0NN3Nzc+X4+Fgie3t7856enl5hYeH09PTb2xtISfL6+po6e3p62tranp+fLSws8Icd5erqSn1DUXJzcxMTE8miq6vr4+PjL6xsWF9fX+zhCOe4uDj2yu3trZWVFeeampqZmRnwIyMja2trY2Njs7Oz4+PjpCZPPD4+rq+v0wKcNzY2VDAma2trztnZ2VtbW1FRURqNJiEhQSgkAqnhNzk52djYWFlZiTE8PFySUqjBzs4Ok4ODQ0NDg4eHBxtdXV0skZGR5+fnEra5uZmGe3l5YS8vL8fy/f2tvLy84C3g5ORkuqWjo8MxNjaWipaWlm5ubnAdGhry9PQ0MTFBG4eHh1igQIFVZ2dnvFtbW6Ojo/8avru7W1FRgWZo287ODvrz8/PjiqIkF6IqEEuTwsLCQkJCuLOxseFbVlbW3d2NBO7v74n8+vqamprq4+NDgX19fSDf39/39vYU/gEjlKGhIT1DKklJSZBHFhIBVdNt1I6Ks7KyRDxHR0d3d3dqZJiAIcBOTk7BwcH5+fnUxgZKHh4eaAGuyJaMOjs75UVkA1BhUFJSUggIE+7u7i0tLa6urvgRB5I2NzeRNMIULubm5kDyIkSqrQJMS4TtoKAgGUBpla+v7+npKU6IjyNjWFdXx3hBbX19vQrmLy8vTxiGLbK1t7eXOP7+/ogRBwhjSGGkt7eXsrli7EhKBUMPZ2rmi8IQkIBra2tlhimeDUdKHRwcZOw44qmCMzIycGUkkAcaQmTy1urqqohBwHSOyNXV1YuLi2qfWFhFGyChDcEwlSJgwchIyW8QrcaNhKXS/4ZuMmPIQUxdAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;png&quot;
-        title=&quot;&quot;
-        src=&quot;/static/output_49_0-8bdf9299f06fadf893699e05f27b120f-21213.png&quot;
-        srcset=&quot;/static/output_49_0-8bdf9299f06fadf893699e05f27b120f-ab9c0.png 200w,
-/static/output_49_0-8bdf9299f06fadf893699e05f27b120f-21213.png 400w&quot;
-        sizes=&quot;(max-width: 400px) 100vw, 400px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;h2&gt;Done!&lt;/h2&gt;
-&lt;p&gt;So there we have it! We read an image, converted it to an array, then manipulated some pixel values to convert it to binary image, we also converted to grayscale. There are a lot more we can do here. I’ll leave that for you to explore.&lt;/p&gt;
-&lt;h2&gt;If you’re interested in Digital Image processing&lt;/h2&gt;
-&lt;p&gt;If you’re interested to go in depths of digital image processing, you can explore these:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://amzn.to/2Kuhws8&quot;&gt;Digital Image Processing by R.C.Gonzalez&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.coursera.org/learn/image-processing&quot;&gt;Coursera: Image and Video Processing: From Mars to Hollywood with a Stop at the Hospital by Duke University&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.coursera.org/learn/digital&quot;&gt;Fundamentals of Digital Image and Video Processing by Northwestern University&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://pillow.readthedocs.io/en/5.1.x/index.html&quot;&gt;PIL Documentation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://scikit-image.org/docs/stable/auto_examples/index.html&quot;&gt;Scikit-Image Examples&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Intro to NodeJS, NSU, FALL 2018]]></title><description><![CDATA[Before you come to the workshop, make sure you have these things checked. And, please come with your own laptop to ease things. Software…]]></description><link>https://shawonashraf.github.io/intro-node-nsu/</link><guid isPermaLink="false">https://shawonashraf.github.io/intro-node-nsu/</guid><content:encoded>&lt;p&gt;Before you come to the workshop, make sure you have these things checked. And, please come with your own laptop to ease things.&lt;/p&gt;
-&lt;h2&gt;Software / Tools to install&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;NodeJS&lt;/a&gt;. You can either choose the LTS version or the Current Version. Any will do.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Linux Users please refer to the package manager for your distribution e.g. for Ubuntu search in apt packages&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;Visual Studio Code&lt;/a&gt; or &lt;a href=&quot;https://atom.io/&quot;&gt;Atom&lt;/a&gt; for writing code. You can also use &lt;a href=&quot;https://www.jetbrains.com/webstorm/&quot;&gt;Webstorm&lt;/a&gt;. Signing up for &lt;a href=&quot;https://www.jetbrains.com/student/&quot;&gt;Jetbrains Student Program&lt;/a&gt; gives you a year of commercial license to use Webstorm! You can sign up using your &lt;code class=&quot;language-text&quot;&gt;@northsouth.edu&lt;/code&gt; e-mail address. Get that if you can, will ease up your code writing experience.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.mongodb.com/download-center/community&quot;&gt;MongoDB Community Server&lt;/a&gt; - this is optional. Instead of running Database locally you can register for a free database at &lt;a href=&quot;https://mlab.com/&quot;&gt;mLab&lt;/a&gt; or &lt;a href=&quot;https://www.mongodb.com/download-center?jmp=nav&quot;&gt;MongoDB Atlus&lt;/a&gt;. If your laptop is low on RAM ( &amp;#x3C; 8GB), consider using an online database instead of running it on your laptop.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Linux Users please refer to the package manager for your distribution e.g. for Ubuntu search in apt packages&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://robomongo.org/download&quot;&gt;Robo 3T&lt;/a&gt; it was previously called RoboMongo. - Optional, required only if you’re running mongodb locally.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://studio3t.com/&quot;&gt;Studio 3T Trial&lt;/a&gt; A must whether you’re using online or locally running database servers.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.getpostman.com/&quot;&gt;Postman&lt;/a&gt; or &lt;a href=&quot;https://insomnia.rest/&quot;&gt;Insomnia&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://git-scm.com/downloads&quot;&gt;Git For Windows&lt;/a&gt; and &lt;a href=&quot;https://www.gitkraken.com/git-client&quot;&gt;Gitkraken&lt;/a&gt; - these are necessary for something we’ll see during the workshop. And no you don’t need to know how to use git beforehand.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;If you’re a Linux Distro or macOS user you don’t need to install git. It comes with your os. In some cases you may need to enable it from the command line&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;If you’re on macOS and don’t have &lt;code class=&quot;language-text&quot;&gt;Xcode&lt;/code&gt; installed, you need to install the &lt;code class=&quot;language-text&quot;&gt;command line tools&lt;/code&gt; to get git enabled. Open &lt;code class=&quot;language-text&quot;&gt;terminal&lt;/code&gt; and type the following. It’s a 120++ MB download.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;xcode-select --install&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;On Linux distros, &lt;code class=&quot;language-text&quot;&gt;git&lt;/code&gt; should be enabled by default, if it isn’t type in - &lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;You’ll be shown the necessary steps to install &lt;code class=&quot;language-text&quot;&gt;git&lt;/code&gt;.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://devcenter.heroku.com/articles/heroku-cli&quot;&gt;Heorku CLI&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Recommended Reading&lt;/h2&gt;
-&lt;p&gt;Make sure you go through these before showing up. No problem if you don’t understand all of it , feel free to ask questions.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://medium.com/@sashraf94/json-%E0%A6%95%E0%A6%BF-%E0%A6%9C%E0%A6%BF%E0%A6%A8%E0%A6%BF%E0%A6%B8-eed4deba3b34&quot;&gt;JSON কি জিনিস?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://medium.com/zonayeds-diary/%E0%A6%9C%E0%A6%BE%E0%A6%AD%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%AA%E0%A7%8D%E0%A6%9F-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B8%E0%A6%BF%E0%A6%95%E0%A6%B8%E0%A6%83-with-zonayed-5d4650ed2ef8&quot;&gt;জাভাস্ক্রিপ্ট ব্যাসিকসঃ With Zonayed&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://medium.com/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%82-%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE/%E0%A6%A8%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%A6%E0%A6%BF%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%9C%E0%A6%BE%E0%A6%AD%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%AA%E0%A7%8D%E0%A6%9F%E0%A6%83-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A6%BF%E0%A6%B8-promise-847b8b0090f6&quot;&gt;নিত্যদিনের জাভাস্ক্রিপ্টঃ প্রমিস (Promise)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://medium.com/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%82-%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE/%E0%A6%A8%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%A6%E0%A6%BF%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%9C%E0%A6%BE%E0%A6%AD%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%AA%E0%A7%8D%E0%A6%9F%E0%A6%83-%E0%A6%85%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B8%E0%A6%BF%E0%A6%A8%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%A8%E0%A6%BE%E0%A6%B8-asynchronous-3f11e15b883a&quot;&gt;নিত্যদিনের জাভাস্ক্রিপ্টঃ অ্যাসিনক্রোনাস (Asynchronous)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://youtu.be/8aGhZQkoFbQ&quot;&gt;Philip Roberts: What the heck is the event loop anyway? at JSConf EU&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://medium.com/@sashraf94/getting-up-and-running-with-mongodb-part-1-introduction-4b34bebe3da2&quot;&gt;Getting up and running with MongoDB — Part 1 Introduction&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Workshop on Linux and Unix, Fall 2018, NSU]]></title><description><![CDATA[Notes before coming to the workshop Bring your laptop and make sure it’s fully charged!  Download the    (32 bit if you’re already using 3…]]></description><link>https://shawonashraf.github.io/workshop-nix/</link><guid isPermaLink="false">https://shawonashraf.github.io/workshop-nix/</guid><content:encoded>&lt;h2&gt;Notes before coming to the workshop&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Bring your laptop and make sure it’s fully charged! &lt;/li&gt;
-&lt;li&gt;Download the &lt;code class=&quot;language-text&quot;&gt;Ubuntu 18.04 Image&lt;/code&gt; &lt;strong&gt;(32 bit if you’re already using 32 bit OS, 64 bit otherwise)&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Download and install &lt;code class=&quot;language-text&quot;&gt;Oracle VirtualBox&lt;/code&gt;. You can find the download link &lt;a href=&quot;https://www.virtualbox.org&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;If you own a &lt;code class=&quot;language-text&quot;&gt;MacBook/MacBook Pro/MacBook Air&lt;/code&gt;, you can skip installing &lt;code class=&quot;language-text&quot;&gt;Ubuntu&lt;/code&gt;, you can follow along without that as well. However, there’s no problem if you install &lt;code class=&quot;language-text&quot;&gt;Ubuntu&lt;/code&gt; on VirtualBox.&lt;/li&gt;
-&lt;li&gt;Keep a fresh mind. There’ll be a lot of theoretical stuff to bore you up. If drinking water makes you feel better in such situations, feel free to do so 🤓&lt;/li&gt;
-&lt;li&gt;Mac users - please make sure to have &lt;a href=&quot;https://atom.io&quot;&gt;Atom&lt;/a&gt; / &lt;a href=&quot;https://code.visualstudio.com&quot;&gt;VSCode&lt;/a&gt; installed to make writing some stuff in an easier way.&lt;/li&gt;
-&lt;li&gt;Don’t be shy to ask questions. I may not know everything but I’ll try to answer your questions as best as I can.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Installing Ubuntu on VirtualBox on Windows&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Because it’s pretty straightforward on macOS, ahem!&lt;/strong&gt;&lt;/p&gt;
-&lt;h2&gt;Step - 1 : Check if your CPU supports Virtualization&lt;/h2&gt;
-&lt;p&gt;If your CPU doesn’t support &lt;code class=&quot;language-text&quot;&gt;virtualization&lt;/code&gt; you won’t be able to run VirtualBox.&lt;/p&gt;
-&lt;p&gt;So to check that, open &lt;code class=&quot;language-text&quot;&gt;Task Manager&lt;/code&gt;, then go to &lt;code class=&quot;language-text&quot;&gt;Performance&lt;/code&gt; tab, and check if &lt;code class=&quot;language-text&quot;&gt;virtualization&lt;/code&gt; is enabled or not. If it’s disabled, than go to BIOS of your computer and enable &lt;code class=&quot;language-text&quot;&gt;Intel Virtualization Technology&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;Intel VT-d&lt;/code&gt; or just &lt;code class=&quot;language-text&quot;&gt;Virtualization&lt;/code&gt; - whatever your computer supports. Then come back to &lt;code class=&quot;language-text&quot;&gt;Task Manager&lt;/code&gt; and check again. It it’s enabled, you’re good to go.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/GkDF5Ib.png&quot; alt=&quot;Imgur&quot;&gt;&lt;/p&gt;
-&lt;h2&gt;Step - 2 : Now open up VirtualBox&lt;/h2&gt;
-&lt;p&gt;It should look like this -&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/pxj20UE.png&quot; alt=&quot;Imgur&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Now, for some people, even after turning on Virtualization, the option to install &lt;strong&gt;64 bit OS&lt;/strong&gt; won’t show up. That’s because you’ve Hyper-V enabled on Windows and you’ve to disable that. Follow &lt;a href=&quot;http://www.fixedbyvonnie.com/2014/11/virtualbox-showing-32-bit-guest-versions-64-bit-host-os/&quot;&gt;this guide to disable hyper-v&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Now go on and give your &lt;code class=&quot;language-text&quot;&gt;Virtual Machine&lt;/code&gt; a name. For example, I’ve named it as &lt;code class=&quot;language-text&quot;&gt;UbuntuVM&lt;/code&gt;.&lt;/p&gt;
-&lt;h2&gt;Step - 3 : Configure VM&lt;/h2&gt;
-&lt;p&gt;Now you need to configure &lt;code class=&quot;language-text&quot;&gt;RAM&lt;/code&gt;, create &lt;code class=&quot;language-text&quot;&gt;Virtual Hard Drives&lt;/code&gt; and etc. Follow along as the images go.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;Ram&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;Virtual HDD Size&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;&lt;img src=&quot;https://i.imgur.com/FnIi5zu.png&quot; alt=&quot;Imgur&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;&lt;img src=&quot;https://i.imgur.com/L3ZFqsx.png&quot; alt=&quot;Imgur&quot;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;Virtual HDD&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;Select VMDK&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;Dynamic Allocation&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;&lt;img src=&quot;https://i.imgur.com/IJfYjue.png&quot; alt=&quot;Imgur&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;&lt;img src=&quot;https://i.imgur.com/j6Pw79A.png&quot; alt=&quot;Imgur&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;&lt;img src=&quot;https://i.imgur.com/7Lm5Qrt.png&quot; alt=&quot;Imgur&quot;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2&gt;Step - 4 : Start Your Virtual Machine&lt;/h2&gt;
-&lt;p&gt;When you start the &lt;code class=&quot;language-text&quot;&gt;Virtual Machine&lt;/code&gt;, VirtualBox will ask for the boot image, which is your &lt;code class=&quot;language-text&quot;&gt;Ubuntu Installation image&lt;/code&gt;. Point to that using the folder icon on the prompt and then click on Start.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/53N2Yuu.png&quot; alt=&quot;Imgur&quot;&gt;&lt;/p&gt;
-&lt;h2&gt;Step - 5 : Install Ubuntu&lt;/h2&gt;
-&lt;p&gt;When Ubuntu starts up it’ll ask you whether you want to install Ubuntu or just try it out. Click on &lt;code class=&quot;language-text&quot;&gt;Install Ubuntu&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/QZ7yjBN.png&quot; alt=&quot;Imgur&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Now just go on and select your keyboard layout and installation options as shown.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;Keyboard&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;Installation&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;&lt;img src=&quot;https://i.imgur.com/luThXeL.png&quot; alt=&quot;Imgur&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;&lt;img src=&quot;https://i.imgur.com/4WGTB6q.png&quot; alt=&quot;Imgur&quot;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;Now for the tricky part. You need to partition the &lt;code class=&quot;language-text&quot;&gt;Virtual Hard Drive&lt;/code&gt;. You can just go on and click on Erase and use all the disk space but let’s get to know how partitioning works here. &lt;/p&gt;
-&lt;p&gt;Create a new partitoning tabel, then, create two partions, one with 500MB and &lt;code class=&quot;language-text&quot;&gt;/boot&lt;/code&gt; mount point and another with the rest of the space and &lt;code class=&quot;language-text&quot;&gt;/&lt;/code&gt; mount point. (just recall what you saw in the workshop).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/o52xV0d.png&quot; alt=&quot;Imgur&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Now just go on and click on “Install Now” and the rest of the process is just Continue Yes No stuff. And yes, don’t forget about this one!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/u5gFPcL.png&quot; alt=&quot;Imgur&quot;&gt;&lt;/p&gt;
-&lt;h2&gt;Step - 6 : Wait for the installation to finish&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/Sk2Gazt.png&quot; alt=&quot;Imgur&quot;&gt;&lt;/p&gt;
-&lt;h2&gt;Step - 7 : Done!&lt;/h2&gt;
-&lt;p&gt;You’re done installing, now go on and start using Ubuntu!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[C# এ ফাইল নিয়ে কাজ করা]]></title><description><![CDATA[…]]></description><link>https://shawonashraf.github.io/csharp-file/</link><guid isPermaLink="false">https://shawonashraf.github.io/csharp-file/</guid><content:encoded>&lt;p&gt;ফাইলে ডেটা জমা রাখা কিংবা ফাইলে ডেটা স্টোর করা প্রোগ্রামিং এর বেশ অ্যাডভান্সড একটা টপিক।
-এমনকি প্রোগ্রামিং ল্যাঙ্গুয়েজের কোর্স বা বইগুলোতেও দেখা যায় ফাইল অপারেশন সবার শেষে ধরা হয়।
-কারণ একটাই । আমি আমার আতেলিয় জ্ঞান পরিহার করে যথাসম্ভব সহজ করে ব্যাপারটা বুঝানোর
-চেষ্টা করবো। হ্যাঁ C# দিয়ে ।&lt;/p&gt;
-&lt;h2&gt;শুরু করার আগে - ফাইল নিয়ে প্রোগ্রাম কীভাবে কাজ করে?&lt;/h2&gt;
-&lt;p&gt;ফাইল এ ডেটা লেখালেখি করার আগে কিছু কথা । ফাইল আসলে কি, আর একটা কম্পিউটার প্রোগ্রাম কীভাবে সেটার অ্যাকসেস পায়? জিনিসটাকে এভাবে দেখা যাক - ফাইল আসলে কি? কতগুলো ডেটার একটা স্টোরেজ। ফাইলে ডেটা থাকে । কম্পিউটার কাজ করে ডেটা নিয়ে । তো কম্পিউটারের স্বভাব হচ্ছে কাজ করার সময় সে সবকিছু মেমরিতে মানে র‍্যামে লোড করে নেয়। কম্পিউটারেরে মেমরি থেকে তখন ডেটা নিয়ে প্রোগ্রাম কাজ করে । মেমরীর এই পুরো ডেটা ওয়ালা অংশটা হচ্ছে একটা ডেটা স্ট্রিম মানে ডেটার প্রবাহ। আর স্ট্রিমের একটা অংশ বিশেষ হচ্ছে বাফার।&lt;/p&gt;
-&lt;p&gt;ব্যাপারটা জটিল হয়ে গেলো । সহজ করি। ধরা যাক, আপনাকে একটা এনসাইক্লোপিডিয়া ধরিয়ে দিয়ে বলা হলো সেখান থেকে ঘানা সম্পর্কিত  এন্ট্রিটা নিয়ে কাজ করতে । অর্থাৎ আপনাকে কাজ শুধু ঘানা নিয়েই করা লাগবে । পুরো এনসাইক্লোপিডিয়া নিয়ে নয় । এনসাইক্লোপিডিয়া হচ্ছে এখানে  স্ট্রিম। আর আপনি কাজ করছেন ঘানার তথ্য মানে বাফার নিয়ে ।&lt;/p&gt;
-&lt;p&gt;এখন স্ট্রিম কিন্তু শুধু ফাইল না! আপনার প্রোগ্রামটাও একটা স্ট্রিম! বিষয়টা ভালো করে বুঝা যায় কনসোল অ্যাপ্লিকেশন গুলোতে । সেখানে আমরা যখন &lt;code class=&quot;language-text&quot;&gt;C#&lt;/code&gt; এ  &lt;code class=&quot;language-text&quot;&gt;Console.WriteLine&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;C++&lt;/code&gt; এ &lt;code class=&quot;language-text&quot;&gt;std::cout&lt;/code&gt; দিয়ে কিছু প্রিন্ট করি, আমরা আসলে তখন মেমরিতে প্রোগ্রামের আউটপুটের জন্য যে স্ট্রিম তৈরি হয়েছে সেটাতে প্রিন্ট করি। cout এর out শব্দটা দেখে ব্যাপারটা আন্দাজ করা যায় । আবার যখন ইনপুট দেই, তখনো ইনপুটের জন্য ইনপুট স্ট্রিম থাকে। তাই আপনি ইনপুট আউটপুট যাই দেন , সব ঘুরে ফিরে সেই স্ট্রিমেই যায় । আর যখন ডেটার অংশবিশেষ চান - তখন সেটা হয়ে যায় বাফার।&lt;/p&gt;
-&lt;h2&gt;C# এ ফাইল অপারেশন - কিছু বেসিক জিনিস&lt;/h2&gt;
-&lt;p&gt;C# এ ফাইল অপারেশনের জন্য আমার একটা ফাইল স্ট্রিম লাগবে আর স্ট্রিমে ডেটার রাইট / রিড করার জন্য স্ট্রিম রাইটার বা স্ট্রিম রিডার লাগবে। আমি অ্যাডভান্সড কিছুতে যাচ্ছি না । একেবারে সহজ পদ্ধতিতে কীভাবে ফাইল নিয়ে কাজ করা যায় সেটাই দেখাবো।&lt;/p&gt;
-&lt;p&gt;ফাইল স্ট্রিমের জন্য আমার &lt;code class=&quot;language-text&quot;&gt;FileStream&lt;/code&gt; ক্লাসের একটা অবজেক্ট লাগবে। আর রাইটিং এর জন্য &lt;code class=&quot;language-text&quot;&gt;StreamWriter&lt;/code&gt; এবং রিডিং এর জন্য &lt;code class=&quot;language-text&quot;&gt;StreamReader&lt;/code&gt; এর অবজেক্ট লাগবে । &lt;code class=&quot;language-text&quot;&gt;FileStream&lt;/code&gt; এর অবজেক্ট একটা ফাইল নিয়ে একটা স্ট্রিম তৈরি করে নিবে আর রাইটার রিডার দিয়ে সেগুলোতে ডেটা রিড বা রাইট করা যাবে । আর এইসব ক্লাসের জন্য একটা আলাদা নেমস্পেস আছে &lt;code class=&quot;language-text&quot;&gt;C#&lt;/code&gt; এ। সেটা হচ্ছে &lt;code class=&quot;language-text&quot;&gt;System.IO&lt;/code&gt;&lt;/p&gt;
-&lt;h2&gt;শুরু করি&lt;/h2&gt;
-&lt;p&gt;ভিজুয়াল স্টুডিও তে একটা কনসোল অ্যাপ্লিকেশন প্রোজেক্ট ওপেন করি। নাম আপনি যা খুশি দেন আপনার ব্যাপার। তবে একটু কষ্ট করে যে ফোল্ডারে সেভ করছেন , সে ফোল্ডার টা উইন্ডোজ এক্সপ্লোরারে ওপেন রাখবেন। কেন? পরে বলছি ।&lt;/p&gt;
-&lt;p&gt;কোডের শুরুতে যে কাজ করবো , নেমস্পেস টাকে কল করে নিবো ।&lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;using System.IO;&lt;/code&gt; লিখে দিলেই কাজ হয়ে যাচ্ছে ।&lt;/p&gt;
-&lt;p&gt;এরপর , আমার একটা &lt;code class=&quot;language-text&quot;&gt;StreamWriter&lt;/code&gt; অবজেক্ট লাগবে, একটা &lt;code class=&quot;language-text&quot;&gt;FileStream&lt;/code&gt; অবজেক্ট লাগবে আর ডেটা রাখার জন্য একটা স্ট্রিং। আমি ফাইলে শুধু স্ট্রিং আউটপুট দিবো উদাহরণ হিসেবে। ইন্টিজার, ফ্লোট অন্যান্য টাইপের জন্য পদ্ধতি একই। কমপ্লেক্স টাইপ বা ক্লাসের অবজেক্টের আউটপুট নেবার জন্য ক্লাস সেভাবে ডিজাইন করে নিতে পারেন, তবে সেটাতে আমি যাচ্ছি না ।&lt;/p&gt;
-&lt;img class=&quot;&quot; src=&quot;http://i.imgur.com/YW0BoZu.png&quot; alt=&quot;writer&quot; height=&quot;640&quot; width=&quot;900&quot;&gt;
-&lt;p&gt;কোডটায় আমি যা করেছি, প্রথমে, স্ট্রিং ভেরিয়েবলে ফাইলে যা প্রিন্ট করবো তা স্টোর করেছি । এরপর writer এবং file নামের অবজেক্ট দুটো ডিক্লেয়ার করে দিয়েছি।&lt;/p&gt;
-&lt;h2&gt;ফাইল অ্যাকসেস মোড&lt;/h2&gt;
-&lt;p&gt;FileStream এর অবজেক্ট বানানোর জন্য এর কন্সট্রাক্টরে ফাইলের পাথ, ফাইল অ্যাকসেস মোড, এবং ফাইল অ্যাকসেস পারমিশন উল্লেখ করে দিতে হবে। আমি এখানে ফাইল অ্যাকসেস মোড দিয়েছি Create। আমার ফাইল আগে তৈরি করা ছিলো না। প্রোগ্রাম রান হবার সময় নিজেই তৈরি করে নিবে। ধরা যাক, আপনি আগে ফাইল বানিয়ে রেখেছেন। তখন? অ্যাকসেস মোড হিসেবে Open দিবেন। অথবা যদি নিশ্চিত না থাকেন, OpenOrCreate দিলে ঝামেলা মিটে যাবে ।&lt;/p&gt;
-&lt;h2&gt;ফাইল অ্যাকসেস পারমিশন&lt;/h2&gt;
-&lt;p&gt;.NET সিকিউরিটির ব্যাপারে অতিরিক্ত খুঁতখুঁতে। আপনার প্রোগ্রাম যাতে কোন প্রোগ্রামিং এররের কারণে কোন ফাইলের ডেটা বদলাতে বা মুছে ফেলতে না পারে সেজন্য তারা ফাইল স্ট্রিমের সাথে অ্যাকসেস পারমিশন দিয়েছে যে ফাইলে প্রোগ্রাম কি ধরণের কাজ করতে পারবে। শুধু রাইট, শুধু রিড, নাকি রাইট রিড দুটোই নাকি আগে থেকে থাকা ডেটার সাথে নতুন ডেটা যোগ মানে অ্যাপেন্ড করা। আপনার কাজের উপর নির্ভর করে সেটা বেছে নিতে হবে । আমার কাজ এখানে ফাইল এ ডেটা রাইট করা। তাই আমি Write নিয়েছি। Append করতে চাইলে FileAccess.Append নিলেই হবে।&lt;/p&gt;
-&lt;h2&gt;এক্সেপশন?&lt;/h2&gt;
-&lt;p&gt;ফাইল নিয়ে কাজ করার সময় প্রোগ্রাম অনেক রকমের এক্সেপশন দিতে পারে। ব্যাপারটা সহজ রাখার জন্য জেনেরিক এক্সেপশন টাইপ দিয়ে কাজ চালানো ভালো (সাধারণ কাজের জন্য অবশ্যই এবং বড়সড় প্রোজেক্টে অবশ্যই না!)। কি ধরণের এক্সেপশন থ্রো হয়েছে সেটা জানার জন্য Message প্রোপার্টি টা আছে । ধরে ডাক দিলে মানে কল দিলেই হবে। প্রোগ্রামে সব কাজ শেষে finally ব্লকটা জানিয়ে দিবে যে ফাইলে ডেটা রাইট হয়েছে।&lt;/p&gt;
-&lt;h2&gt;ফাইলে ডেটা কোন মেথড দিয়ে রাইট হবে?&lt;/h2&gt;
-&lt;p&gt;আগেই বলেছি, ফাইল কনসোল সবই স্ট্রিম। মেথডগুলোও তাই একই। আপনি কনসোলে প্রিন্ট করতেন WriteLine() দিয়ে । এখানেও তাই করবেন। শুধু স্ট্রিমের নাম বদলাবে।&lt;/p&gt;
-&lt;h2&gt;ফাইল কোথায়? খুঁজে পেয়েছেন?&lt;/h2&gt;
-&lt;p&gt;এহেম এহেম। প্রথমে কাজ করতে গিয়ে সবাই এই ঝামেলায় পড়েন। মনে আছে বলেছিলাম ফোল্ডার টা ওপেন রাখতে? সেখানে যান। সেখানে bin ফোল্ডারের ভেতরে ডিবাগ ফোল্ডার পাবেন। (যদি প্রোগ্রাম রিলিজ মোডে বিল্ড করে থাকেন তাহলে release ফোল্ডারে থাকবে )&lt;/p&gt;
-&lt;img class=&quot;aligncenter&quot; src=&quot;http://i.imgur.com/EkbIcga.png&quot; width=&quot;900&quot; alt=&quot;&quot;&gt;
-&lt;p&gt;ফাইলটা ওপেন করুন। আপনি ডেটা দেখতে পাবেন। মানে ফাইলে ডেটা রাইটিং শেষ। এবার একটু দম ফেলেন। পানি খান। মানুষের মস্তিষ্ক পানি ছাড়া ভালো কাজ করেনা। বেশি করে পানি খান। আপনি ফাইল অপারেশনের অর্ধেক পারেন এখন। কনগ্র্যাটস! বাকি রইলো কি তাহলে? রিড অপারেশন। সেটা আমি এত ব্যাখ্যায় যাবো না । শুধু কোডটা দিয়ে বুঝাবো। আগের ব্যাখ্যা থেকে নিজেই বুঝবেন।&lt;/p&gt;
-&lt;h2&gt;রাইটের সাথে রিড অপারেশনের কোডের তফাত কোথায়?&lt;/h2&gt;
-&lt;p&gt;তফাত হচ্ছে , অবজেক্ট এ । এতক্ষন রাইটার অবজেক্ট দিয়ে কাজ করে নিয়েছেন। এখন রিডার অবজেক্ট লাগবে। অর্থাৎ StreamReader। বাকি ফাইল স্ট্রিমে অ্যাকসেস মোড এবং অ্যাকসেস পারমিশন বদলানো লাগবে । কেমন?&lt;/p&gt;
-&lt;p&gt;অ্যাকসেস মোডঃ FileMode.Open , অ্যাকসেস পারমিশনঃ FileAccess.Read ।&lt;/p&gt;
-&lt;p&gt;এরপর যেহেতু এবার ফাইল থেকে ইনপুট নিচ্ছেন। মেথড খানা বদলাবে। আবার আগের উল্টো হবে। আগে ছিলো WriteLine() এখন হবে ReadLine()। আর ইনপুট নেবার সময় কোডে একটা ছোট্ট সংযোজন হচ্ছে , EOF চেক করা। EOF মানে এন্ড অফ ফাইল । এরপরে ফাইলে আর কোন ডেটা থাকে না। সেটার জন্য একটা লুপ দিয়ে reader.ReadLine() != null কন্ডিশন চেক করলেই হবে। যখন এই কন্ডিশন False হয়ে যাবে তখন ফাইল রিডিং বন্ধ হয়ে যাবে।&lt;/p&gt;
-&lt;p&gt;এবার একটা কথা । আসল কথা আসলে। ফাইল যদি আপনি নিজে আগে বানিয়ে থাকেন সেটা কোথায় রাখবেন?&lt;/p&gt;
-&lt;h2&gt;ফাইল কোথায় থাকবে?&lt;/h2&gt;
-&lt;p&gt;ফাইল আপনি আপনার ডিস্ক ড্রাইভের যেকোন ডিরেক্টরিতে রাখতে পারেন। তার ফুল পাথনেমটা FileStream অবজেক্ট ইন্সট্যানশিয়েট করার সময় দিলেই হবে । অথবা , আপনার কাজ যদি অতি সাধারণ হয়, যেমন আমি করছি, আগের মতন debug অথবা release ফোল্ডারে ফাইলটা সেভ করে নিবেন। যদি না করেন তাহলে, কি আর হবে? এক্সেপশন থ্রো করবে। মানে এরর।&lt;/p&gt;
-&lt;p&gt;তো কোডের চেহারা দেখি । তফাতগুলো দুটো কোড মেলালেই টের পাবেন। আমি কোডের লিংক ও দিয়ে দিচ্ছি শেষে। আপনার বারবার ছবি মেলাতে যাতে না হয়।&lt;/p&gt;
-&lt;img class=&quot;aligncenter&quot; src=&quot;http://i.imgur.com/kC4rYEY.png&quot; width=&quot;900&quot; alt=&quot;&quot;&gt;
-&lt;img class=&quot;aligncenter&quot; src=&quot;http://i.imgur.com/wHT9rTr.png&quot; width=&quot;900&quot; alt=&quot;&quot;&gt;
-&lt;h2&gt;যাহা লইয়াছো তাহা দিয়ো ফেরত&lt;/h2&gt;
-&lt;p&gt;একটা ভালো প্র্যাকটিস। মানে কোডে কোন লিক রাখতে না চাইলে আরকি। দয়া করে রিসোর্স গুলো Close করে দিলে ভালো দেখায় । ভবিষ্যত এরর এড়ানোর জন্য। পরে কাজে লাগলেও লাগতে পারে।&lt;/p&gt;
-&lt;h2&gt;রিড রাইট অনেক হয়েছে , আমি অ্যাপেন্ড করতে চাই&lt;/h2&gt;
-&lt;p&gt;শুধু ফাইল অ্যাকসেস পারমিশন এ FileMode.Append দিবেন। আপনার কাজ হয়ে যাবে।&lt;/p&gt;
-&lt;h2&gt;কোড গুলো কি দিবেন এহেম এহেম …?&lt;/h2&gt;
-&lt;p&gt;না দিয়ে আর যাবো কই? লিংক গুলো দিচ্ছি ।&lt;/p&gt;
-&lt;p&gt;১ / &lt;a href=&quot;https://github.com/ShawonAshraf/C_SharpExamples/blob/master/Writing%20to%20file/Writing%20to%20file/Program.cs&quot; target=&quot;_blank&quot;&gt;রাইট অপারেশন &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;২/ &lt;a href=&quot;https://github.com/ShawonAshraf/C_SharpExamples/blob/master/Reading%20from%20file/Reading%20from%20file/Program.cs&quot; target=&quot;_blank&quot;&gt;রিড অপারেশন &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;এছাড়া &lt;a href=&quot;https://msdn.microsoft.com/en-us/library/kx37x362.aspx&quot; target=&quot;_blank&quot;&gt;MSDN&lt;/a&gt; লাইব্রেরী সবসময় ই আছে সবচাইতে ভালো রিসোর্স হিসেবে। সেখানেও ঢু মেরে আসতে পারেন। তো এই ছিলো C# এ ফাইল অপারেশন। এত বড় একটা লেখা ধৈর্য ধরে পড়ার জন্য ধন্যবাদ ।&lt;/p&gt;</content:encoded></item><item><title><![CDATA[npm modules I have published]]></title><description><![CDATA[npm page -  rockash93 Published modules bd-cellnum-validator  : Validates Bangladeshi cell phone numbers. bd-music-dl  : A CLI tool to batch…]]></description><link>https://shawonashraf.github.io/npm/</link><guid isPermaLink="false">https://shawonashraf.github.io/npm/</guid><content:encoded>&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/npm-logo-e927ecce3878bdb344095e96b23c8a7a-888cb.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 557px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 54.219030520646314%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACXklEQVQoz61S20+SYRhH11WJgm0lUnlYZFu8kKWAB2zLzopNFEu7cWmJc17URf0VcaGbdOuFN3WhV27CHBDCOHjiUw4Fc2NpCUO3BlQf6Pv0vq/T5lZbF73bs+/5fvs9v+coEPzvt6htFnqUCoXjdKncUSqW24pOoQ9lZ5H3Wi35nkEEQzZhEXKIRchbq0QLFReYby8WIruohJmt6KTcLbuo9Dc1SgS+uus67kYLBPSdmNN3wtqjHgh06GCxqRECDzuAYT0G4Lr0QJLDyv17zF8zdAPX3cWMxORjBPfV140LnNJyXWzYCOThvWwW8ru78CMeZ8SfW1sUBz6RgH2eh2B/P+xYrUfYXjoNuVSK/uaz79+Bq7qSCkp0MeMQBfczkQgOPRvE3zc2MGfoxnwygWmi0MBTnAmHcXjYiHcsFoZFX7/CqdlZ/HliAn+ZnMzxJJHznHSMCUYPBYPrmJT/W3B7m1UeGhzAmchxwcjICE7OzOC46Q3eNJtz/Pw8ESwfO2h56DkLTHMcrPf1QjYaBa7HQAVZMJ9MYtpyiLY8N8da/jg6CsnpaYibTLD51pznrRZa4fjRUsig8Wp7Gxv8atsDWLl753A+8OnlCwjo2mGpRcuWQheyRGIoZ7n1Jizfas3HSCzRGj86G7tYJCcZFORcalzVVbf9DZpv4d7HEHzSBz61ap+ci8Fbe1W2UFWhsJcUI48CIbIE5L5cg9yXZHJXVaWSaEn+ep8+Vb3aeV6qdUrKmv0addPXqakT/3TYhEyt0K9WFfo1qgLqe+RX/sxt0BCOmnGOm+rA1KqCX5XXqwy4jHTKAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;npm&quot;
-        title=&quot;&quot;
-        src=&quot;/static/npm-logo-e927ecce3878bdb344095e96b23c8a7a-888cb.png&quot;
-        srcset=&quot;/static/npm-logo-e927ecce3878bdb344095e96b23c8a7a-73ca7.png 200w,
-/static/npm-logo-e927ecce3878bdb344095e96b23c8a7a-50e54.png 400w,
-/static/npm-logo-e927ecce3878bdb344095e96b23c8a7a-888cb.png 557w&quot;
-        sizes=&quot;(max-width: 557px) 100vw, 557px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;npm page - &lt;a href=&quot;https://www.npmjs.com/~rockash93&quot;&gt;rockash93&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Published modules&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.npmjs.com/package/bd-cellnum-validator&quot;&gt;bd-cellnum-validator&lt;/a&gt; : Validates Bangladeshi cell phone numbers.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.npmjs.com/package/bd-music-dl&quot;&gt;bd-music-dl&lt;/a&gt; : A CLI tool to batch download all the songs from an album from music.com.bd&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[About]]></title><description><![CDATA[Hi there! It’s Shawon Ashraf. I’m from Dhaka, Bangladesh. A forever Java guy who’s tinkering with JavaScript and Swift these days. A long…]]></description><link>https://shawonashraf.github.io/about/</link><guid isPermaLink="false">https://shawonashraf.github.io/about/</guid><content:encoded>&lt;p&gt;Hi there! It’s Shawon Ashraf. I’m from Dhaka, Bangladesh. A forever Java guy who’s tinkering with JavaScript and Swift these days. A long time RPG fan who plays Overwatch like frenzy these days. I like to talk
-anything *nix and OSS.&lt;/p&gt;
-&lt;p&gt;Github : &lt;a href=&quot;https://www.github.com/ShawonAshraf&quot;&gt;ShawonAshraf&lt;/a&gt;
-Medium : &lt;a href=&quot;https://medium.com/@sashraf94&quot;&gt;Shawon Ashraf&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Old me in an object&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; mySelf &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  cs_grad&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;A CS graduate from North South University, Dhaka.&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-  msp&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    elaboration&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Microsoft Student Partners&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-    timeline&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;2014-2017&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-    roles&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
-      &lt;span class=&quot;token string&quot;&gt;&apos;MSP Campus Social Media Lead 2015-2016&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-      &lt;span class=&quot;token string&quot;&gt;&apos;MSP Campus Lead  2016-2017&apos;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
-  nsu_acm_student_chapter&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    link&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;https://www.facebook.com/nsuacmc/&apos;&lt;/span&gt;
-    timeline&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;2017-2018&apos;&lt;/span&gt;
-    roles&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
-      &lt;span class=&quot;token string&quot;&gt;&apos;Vice Chair&apos;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Success]]></title><description><![CDATA[Thank you for contacting. Will get back to you soon! ]]></description><link>https://shawonashraf.github.io/success/</link><guid isPermaLink="false">https://shawonashraf.github.io/success/</guid><content:encoded>&lt;p&gt;Thank you for contacting. Will get back to you soon! &lt;br /&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;h2&gt;And that&apos;s it!&lt;/h2&gt;
+&lt;p&gt;We&apos;re done! You can tweak the frame properties and set different things. You can even go and add a textbox as address bar and a button to load so that any  animated gif can be loaded.(just make sure it&apos;s streamable!)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This article was originally published &lt;a href=&quot;https://rockash93.wordpress.com/2016/07/09/an-animated-gif-loader-in-java/&quot;&gt;here&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
