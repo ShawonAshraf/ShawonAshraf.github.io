@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Shawon Ashraf]]></title><description><![CDATA[I solemnly swear that I'm upto no good.]]></description><link>https://shawonashraf.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 21 Jun 2019 10:30:42 GMT</lastBuildDate><item><title><![CDATA[Swift - PAT or Generics?]]></title><description><![CDATA[Both do the same job, so, which one to use then?]]></description><link>https://shawonashraf.github.io/content/blog/swift-pat-or-generics</link><guid isPermaLink="false">https://shawonashraf.github.ioblog/swift-pat-or-genericsSwift - PAT or Generics?</guid><dc:creator><![CDATA[ShawonAshraf]]></dc:creator><pubDate>Fri, 21 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;PAT?&lt;/h3&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Shawon Ashraf]]></title><description><![CDATA[I solemnly swear that I'm upto no good.]]></description><link>https://shawonashraf.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 29 Jun 2019 20:39:13 GMT</lastBuildDate><item><title><![CDATA[Swift - PAT or Generics?]]></title><description><![CDATA[Both do the same job, so, which one to use then?]]></description><link>https://shawonashraf.github.io/content/blog/swift-pat-or-generics</link><guid isPermaLink="false">https://shawonashraf.github.ioblog/swift-pat-or-genericsSwift - PAT or Generics?</guid><dc:creator><![CDATA[ShawonAshraf]]></dc:creator><pubDate>Fri, 21 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;PAT?&lt;/h3&gt;
 &lt;p&gt;Before we begin, let me explain the terms here. PAT means Protocols with associated types. PATs can be generic, which means you can use any type with them, (&lt;a href=&quot;https://medium.com/swlh/the-curious-genericness-of-associated-types-in-swift-5e93a6c7eadc&quot;&gt;You can refer to this post I wrote earlier on how Protocols in Swift can be used as generic types&lt;/a&gt;) add type constraints and so on. Let&apos;s see an example - &lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;swift&quot;&gt;&lt;pre class=&quot;language-swift&quot;&gt;&lt;code class=&quot;language-swift&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;protocol&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;PlayerDescriptorProtocol&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;describeSpeciality&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
@@ -505,7 +505,27 @@ g++ main.cpp -std&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;c++1
 &lt;p&gt;For testing whether our loader works or not we&apos;ll use this animated gif : &lt;a href=&quot;http://i.giphy.com/xT0GqdXpoKAazgF8t2.gif&quot; target=&quot;_blank&quot;&gt;TotoroGif&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;How it&apos;ll look like?&lt;/h2&gt;
 &lt;p&gt;We expect something like this : &lt;/p&gt;
-&lt;img class=&quot; aligncenter&quot; src=&quot;http://i.imgur.com/6Tk8YBC.png&quot; alt=&quot;gifLoader&quot; width=&quot;562&quot; height=&quot;578&quot;&gt;
+&lt;p&gt;&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 102.84697508896797%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAABYlAAAWJQFJUiTwAAAC4klEQVQ4y6WUaU8TURSG+U/+BhJNjCIIMQhMWzVQ1w9SKUIQBQQigUbwiwaIUYmogFJCwOUD3QjFUKFQZJPShYpCSwmzdNrp650pUzptITGc5OTc3tt57lne3JzNXxbY3TMI+ALweD3wer1J9/l8WFlZgdPpVOxnc7/fj5KSEuSAWCwaQyx2MhcEASqVKgEUf6RbPB7H/xpFUQcZkhtEgOyyCUJcccFRngEUMxQP5CheENgKSH+a+PwJ7F7oMOs0UCowWbIISLVolEd3VzN+uFyobO+AbWkNqa1JhSiAak0CKG4yDA2Pxw0+EpEOqwa/4lStAacbnoJ6PogvLjf2w7vgo9FkJenAZMmiuVxOlJWeR1N9JZ4NGXGnuRNXqSIUF+Si5nIRblZo8PvPVtaeHtnDtraHKCSAgsIz0JcW4FGtFj0vG9H3pgXVVVfwoK4Sr1+9wNzcTMrghExglJQh2s7OX1Trb0BN5aO1XYf1jWE4599idW0ItsledHVW4WJ+LqnkHAwdTWBZRlG2IkN5MG73Otqe6DE11QurrRuuxXeYne3D/EK/5I+b7uL2LTUaG/QIhYIKoELY8iZDcySbfpLVAGjGDIY1k0HYsE+bEN77RiCL2N4OZp2yRqPJBAaDu1hdHSerKbCcFVzESqKFRBtxE2nP+gFIyBiKWkVlyZDhMD09hAhvJhlaJJjoDGuRgP5NBxL6PkY28qQEIdFHo7Efy8vvycqRhAEzcG98hGli7EiRZ8hGLEO00dFh3NOpseD6IAEjvI0MawS1NdcwPjYC5TfHAuPSg7C09BNU2QVJHjX3y1FXdx0adT6KL52Fw/EdHMcpgdlkk56+0TgAna4CrS31MBhaScZaIvCew95BjlmeL57nMx5M0Wh6XzoTITRNI1WzMfEblkM0vIdYKAyB7Kll2ZzIWJ7czEnLcq0WOXa7HSaTCRaLReFmszmrS+dytFphtllhmbTBStZ5eXn4B66r35JAS2J3AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;img&quot;
+        title=&quot;&quot;
+        src=&quot;/static/1e2264235bf5120f808793b26d830a55/267e5/6Tk8YBC.png&quot;
+        srcset=&quot;/static/1e2264235bf5120f808793b26d830a55/a9340/6Tk8YBC.png 250w,
+/static/1e2264235bf5120f808793b26d830a55/83ff7/6Tk8YBC.png 500w,
+/static/1e2264235bf5120f808793b26d830a55/267e5/6Tk8YBC.png 1000w,
+/static/1e2264235bf5120f808793b26d830a55/22ef4/6Tk8YBC.png 1124w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+  &lt;/span&gt;&lt;/p&gt;
 &lt;h2&gt;Breaking down the procedure&lt;/h2&gt;
 &lt;p&gt;JLabel can have Icon objects set to them as Icons. So what we&apos;re going to do here is that we&apos;re going to load the animated gif from the URL given earlier into an URL object. Then instantiate an Icon object with the URL. Finally, set the Icon object to the JLabel.
 Now here&apos;s a catch. To make sure you get the animated gif and not a static frame or image, you&apos;ve to load it as a stream via URL object and some exception handling will need to be taken care of. Let&apos;s just keep things simple and use generic exception handlers.&lt;/p&gt;
