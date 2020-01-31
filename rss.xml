@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Shawon Ashraf]]></title><description><![CDATA[I solemnly swear that I'm upto no good.]]></description><link>https://shawonashraf.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 08 Jan 2020 15:37:34 GMT</lastBuildDate><item><title><![CDATA[Tracking Download Progress with URLSessionDownloadDelegate]]></title><description><![CDATA[How do you show download progress to your users?]]></description><link>https://shawonashraf.github.io/content/blog/urlsession-download-progress</link><guid isPermaLink="false">https://shawonashraf.github.ioblog/urlsession-download-progressTracking Download Progress with URLSessionDownloadDelegate</guid><dc:creator><![CDATA[ShawonAshraf]]></dc:creator><pubDate>Fri, 20 Sep 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Downloading ....&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Luigi Colella RSS Feed]]></title><description><![CDATA[I solemnly swear that I'm upto no good.]]></description><link>https://shawonashraf.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 31 Jan 2020 00:42:38 GMT</lastBuildDate><item><title><![CDATA[Tracking Download Progress with URLSessionDownloadDelegate]]></title><description><![CDATA[How do you show download progress to your users?]]></description><link>https://shawonashraf.github.io/content/blog/urlsession-download-progress</link><guid isPermaLink="false">https://shawonashraf.github.ioblog/urlsession-download-progressTracking Download Progress with URLSessionDownloadDelegate</guid><dc:creator><![CDATA[ShawonAshraf]]></dc:creator><pubDate>Fri, 20 Sep 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Downloading ....&lt;/h2&gt;
 &lt;p&gt;You&apos;ve this cool app that has to download something from the internet, be it images, data or pdf files or whatever. While your app downloads the required resources, your user has to wait. Now this isn&apos;t an issue if the resources are small or can be fetched really fast. What if the process isn&apos;t fast enough or the resource is very large (say size in MB in double or even triple digits!)? Your users will have to stare at a blank screen with a probably unresponsive app (depending on how you handled resource loading) which is a deal breaker and may lead users away from your app. You must do something to assure the users that the required resource is indeed loading and the app isn&apos;t stuck at some deadlock. Show them some progress. Animation, text, percentage labels - whatever goes with your app. Question is, how do you track the download progress to show to your users?&lt;/p&gt;
 &lt;h2&gt;URLSessionDownloadDelegate&lt;/h2&gt;
 &lt;p&gt;You can track download progress in your Swift app using &lt;code class=&quot;language-text&quot;&gt;URLSessionDownloadDelegate&lt;/code&gt; functions. What you have to do is - &lt;/p&gt;
@@ -18,26 +18,30 @@
 &lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/Ky61rq46iCNmKuiUfa/giphy.gif&quot; alt=&quot;final state of the app&quot;&gt;&lt;/p&gt;
 &lt;h2&gt;Interface&lt;/h2&gt;
 &lt;p&gt;Open up storyboard and add 3 controls - an imageview, a label and a button, using any constraints you like. (Constraints aren&apos;t necessary for our discussion at the moment) Take the image below for reference.&lt;/p&gt;
-&lt;p&gt;&lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 902px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 179.60088691796008%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAkCAYAAACJ8xqgAAAACXBIWXMAABYlAAAWJQFJUiTwAAAC/ElEQVRIx6WW2XLaMBSG83ptukxCcpm3Sd8mM71Il5Bl2ty0zd42gYQQwNiyjY1ZnQA24L9HwgIctuJo5h9hcfTpHC1HWlFUHUXNgKxVZkBjpvidV9SBCgqpiHye6nxRtClFBk03hT23FQzSigQVyKBSraPX66Hd6SAIAoxKhUTffpNqb9j69NRCv98X9tIpARxBNRpZhWXZODg4xNt377GxuYlEYp2UQGI9gU36fvV6FdvbH+C6j8hk7pHJ5kZA6W6BPphhotFowLZtaJqGra0trK2tIbGxMQCS+ABvVlexs7MjvEyn03jI5YZOjYWso0SeLVMCCleGniuoA+DQwxDo+XwOu2h1fDy2Onhqe5MK29teV9jXG01aKG0KsGTh4t5G8pzh6FLH4SWbIx0HVB/9NmBYDoXMpnlo4eTWwu4Jw9czncTm6gtp78KAXnJQnAU8vbPwiYDJcx17C8ShyRCoLALOBb0MyKZ6Fgs4a+5ihyw7f/tj4vhvSSh58UIPeb1PkMMrg7aJsTjk6EmZnMOlQ5bJgWcbvrGnebj0oqgi/5mwKCmc/Me2meshP4PZnILU7T1UVcNZpozPp0xM/jyY3Pj7l2YUyEPl0NvMAwFV/Exb+PijSF5q2P21SKoYnIVHTxlfZS7LLkMvu8iyOnJ6HQ9jyrJa5FsqbzbhVGoiORefXwGl0nL5UBbXdenOUacnWH6X9KX6AfjV4vtdyuCM8mBLAHi7/J+XZtOdkQ/DjM0hHCwvKs/zRKqvVqvh/8HQRgC5h4q6GCg7R9K+bEcMoOzQE6H1BWbQFB1saWC+EuB7LsCVHoCumxAcxAe2/QC2G6DWGi1ELOC0OYzM4/IeIuLNuFexV3nuRR9nDmcpApy/sSc7TnoWXRRx9J4D+RFkujHRudvtwqeT4vv+QJ433Iey1Gr16NtGnmc+ik4vsLJTQblcgV12cEfPteubFG5SaaHr65SwcSpVsnFEhhIPUPn6GvdQZp1xDa4II6JpNtH34bNncRzJvv8AfPBJ97xgmpEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 902px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 179.60088691796008%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAkCAYAAACJ8xqgAAAACXBIWXMAABYlAAAWJQFJUiTwAAAC/ElEQVRIx6WW2XLaMBSG83ptukxCcpm3Sd8mM71Il5Bl2ty0zd42gYQQwNiyjY1ZnQA24L9HwgIctuJo5h9hcfTpHC1HWlFUHUXNgKxVZkBjpvidV9SBCgqpiHye6nxRtClFBk03hT23FQzSigQVyKBSraPX66Hd6SAIAoxKhUTffpNqb9j69NRCv98X9tIpARxBNRpZhWXZODg4xNt377GxuYlEYp2UQGI9gU36fvV6FdvbH+C6j8hk7pHJ5kZA6W6BPphhotFowLZtaJqGra0trK2tIbGxMQCS+ABvVlexs7MjvEyn03jI5YZOjYWso0SeLVMCCleGniuoA+DQwxDo+XwOu2h1fDy2Onhqe5MK29teV9jXG01aKG0KsGTh4t5G8pzh6FLH4SWbIx0HVB/9NmBYDoXMpnlo4eTWwu4Jw9czncTm6gtp78KAXnJQnAU8vbPwiYDJcx17C8ShyRCoLALOBb0MyKZ6Fgs4a+5ihyw7f/tj4vhvSSh58UIPeb1PkMMrg7aJsTjk6EmZnMOlQ5bJgWcbvrGnebj0oqgi/5mwKCmc/Me2meshP4PZnILU7T1UVcNZpozPp0xM/jyY3Pj7l2YUyEPl0NvMAwFV/Exb+PijSF5q2P21SKoYnIVHTxlfZS7LLkMvu8iyOnJ6HQ9jyrJa5FsqbzbhVGoiORefXwGl0nL5UBbXdenOUacnWH6X9KX6AfjV4vtdyuCM8mBLAHi7/J+XZtOdkQ/DjM0hHCwvKs/zRKqvVqvh/8HQRgC5h4q6GCg7R9K+bEcMoOzQE6H1BWbQFB1saWC+EuB7LsCVHoCumxAcxAe2/QC2G6DWGi1ELOC0OYzM4/IeIuLNuFexV3nuRR9nDmcpApy/sSc7TnoWXRRx9J4D+RFkujHRudvtwqeT4vv+QJ433Iey1Gr16NtGnmc+ik4vsLJTQblcgV12cEfPteubFG5SaaHr65SwcSpVsnFEhhIPUPn6GvdQZp1xDa4II6JpNtH34bNncRzJvv8AfPBJ97xgmpEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;reference storyboard interface&quot;
-        title=&quot;&quot;
-        src=&quot;/static/21bdbf0ab4d4dd836598aa6f097a75d9/e52b0/storyboard.png&quot;
-        srcset=&quot;/static/21bdbf0ab4d4dd836598aa6f097a75d9/1db1d/storyboard.png 250w,
-/static/21bdbf0ab4d4dd836598aa6f097a75d9/1e2a6/storyboard.png 500w,
-/static/21bdbf0ab4d4dd836598aa6f097a75d9/e52b0/storyboard.png 902w&quot;
+        title=&quot;reference storyboard interface&quot;
+        src=&quot;/static/21bdbf0ab4d4dd836598aa6f097a75d9/e56b9/storyboard.png&quot;
+        srcset=&quot;/static/21bdbf0ab4d4dd836598aa6f097a75d9/3e256/storyboard.png 250w,
+/static/21bdbf0ab4d4dd836598aa6f097a75d9/b30f8/storyboard.png 500w,
+/static/21bdbf0ab4d4dd836598aa6f097a75d9/e56b9/storyboard.png 902w&quot;
         sizes=&quot;(max-width: 902px) 100vw, 902px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-  &lt;/span&gt;&lt;/p&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;reference storyboard interface&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;Create the necessary outlets and add an action for the button (ctrl + drag). &lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;swift&quot;&gt;&lt;pre class=&quot;language-swift&quot;&gt;&lt;code class=&quot;language-swift&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;ViewController&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;UIViewController&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;URLSessionDownloadDelegate&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;token atrule&quot;&gt;@IBOutlet&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;weak&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; imageView&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;UIImageView&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;
@@ -163,25 +167,29 @@
 &lt;p&gt;Let&apos;s say you want to have the same life of a front-end web dev, meaning you want to load images from remote servers in your image views without sacrificing a virgin (that&apos;s how it is actually), how do you do it?&lt;/p&gt;
 &lt;h3&gt;Preparing&lt;/h3&gt;
 &lt;p&gt;Create a Single View iOS project. Add an &lt;code class=&quot;language-text&quot;&gt;ImageView&lt;/code&gt; to your &lt;code class=&quot;language-text&quot;&gt;View&lt;/code&gt; and create an outlet for it (if you&apos;re a beginner, ctrl + click and drag it to create a variable). Add constraints if you feel necessary, though not mandatory for our discussion.&lt;/p&gt;
-&lt;p&gt;&lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 415px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 175.42168674698797%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAjCAYAAACU9ioYAAAACXBIWXMAAAsSAAALEgHS3X78AAACkklEQVRIx+2WXUviQRTG+w6BurvI5lKu7UupRSrCaqK0S+juIuJtWFZ39VWiLgQL+wRB5WolpeCNGHijFhXd+dJNJlJQmD7rOaylqSVtS3vRwOMM83/mNzPOzOF06HQ66PV6aDQayGQydHd3c61UKtDXr8D3r3JYv33BD6MBP3VqyOVyKJRK9Pb2oqenB1KpFCqVihnE6qCf4eFh7jSZTHA4HLBYLBCLxejqkuDzh7fo/yjFJ9l79EnfQSKR8LeRkRGMjY3BbDZDNTTEDAZSg1Y3MTGB09NTVi6X4wk6OzshEr2BQCiqSAjhq9cQCAS8g3Q6DSqRSAQzMzPsJ1aHwWDAwMAAFhYWcHZ2hmg0isPDQ8RiMWxvbyMUCiIUDCJYUSgU4r7d3V0cHR2xJ5VKYXl5mRnEqgMmk0msrKzA6/XC98uHzc1NbGxscF3b9vl8WF9fZ288HsfS0hIGBwcbgbQyMm5tbd0Amom+kYcm3tvbaw08ODjA2trazYoeEk1Ou3o+YO3/16zveYHVgVT7/X5Wbd+jV0j3LhwOs3Z2dv5+y3Q9CEoKBAL/4Zaf9JQffQ+Vlfj2ZECj0cihx+VyMbD2Ld8n8pC34S1TUFWr1Qzc39/H6upq3UG0EnnIm0gkmm95fn4ex8fHPDvFveCfGHifyEsRqumhzM3NcQS+uLjA5eVlWzo/P+cxi4uLrYHlchntllKp9DDw+vqaoe2oWCy2D2ynkPcF+AL8l8Cq6DXUqtnFdrvdjUAKDneBrcpdoMfjuU2Wqunc+Pg48vl83cBCoYBsNouTkxNWJpNp8FxdXWF2dvY2natmsFqtFlarFdPT03A6nZiamoLdbsfo6CgnlSRq22w2TE5O1nlobDWD/Q3YQhgoLY1MdwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 415px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 175.42168674698797%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAjCAYAAACU9ioYAAAACXBIWXMAAAsSAAALEgHS3X78AAACkklEQVRIx+2WXUviQRTG+w6BurvI5lKu7UupRSrCaqK0S+juIuJtWFZ39VWiLgQL+wRB5WolpeCNGHijFhXd+dJNJlJQmD7rOaylqSVtS3vRwOMM83/mNzPOzOF06HQ66PV6aDQayGQydHd3c61UKtDXr8D3r3JYv33BD6MBP3VqyOVyKJRK9Pb2oqenB1KpFCqVihnE6qCf4eFh7jSZTHA4HLBYLBCLxejqkuDzh7fo/yjFJ9l79EnfQSKR8LeRkRGMjY3BbDZDNTTEDAZSg1Y3MTGB09NTVi6X4wk6OzshEr2BQCiqSAjhq9cQCAS8g3Q6DSqRSAQzMzPsJ1aHwWDAwMAAFhYWcHZ2hmg0isPDQ8RiMWxvbyMUCiIUDCJYUSgU4r7d3V0cHR2xJ5VKYXl5mRnEqgMmk0msrKzA6/XC98uHzc1NbGxscF3b9vl8WF9fZ288HsfS0hIGBwcbgbQyMm5tbd0Amom+kYcm3tvbaw08ODjA2trazYoeEk1Ou3o+YO3/16zveYHVgVT7/X5Wbd+jV0j3LhwOs3Z2dv5+y3Q9CEoKBAL/4Zaf9JQffQ+Vlfj2ZECj0cihx+VyMbD2Ld8n8pC34S1TUFWr1Qzc39/H6upq3UG0EnnIm0gkmm95fn4ex8fHPDvFveCfGHifyEsRqumhzM3NcQS+uLjA5eVlWzo/P+cxi4uLrYHlchntllKp9DDw+vqaoe2oWCy2D2ynkPcF+AL8l8Cq6DXUqtnFdrvdjUAKDneBrcpdoMfjuU2Wqunc+Pg48vl83cBCoYBsNouTkxNWJpNp8FxdXWF2dvY2natmsFqtFlarFdPT03A6nZiamoLdbsfo6CgnlSRq22w2TE5O1nlobDWD/Q3YQhgoLY1MdwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Main.Storyboard with our View and ImageView&quot;
-        title=&quot;&quot;
-        src=&quot;/static/9754bfe22d35096ee677e1419ddf3c18/baeb5/design.png&quot;
-        srcset=&quot;/static/9754bfe22d35096ee677e1419ddf3c18/ede97/design.png 250w,
-/static/9754bfe22d35096ee677e1419ddf3c18/baeb5/design.png 415w&quot;
+        title=&quot;Main.Storyboard with our View and ImageView&quot;
+        src=&quot;/static/9754bfe22d35096ee677e1419ddf3c18/c7bf8/design.png&quot;
+        srcset=&quot;/static/9754bfe22d35096ee677e1419ddf3c18/3e256/design.png 250w,
+/static/9754bfe22d35096ee677e1419ddf3c18/c7bf8/design.png 415w&quot;
         sizes=&quot;(max-width: 415px) 100vw, 415px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-  &lt;/span&gt;&lt;/p&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;Main.Storyboard with our View and ImageView&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
 &lt;h3&gt;The hard way - URLSessionDataTask&lt;/h3&gt;
 &lt;p&gt;For this, you need to init an URLSession, then create and start a &lt;code class=&quot;language-text&quot;&gt;datatask&lt;/code&gt;, add in an &lt;code class=&quot;language-text&quot;&gt;async&lt;/code&gt; handler for data task completion and then set the image. Oh wait! You can&apos;t use the &lt;code class=&quot;language-text&quot;&gt;main thread&lt;/code&gt; to set the image. You should fire up a separate thread via &lt;code class=&quot;language-text&quot;&gt;dispatchqueue&lt;/code&gt; to do so.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;swift&quot;&gt;&lt;pre class=&quot;language-swift&quot;&gt;&lt;code class=&quot;language-swift&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;fetchImage&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;from urlString&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; completionHandler&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; @escaping &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;_&lt;/span&gt; data&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;Data&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
@@ -236,25 +244,29 @@
 &lt;p&gt;Let&apos;s test it with an actual image url.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;swift&quot;&gt;&lt;pre class=&quot;language-swift&quot;&gt;&lt;code class=&quot;language-swift&quot;&gt;&lt;span class=&quot;token function&quot;&gt;setImage&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;from&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;https://image.blockbusterbd.net/00416_main_image_04072019225805.png&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3&gt;How does it look?&lt;/h3&gt;
-&lt;p&gt;&lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 420px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 171.90476190476193%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 420px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 171.90476190476193%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Final Output On Simulator&quot;
-        title=&quot;&quot;
-        src=&quot;/static/bf400688db3469ed8d184936a8ca387c/cb311/final.png&quot;
-        srcset=&quot;/static/bf400688db3469ed8d184936a8ca387c/0911f/final.png 250w,
-/static/bf400688db3469ed8d184936a8ca387c/cb311/final.png 420w&quot;
+        title=&quot;Final Output On Simulator&quot;
+        src=&quot;/static/bf400688db3469ed8d184936a8ca387c/00b91/final.png&quot;
+        srcset=&quot;/static/bf400688db3469ed8d184936a8ca387c/3e256/final.png 250w,
+/static/bf400688db3469ed8d184936a8ca387c/00b91/final.png 420w&quot;
         sizes=&quot;(max-width: 420px) 100vw, 420px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-  &lt;/span&gt;&lt;/p&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;Final Output On Simulator&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
 &lt;h3&gt;That does it, but wait&lt;/h3&gt;
 &lt;p&gt;Everything comes at a cost, so does this easy approach. There&apos;s a reason people tend to use the hard way for network requests (which are not just for images, mind you). It&apos;s that, Swift lets you observe the progress of the network operations in real time if you choose to use URLSession and its delegates. Which comes in handy for larger network requests, where you can let the user know about the progress with fancy progress views or something else. For the easy approach above however, there&apos;s no way to do so unless you bite the metal and write things like that yourself. For simple image loading, our easy approach will do more than good. However, for sophisticated tasks, you better be using the hard way. &lt;/p&gt;
 &lt;h3&gt;Time for a song&lt;/h3&gt;
@@ -419,26 +431,30 @@ cricketDescriptor&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&
 &lt;p&gt;ইমেজ শব্দের আভিধানিক বাংলা হচ্ছে - বিম্ব / প্রতিবিম্ব। একটু Geeky সেন্সে বললে, কোন কিছু থেকে আলো এসে আমাদের চোখে পড়লে আমরা যা দেখি তাই বিম্ব বা ইমেজ। কিন্তু এই সংজ্ঞাটা না কেমন জানি । আমাদের দৈনন্দিন অভিজ্ঞতা বলে যে ইমেজ মানে হচ্ছে যেটা কিনা আমরা ক্যামেরা দিয়ে তুলি, অর্থাৎ ইমেজ মানে হচ্ছে ফটো । তাহলে এর সাথে মানুষের চোখের দেখার সম্পর্ক কী?&lt;/p&gt;
 &lt;p&gt;সম্পর্ক আছে। আসলে মানুষের চোখ যেভাবে দেখে, একটা ক্যামেরাও বলতে গেলে ঠিক সেভাবেই কাজ করে। চোখ আলো ছাড়া দেখে না । কোন কিছু থেকে আলো এসে চোখে যখন পড়ে, চোখ সেটাকে ওস্তাদ লাইট পাইসি বলে পাঠিয়ে দেয় মস্তিষ্কের কাছে । আপনার মস্তিষ্ক একটা জাদুর বাক্স। সে হিং টিং ছট বলে আলো থেকে ইমেজ বা বিম্ব তৈরি করে । আপনি চোখে যা দেখেন সব এই চোখ, আলো আর মস্তিষ্কের কারসাজি।&lt;/p&gt;
 &lt;p&gt;ক্যামেরাও একই ভাবে কাজ করে। এখন ক্যামেরার তো আর মস্তিষ্ক নেই! তার আছে প্রসেসর। সে লেন্স (চোখ) থেকে আলো পায়, সে অনুযায়ী ছবি দেখায়।&lt;/p&gt;
-&lt;p&gt;&lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 535px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 55.51401869158879%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIBAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHXtUGJD//EABsQAAICAwEAAAAAAAAAAAAAAAECAAMREyEx/9oACAEBAAEFAqn21zMACqDxfP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABgQAAMBAQAAAAAAAAAAAAAAAAABERAh/9oACAEBAAY/Aq1DmODz/8QAHBABAAIBBQAAAAAAAAAAAAAAAQARURAhQXGR/9oACAEBAAE/IcpSV0w2sgyvyVprmMs6H//aAAwDAQACAAMAAAAQs8//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAbEAEBAAIDAQAAAAAAAAAAAAABEQAhMUFhwf/aAAgBAQABPxBnaW8+HzABCR73c0lX5eGEleV2m+cZCpiXfpmf/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 535px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 55.51401869158879%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAYagAAGGoAEnFmSiAAABbklEQVQoz3WSTY6CQBCFe+sFuAI7rsGau7gncAj3rDVeRGPEaHT8JQYFCfEP/wfG+dJtiGMyb9Hpel31XlWBeP5FURS+7/d6vel0+iVxvV4V//MGFYqPYqj5fN7pdLrdbqvVGo/Hl8vl+Q8EGvv9nrMs5n44HCDX6/X9fockXC6XhGEYRlHEHQMSBA+e5xUSH8I0fLvdqCdns9mkabparYIgOJ1OWZbBC9d1TdNsNptkI3Y+n6l5PB60kOc5ZcfjMZdAHcPBYFDaCMMwdF23bZvgWwI3tKlBhewkSchGFHK3200mE04WwauoVquVSmU0GqmVvm+Oczgcqp3RpHqNJNgo6xQMrGlav9/ngd5wRrJ0ns1mpELinEksFguG4glGNBoNy7Lq9TrF9EMZPqioRtTMSpeQbfELoPWaGedareY4znvbqoXtdos8K6AeT0S58MHKoQTfgDbiOC71yGMFOLTbbWZjYYqnqUBCzQLzCzfkWFUIT/xPAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;img&quot;
-        title=&quot;&quot;
-        src=&quot;/static/3ef7f0c5192eba237738c872c6601acd/b5d63/380838.png&quot;
-        srcset=&quot;/static/3ef7f0c5192eba237738c872c6601acd/5548e/380838.png 250w,
-/static/3ef7f0c5192eba237738c872c6601acd/be6d3/380838.png 500w,
-/static/3ef7f0c5192eba237738c872c6601acd/b5d63/380838.png 535w&quot;
+        title=&quot;img&quot;
+        src=&quot;/static/3ef7f0c5192eba237738c872c6601acd/5f58d/380838.png&quot;
+        srcset=&quot;/static/3ef7f0c5192eba237738c872c6601acd/3e256/380838.png 250w,
+/static/3ef7f0c5192eba237738c872c6601acd/b30f8/380838.png 500w,
+/static/3ef7f0c5192eba237738c872c6601acd/5f58d/380838.png 535w&quot;
         sizes=&quot;(max-width: 535px) 100vw, 535px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-  &lt;/span&gt;&lt;/p&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;img&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;ক্যামেরা তো ক্লিক করলে ছবি তোলে, আপনার চোখ প্রতি মিলিসেকেন্ডে কত ছবি তুলছে আন্দাজ করে দেখেন একবার!&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;মিলিসেকেন্ড কেন? মানুষের মস্তিষ্ক জাদুর বাক্স হতে পারে তবে তার কিছু সীমাবদ্ধতা আছে । মিলিসেকেন্ড রেঞ্জের চাইতে ছোট সময়ে কোন কিছু ঘটলে সে ধরতে পারে না। আপনার চোখ সেটা দেখলেও লাভ নাই । মস্তিষ্ক প্রসেস করতে পারেনি, গান্ধীর বাঁদরের মতন আপনিও কিছু দেখেন নি । (যদি না আপনি সুপার হিউম্যান হন)&lt;/li&gt;
@@ -448,26 +464,30 @@ cricketDescriptor&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&
 &lt;h2&gt;ইমেজ এবং সিগন্যাল&lt;/h2&gt;
 &lt;p&gt;সিগন্যাল শব্দটা শুনলে আমাদের মাথায় প্রথমে কি আসে? ট্রাফিক সিগন্যাল? ট্রেনের সিগন্যাল? ইত্যাদি ইত্যাদি । আমরা স্বাভাবিকভাবে সিগন্যাল বলতে বুঝি এমন কিছু যেটা আমাদের তথ্য দেয় । কিংবা কিছুর দিকে ইঙ্গিত করে । ইমেজ এবং সিগন্যাল একে ওপরের সঙ্গে ওতপ্রোত ভাবে জড়িত।&lt;/p&gt;
 &lt;p&gt;আলো ছাড়া আপনি ছবি পাবেন না । কথাটা আংশিক সত্য । আলো জগতের একমাত্র সিগন্যাল না । আলো এক প্রকার তড়িৎ চুম্বকীয় তরঙ্গ। আর তরঙ্গদৈর্ঘ্য এমন যে , তড়িৎ চুম্বকীয় তরঙ্গের বিশাল স্পেকট্রামের মাঝে একমাত্র তাকেই দেখা যায়। বাকিগুলা সব অদৃশ্য হয়ে ঘুরে বেড়ায়। (কি সাংঘাতিক তাই না!)&lt;/p&gt;
-&lt;p&gt;&lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 750px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 37.46666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3KFB/8QAFRABAQAAAAAAAAAAAAAAAAAAEEH/2gAIAQEAAQUCp//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEABj8Cf//EABgQAAMBAQAAAAAAAAAAAAAAAAABIRFB/9oACAEBAAE/IdqCU6LT/9oADAMBAAIAAwAAABDzz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABoQAQADAAMAAAAAAAAAAAAAAAEAETEhcfH/2gAIAQEAAT8QuArdPZVpdsIOU2f/2Q==&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 750px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 37.46666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3KFB/8QAFRABAQAAAAAAAAAAAAAAAAAAEEH/2gAIAQEAAQUCp//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEABj8Cf//EABgQAAMBAQAAAAAAAAAAAAAAAAABIRFB/9oACAEBAAE/IdqCU6LT/9oADAMBAAIAAwAAABDzz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABoQAQADAAMAAAAAAAAAAAAAAAEAETEhcfH/2gAIAQEAAT8QuArdPZVpdsIOU2f/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;img&quot;
-        title=&quot;&quot;
-        src=&quot;/static/dbaaa3a0f080f7ab9a14669e275e5758/71105/EM_spectrum_compare_level1_lg.jpg&quot;
-        srcset=&quot;/static/dbaaa3a0f080f7ab9a14669e275e5758/63bc5/EM_spectrum_compare_level1_lg.jpg 250w,
-/static/dbaaa3a0f080f7ab9a14669e275e5758/d2fef/EM_spectrum_compare_level1_lg.jpg 500w,
-/static/dbaaa3a0f080f7ab9a14669e275e5758/71105/EM_spectrum_compare_level1_lg.jpg 750w&quot;
+        title=&quot;img&quot;
+        src=&quot;/static/dbaaa3a0f080f7ab9a14669e275e5758/cbeab/EM_spectrum_compare_level1_lg.jpg&quot;
+        srcset=&quot;/static/dbaaa3a0f080f7ab9a14669e275e5758/9a1e7/EM_spectrum_compare_level1_lg.jpg 250w,
+/static/dbaaa3a0f080f7ab9a14669e275e5758/10bbb/EM_spectrum_compare_level1_lg.jpg 500w,
+/static/dbaaa3a0f080f7ab9a14669e275e5758/cbeab/EM_spectrum_compare_level1_lg.jpg 750w&quot;
         sizes=&quot;(max-width: 750px) 100vw, 750px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-  &lt;/span&gt;&lt;/p&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;img&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;যেকোন তরঙ্গ তথ্য বয়ে বেড়াতে পারে । ফোন কথা বলছেন? নেটওয়ার্ক এর তরঙ্গ আপনার কথা বয়ে নিয়ে যাচ্ছে গন্তব্যে। টেলিভিশন দেখছেন? তরঙ্গ স্যাটেলাইট থেকে আসছে আপনার পছন্দের টিভি শো নিয়ে । অর্থাৎ আপনি সিগন্যাল পাচ্ছেন।&lt;/p&gt;
 &lt;h3&gt;আলো ও এক প্রকার সিগন্যাল&lt;/h3&gt;
 &lt;p&gt;অর্থাৎ, আলো ছাড়া ছবি পাবেন না এইটাকে সঠিক ভাষায় বলা যায় যে সিগন্যাল ছাড়া ছবি পাবেন না । এখন মাথা চুলকিয়ে জিজ্ঞেস করতে পারেন, আলো না থাকলে ছবি যেটা পাবো অন্য সিগন্যাল থেকে সেটা দিয়ে আমার লাভ কি? ভালো প্রশ্ন। আপনার বোধহয় কোনদিন এক্স রে, আল্ট্রাসনোগ্রাফি, ইসিজি এসব করানোর দরকার পড়েনি। ওখানের ছবিগুলো কীভাবে আসে ভেবে দেখেন । ৫ মিনিটের জন্য বিরতি। &lt;strong&gt;Brainstorming!&lt;/strong&gt;&lt;/p&gt;
@@ -475,53 +495,61 @@ cricketDescriptor&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&
 &lt;p&gt;সিগন্যাল থেকে ইমেজ আসে । সিগন্যাল অ্যানালগ বা ডিজিটাল হয় । তাই ইমেজ ও ২ প্রকার । &lt;strong&gt;অ্যানালগ&lt;/strong&gt; আর &lt;strong&gt;ডিজিটাল&lt;/strong&gt; । আমরা শুধু ডিজিটাল ইমেজ নিয়ে কথা বলবো । কারণ অ্যানালগ ইমেজ প্রসেসিং এর জন্য সিগন্যাল প্রসেসিং সম্পর্কে বেসিক আইডিয়া থাকা জরুরি। তাই সেদিকে যাচ্ছি না । শুধু বেসিক কিছু বিষয় নিয়ে কথা বলবো যাতে টার্মিনোলজি গুলো বুঝতে সুবিধা হয় ।&lt;/p&gt;
 &lt;h2&gt;কম্পিউটারে ইমেজ কীভাবে লোড হয়?&lt;/h2&gt;
 &lt;p&gt;কম্পিউটার মেমোরিতে যখন আমরা ডিজিটাল ইমেজ লোড করি তখন সেটা লোড হয় একটা ম্যাট্রিক্স হিসেবে । প্রোগ্রামিং টার্মিনোলজিতে বললে মাল্টি ডিমেনশনাল অ্যারে হিসেবে। ধরা যাক আপনার কাছে একটা &lt;code class=&quot;language-text&quot;&gt;১৯২০&lt;/code&gt; বাই &lt;code class=&quot;language-text&quot;&gt;১০৮০&lt;/code&gt; রেজুলেশনের ছবি আছে। তাহলে ম্যাট্রিক্সে ভার্টিকালি পিক্সেল আছে &lt;code class=&quot;language-text&quot;&gt;১০৮০&lt;/code&gt; টা আর, হরাইজন্টালি পিক্সেল আছে ১৯২০ টা । অর্থাৎ ইমেজের রেজুলেশন যদি &lt;code class=&quot;language-text&quot;&gt;X&lt;/code&gt; by &lt;code class=&quot;language-text&quot;&gt;Y&lt;/code&gt; হয় , তাহলে সেটা একটা &lt;code class=&quot;language-text&quot;&gt;[X][Y]&lt;/code&gt; ম্যাট্রিক্সে লোড হবে আর, এই &lt;code class=&quot;language-text&quot;&gt;১৯২০&lt;/code&gt; বাই &lt;code class=&quot;language-text&quot;&gt;১০৮০&lt;/code&gt; এর জন্য ম্যাট্রিক্স টা হবে, &lt;code class=&quot;language-text&quot;&gt;[১৯২০][১০৮০]&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 522px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 64.75095785440614%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABVUlEQVQ4y62T66qCQBCAe/8XSnqCCpLoomYldr+AXUyjLJvDN7CSx/Mj4gwMs9/u7NxWa6/XSxCsUcN5nn/MZq9mFu/yeDxKe/Dv83d5Pp+Ff80sDoeDDIdDWSwWylEUSa/Xk9Vqpbzf75U3m43ydrtV3u12pSRFwNPppM5Y5Hg8ynq9ljiOi4TvTEI4SRKtjipLAcnoeZ6EYajBqNR1XZnNZnI+n2U+nytjYfYNU0SWZeWAHLTbbRmNRnphOp1Kq9US3/flcrnIeDyWZrMpk8lEGT/OgyBQ/yKgeZTr9aqZaOl2u2krVArf7/eCCcZlrGHOKy0z3E6no60gzJOKl8ulMhZmbgh+MKMyL12qkApQMqK08QnTAVx5ZWbUaDTEtm11chxH6vW6dLtdvdjv95X5VNI01X3LsmQwGFRniJCFGWIJwBrHT7nS8n+I/np//cvfKvIDdcLk4sQVJVcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 522px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 64.75095785440614%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAABVUlEQVQ4y62T66qCQBCAe/8XSnqCCpLoomYldr+AXUyjLJvDN7CSx/Mj4gwMs9/u7NxWa6/XSxCsUcN5nn/MZq9mFu/yeDxKe/Dv83d5Pp+Ff80sDoeDDIdDWSwWylEUSa/Xk9Vqpbzf75U3m43ydrtV3u12pSRFwNPppM5Y5Hg8ynq9ljiOi4TvTEI4SRKtjipLAcnoeZ6EYajBqNR1XZnNZnI+n2U+nytjYfYNU0SWZeWAHLTbbRmNRnphOp1Kq9US3/flcrnIeDyWZrMpk8lEGT/OgyBQ/yKgeZTr9aqZaOl2u2krVArf7/eCCcZlrGHOKy0z3E6no60gzJOKl8ulMhZmbgh+MKMyL12qkApQMqK08QnTAVx5ZWbUaDTEtm11chxH6vW6dLtdvdjv95X5VNI01X3LsmQwGFRniJCFGWIJwBrHT7nS8n+I/np//cvfKvIDdcLk4sQVJVcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;img&quot;
-        title=&quot;&quot;
-        src=&quot;/static/0d5445782d64b5f9a1329493a25907fb/80f9c/sjwzUMU.png&quot;
-        srcset=&quot;/static/0d5445782d64b5f9a1329493a25907fb/f648a/sjwzUMU.png 250w,
-/static/0d5445782d64b5f9a1329493a25907fb/8a861/sjwzUMU.png 500w,
-/static/0d5445782d64b5f9a1329493a25907fb/80f9c/sjwzUMU.png 522w&quot;
+        title=&quot;img&quot;
+        src=&quot;/static/0d5445782d64b5f9a1329493a25907fb/54892/sjwzUMU.png&quot;
+        srcset=&quot;/static/0d5445782d64b5f9a1329493a25907fb/3e256/sjwzUMU.png 250w,
+/static/0d5445782d64b5f9a1329493a25907fb/b30f8/sjwzUMU.png 500w,
+/static/0d5445782d64b5f9a1329493a25907fb/54892/sjwzUMU.png 522w&quot;
         sizes=&quot;(max-width: 522px) 100vw, 522px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-  &lt;/span&gt;&lt;/p&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;img&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
 &lt;h2&gt;ম্যাট্রিক্সের ইলিমেন্ট গুলো আসলে কি তাহলে?&lt;/h2&gt;
 &lt;p&gt;ইলিমেন্ট গুলো হচ্ছে পিক্সেল ভ্যালু । এখন এইটা কি জিনিস?&lt;/p&gt;
 &lt;p&gt;ম্যাথম্যাটিকালি একটা ইমেজ কে যদি ফাংশন হিসেবে দেখাই তাহলে দাঁড়াবে এমন :&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;f(x, y) = i&lt;/code&gt;, যেখানে &lt;code class=&quot;language-text&quot;&gt;(x,y)&lt;/code&gt; হচ্ছে ম্যাট্রিক্সের ইলিমেন্টের ইন্ডেক্স মানে পিক্সেলের ইনডেক্স আর i হচ্ছে সেই ইমেজের সেই পিক্সেলে আলোর পরিমাণ বা লুমিনোসিটি আসলে কতটুকু। যদি &lt;code class=&quot;language-text&quot;&gt;i = 0&lt;/code&gt; হয় তাহলে ধরে নিতে হবে সেখানে কোন আলো নেই এবং পিক্সেলের রং কালো ।&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 78.97727272727273%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB/ElEQVQ4y51U227TQBD1b/MAb0jwgBBBqnigHwClqoT6hET7hHqJitMoFzkXJ3FiJ3ZiW7nHdpKDzkhe7LQUwUijXe+uz5w5s7PaeDxGr9eDYRiwbRudTgeDwQDdblfNoygCbb/fq/FPrs1mMziOg1qthjAMwQB0gtNHoxGSJMkBPWUa/sFSsO12i81mI8zVGG1kXUuj7na7HIPAD+C5HubzOZbLpWK5Xq9hWZZkNRwO4XmeyMJseE471IVGcHtgYzKZSHQ69+I4RqvVEieQaZq4ubqBP/EFVACxfyg2AelZI8N6vY6SXpIiUuf70j0Kb97hrngnWi8WizzDQ0tBCUZ9Lr5f4PjDR5htE67nwupZOP96juJtUb4VYFbsOIqx2/5m5wwdic6966trFN4WoP/UJWXq6Pu+0lGlzMO0sy9nuPx2KXMCsyBMMwgCOdNut+WbINSVGruuK4Bkx4xyDE8/n6L44xahGyKJE6noarWSlHmY2hH8yXuYBTx6f4QXz57j9ctXqjtSKabTqRTi8JI/6JSs+BT75NMJjLqhipJeF+pDtrzIWRJZMMXwf+2xf4UhdaHAFLbf70sHUGyusdc5p3M97RAyfQxUAJvNJnRdlypWq1XllUoFjUZD9vl4lMtl1W6HL1AOkNGoERmmzU6nZlxjtbnO8W8p/wKWDse2kZILwgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1000px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 78.97727272727273%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB/ElEQVQ4y51U227TQBD1b/MAb0jwgBBBqnigHwClqoT6hET7hHqJitMoFzkXJ3FiJ3ZiW7nHdpKDzkhe7LQUwUijXe+uz5w5s7PaeDxGr9eDYRiwbRudTgeDwQDdblfNoygCbb/fq/FPrs1mMziOg1qthjAMwQB0gtNHoxGSJMkBPWUa/sFSsO12i81mI8zVGG1kXUuj7na7HIPAD+C5HubzOZbLpWK5Xq9hWZZkNRwO4XmeyMJseE471IVGcHtgYzKZSHQ69+I4RqvVEieQaZq4ubqBP/EFVACxfyg2AelZI8N6vY6SXpIiUuf70j0Kb97hrngnWi8WizzDQ0tBCUZ9Lr5f4PjDR5htE67nwupZOP96juJtUb4VYFbsOIqx2/5m5wwdic6966trFN4WoP/UJWXq6Pu+0lGlzMO0sy9nuPx2KXMCsyBMMwgCOdNut+WbINSVGruuK4Bkx4xyDE8/n6L44xahGyKJE6noarWSlHmY2hH8yXuYBTx6f4QXz57j9ctXqjtSKabTqRTi8JI/6JSs+BT75NMJjLqhipJeF+pDtrzIWRJZMMXwf+2xf4UhdaHAFLbf70sHUGyusdc5p3M97RAyfQxUAJvNJnRdlypWq1XllUoFjUZD9vl4lMtl1W6HL1AOkNGoERmmzU6nZlxjtbnO8W8p/wKWDse2kZILwgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;img&quot;
-        title=&quot;&quot;
-        src=&quot;/static/5e563932472865812519c299db7a2f5e/267e5/image-function.png&quot;
-        srcset=&quot;/static/5e563932472865812519c299db7a2f5e/a9340/image-function.png 250w,
-/static/5e563932472865812519c299db7a2f5e/83ff7/image-function.png 500w,
-/static/5e563932472865812519c299db7a2f5e/267e5/image-function.png 1000w,
-/static/5e563932472865812519c299db7a2f5e/31ae2/image-function.png 1408w&quot;
+        title=&quot;img&quot;
+        src=&quot;/static/5e563932472865812519c299db7a2f5e/332ff/image-function.png&quot;
+        srcset=&quot;/static/5e563932472865812519c299db7a2f5e/3e256/image-function.png 250w,
+/static/5e563932472865812519c299db7a2f5e/b30f8/image-function.png 500w,
+/static/5e563932472865812519c299db7a2f5e/332ff/image-function.png 1000w,
+/static/5e563932472865812519c299db7a2f5e/7032b/image-function.png 1408w&quot;
         sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-  &lt;/span&gt;&lt;/p&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;img&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;অর্থাৎ , ছবিতে এত সব রং দেখি সব নির্ভর করছে পিক্সেলের ভ্যালু কত তার উপর ।&lt;/p&gt;
 &lt;h3&gt;পিক্সেল ভ্যালু তাহলে কই পায়?&lt;/h3&gt;
 &lt;p&gt;সহজ উত্তর । ছবি যদি আলো থেকে পাই, ছবিতে আলো কত সেটাও পাবো আলো থেকেই! ক্যামেরা যখন ছবি তুলছে, তখন সে প্রসেসিং এর সময় ভ্যালুটা সেট করে নিবে।&lt;/p&gt;
@@ -533,13 +561,16 @@ cricketDescriptor&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&
 c = কোন একটা বেয়াড়া সংখ্যা&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;br&gt;
 &lt;p&gt;ধরা যাক আপনাকে দুটি বিন্দু দেয়া হলো। একটার নাম a, আরেকটার নাম b । কাগজে আঁকলে আপনি কি করতেন? a থেকে b পর্যন্ত একটা ধাপ করে রেখা টেনে দিতেন।&lt;/p&gt;
-&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 54.90196078431373%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAgUlEQVQoz62SUQ7DIAxDuf91SQIjAa9BMKmqqg1WS+HPT8ZJaK3hyQm7Rpe/fwOnLCc0LRdoWAaZgZnxEgZU94CuWitEpMMcuvVlDEPOGcSEUson6dJSphxARB34DXQLdOnoKaV0Srp8Nr10ipAYYUdnv6a6T+hm01E3HjrsTdCcN1ZXaPrzrrVBAAAAAElFTkSuQmCC&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-    &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot; alt=&quot;line&quot; title src=&quot;/static/ddd3e448c9062b6c526e1802e428c4a8/267e5/line.png&quot; srcset=&quot;/static/ddd3e448c9062b6c526e1802e428c4a8/a9340/line.png 250w,
-/static/ddd3e448c9062b6c526e1802e428c4a8/83ff7/line.png 500w,
-/static/ddd3e448c9062b6c526e1802e428c4a8/267e5/line.png 1000w,
-/static/ddd3e448c9062b6c526e1802e428c4a8/e8318/line.png 1122w&quot; sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;&gt;
-  &lt;/span&gt;
+&lt;figure class=&quot;gatsby-resp-image-figure&quot; style&gt;
+    &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1000px;&quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 54.90196078431373%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAgUlEQVQoz62SUQ7DIAxDuf91SQIjAa9BMKmqqg1WS+HPT8ZJaK3hyQm7Rpe/fwOnLCc0LRdoWAaZgZnxEgZU94CuWitEpMMcuvVlDEPOGcSEUson6dJSphxARB34DXQLdOnoKaV0Srp8Nr10ipAYYUdnv6a6T+hm01E3HjrsTdCcN1ZXaPrzrrVBAAAAAElFTkSuQmCC&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;line&quot; title=&quot;line&quot; src=&quot;/static/ddd3e448c9062b6c526e1802e428c4a8/332ff/line.png&quot; srcset=&quot;/static/ddd3e448c9062b6c526e1802e428c4a8/3e256/line.png 250w,
+/static/ddd3e448c9062b6c526e1802e428c4a8/b30f8/line.png 500w,
+/static/ddd3e448c9062b6c526e1802e428c4a8/332ff/line.png 1000w,
+/static/ddd3e448c9062b6c526e1802e428c4a8/6a6d5/line.png 1122w&quot; sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;line&lt;/figcaption&gt;
+  &lt;/figure&gt;
 &lt;p&gt;কাগজে আঁকার সময় তো আপনাকে এত সমীকরণের হিসাব নিয়ে চিন্তা করা লাগতো না। কিন্তু সমীকরণ যখন আছে, সেটা ব্যবহার করে যদি লাইনটা আঁকতে হতো , ধরুন আপনাকে একটা গ্রাফ পেপার দিয়ে বললাম লাইনটা আঁকতে। কি করবেন ?
 আপনি একের পর এক x এর মান বসিয়ে y এর মান বের করতেন , গ্রাফ পেপারে বসাতেন। ধরে নিন আপনাকে m এর জন্য একটা নির্দিষ্ট মান বলে দেয়া আছে। ব্যস হয়ে গেলো!
 কিন্তু ধরেন আপনাকে বলে দেয়া হলো a , b দুটি বিন্দুর ই কার্তেসিয়ান স্থানাংক আছে। (কার্তেসিয়ান স্থানাংক কি না জানলে এটুকু মাথায় রাখেন যে গ্রাফ পেপারে যে সিস্টেম ইউস করেন সেটাই কার্তেসিয়ান কোঅরডিনেট সিস্টেম)। এখন আপনি কি করবেন? ধরা যাক স্থানাংক এমন —&lt;/p&gt;
@@ -557,12 +588,15 @@ for ( i = x to dx ):
   y = slope * i + c
   draw the point on (x, y)
 done!&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block;  max-width: 600px; margin-left: auto; margin-right: auto;&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECAwQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAeZoSKSBZ//EABwQAAICAgMAAAAAAAAAAAAAAAECABEDEhMhMf/aAAgBAQABBQI9s3pUXimgrlaf/8QAFREBAQAAAAAAAAAAAAAAAAAAEEH/2gAIAQMBAT8Bh//EABURAQEAAAAAAAAAAAAAAAAAABBB/9oACAECAQE/Aaf/xAAbEAABBAMAAAAAAAAAAAAAAAAAAQIQITFxkf/aAAgBAQAGPwKhLKaO2Jnsf//EABwQAQADAAIDAAAAAAAAAAAAAAEAESExUWFxgf/aAAgBAQABPyG2DO4ds/bjEonuCzbwJrK0eYRovDxP/9oADAMBAAIAAwAAABCXH//EABcRAAMBAAAAAAAAAAAAAAAAAAABEVH/2gAIAQMBAT8QTkaRH//EABcRAAMBAAAAAAAAAAAAAAAAAAABITH/2gAIAQIBAT8Qa0U//8QAGxABAAIDAQEAAAAAAAAAAAAAAQARITFRYUH/2gAIAQEAAT8QCqKIPGMQgTYfclaAiMTpSX7mVJwA04r2LJ6aOcqpVpQosNE//9k=&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-    &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot; alt=&quot;ei-lon&quot; title src=&quot;/static/23414c5ef7fc0e68d08bc283a6b376c3/691e7/2rcrqj.png&quot; srcset=&quot;/static/23414c5ef7fc0e68d08bc283a6b376c3/17594/2rcrqj.png 250w,
-/static/23414c5ef7fc0e68d08bc283a6b376c3/95af7/2rcrqj.png 500w,
-/static/23414c5ef7fc0e68d08bc283a6b376c3/691e7/2rcrqj.png 600w&quot; sizes=&quot;(max-width: 600px) 100vw, 600px&quot;&gt;
-  &lt;/span&gt;
+&lt;figure class=&quot;gatsby-resp-image-figure&quot; style&gt;
+    &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 600px;&quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAARlAAAEZQAGA43XUAAADEUlEQVQozw3NbXPaBAAA4MhmAx2MYyUtg+OtTWggBMJIQ1ZIE5pQXhICFAIJDaWzL1goVid0dKN0c3XOqnObH3Z613re7W66m/oHdn7yPH+WPn/gAaSiJFYa/hAJB4IOp8czHwrGGD5Bn2v8u1Hr1/HHeSKck0vl1kdsJnM0ukvd5txwBDTdAI3XgWhaZrPlILmC0UycF30oEYpQa3jgkyx1Wk1vriZoFMacNxcpPsKv6zu7TLY85w1fs7ltbhRYb+8Oj++lpDocS3qxRJwRkqwQcjoGa8mHtcLOCvU5G1/HYNOMF6LLaLZZ0ndEVSfSIkwkgQjNlepNd3CJTHKQG/UEcId3Mepxv9sq/DvpvL+381tb3IrCPh9qJ3gfXVA7B9/9+IJrbPFKG/jiZBSlBTPkI2gWnLbP+WA8fEuNR5+VmO+13Nt+84G8KiA+IZ1pDSa7gwfd0UlsVZye9dv9YYCTGmG+hqRk03WX1eZ2ImEHTHyW41+quWFReNWWHxa5MZ/of3pXv/+U0Xrr2/1cRXMtxs2zfmA+JUXX6hZPNMZIY7UeINOc3CwXq2+6ytsD/c2+9lhkjxiiICtktYPwmne5AC0Q8QSjKA0AZkr/t6DVBcHxE7WyKRa4FT4nFbsl/qma/aFRPGSoLBYAoQV4WcQy6mxkpSrLk+6unJcBK5bG6z0HlU+lMn8Mtn/Z17fXMvvlQl1g6ynymZYb5FlsAZ1yoPblCsJVEIK5eHL//evnhy0VgHBuhpQ+gFBqEfvzsP1yQ77obPx+3JWXlvwLIZd9Drxi+tBgBI2WOWyZrWzSQumOop4Oe8O9NkDlmzf8t4zTdolhzkrpF2pOp8kIFr1y1QIAoOumZ3w0wEMRAADMJuvUlMXuRHwxLoTTSCgO4Ks1yIsbDJZ2c+Pi+bevzr8aD4ej44nA5/c6vfOvv/nn77++PHt80OtfXv58dvYkFoldg7zm2fmroBWgstUgfttgMJNLqdeXP/V7vc2tvdPJo2pN0/U7NUWfnJwedLtiodzS24qiITA6Y7a5PUHQaPsPFBvTZAcw8AYAAAAASUVORK5CYII=&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;ei-lon&quot; title=&quot;ei-lon&quot; src=&quot;/static/23414c5ef7fc0e68d08bc283a6b376c3/7491f/2rcrqj.png&quot; srcset=&quot;/static/23414c5ef7fc0e68d08bc283a6b376c3/3e256/2rcrqj.png 250w,
+/static/23414c5ef7fc0e68d08bc283a6b376c3/b30f8/2rcrqj.png 500w,
+/static/23414c5ef7fc0e68d08bc283a6b376c3/7491f/2rcrqj.png 600w&quot; sizes=&quot;(max-width: 600px) 100vw, 600px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;ei-lon&lt;/figcaption&gt;
+  &lt;/figure&gt;
 &lt;h2&gt;এখন কম্পিউটার কীভাবে আঁকে? — লাইন স্ক্যানার&lt;/h2&gt;
 &lt;p&gt;আপনি যদি আদি আমলের প্যানাসনিক ,নিপ্পন, ন্যাশনাল কিংবা সিংগারের নব ঘোরানো , ঝিরঝির করলে কয়েকটা থাবড় দিয়ে ঠিক করতে হয় এমন টিভি দেখে থাকেন (তাহলে আপনি আমার মতই বেশ বুড়া, নাহলে আপনি বিটিভির স্বর্ণযুগ মিস করেছেন) তাহলে মনে করে দেখেন, কোন কারণে টিভির সিগন্যাল দূর্বল হয়ে গেলে পর্দায় একের পর এক লাইন দেখা যেত। ট্রিনিট্রন প্রযুক্তি আসার আগ পর্যন্ত এটা খুব কমন ব্যাপার ছিলো। এই লাইনগুলোকে বলা হতো স্ক্যান লাইন। কম্পিউটার গ্রাফিক্সের খুব ফান্ডামেন্টাল টেকনিক গুলোর একটা। লাইন স্ক্যানিং কীভাবে কাজ করে ?&lt;/p&gt;
 &lt;p&gt;একটা কালো রঙের কাগজ নিন। তাতে কালি নেই এমন একটা কলম দিয়ে আঁকিবুঁকি করুন । একটু জোরেশোরেই করুন যাতে কাগজে দাগ পড়ে। এরপর কাগজের উপর পাউডার (ট্যালকম বা চক পাউডার যেটা খুশি) । দেখবেন আপনি যে আঁকিবুঁকি করেছেন সেগুলো সুন্দর দেখা যাচ্ছে । আপনি পাউডার দিয়ে ম্যানুয়ালি লাইন স্ক্যানিং করলেন একটা। লাইন স্ক্যানিং এই কাজটাই করে। উপর থেকে নিচ পর্যন্ত চেক করে যাবে, স্ক্রীনে আঁকার মতন কিছু পেলে সেটা আঁকবে, স্ক্রীনে দেখা যাবে, না থাকলে ঐ জায়গাটা ফাঁকা থাকবে। কম্পিউটার বা টিভি স্ক্রীন পয়েন্ট বলতে বুঝে পিক্সেল । যদি পিক্সেলে আঁকার মতন তথ্য না থাকে, লাইন স্ক্যানার সেটা এড়িয়ে যাবে।&lt;/p&gt;
@@ -582,21 +616,24 @@ done!&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
     &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; a&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; x&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
         &lt;span class=&quot;token function&quot;&gt;drawPoint&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;round&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-        y &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; slope&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        y &lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt; slope&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;কিন্তু এখানে হচ্ছেটা কি?&lt;/h2&gt;
 &lt;figure&gt;
-  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 60.36615536862939%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwAEBf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAB7YIObqjj/8QAGBAAAwEBAAAAAAAAAAAAAAAAAAERAjH/2gAIAQEAAQUC04Vi5soj/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGBAAAwEBAAAAAAAAAAAAAAAAAAERITH/2gAIAQEAAT8hk7C2PDIxGXR3D//aAAwDAQACAAMAAAAQWC//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAbEAEAAwEAAwAAAAAAAAAAAAABABEhMUFRcf/aAAgBAQABPxAQXRC2a7Du3vYgAM+3NuivmW0s76its//Z&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-    &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot; alt=&quot;inc naive&quot; title src=&quot;/static/13e967c660c89f2be4cc2207d2a92d6d/267e5/inc.png&quot; srcset=&quot;/static/13e967c660c89f2be4cc2207d2a92d6d/a9340/inc.png 250w,
-/static/13e967c660c89f2be4cc2207d2a92d6d/83ff7/inc.png 500w,
-/static/13e967c660c89f2be4cc2207d2a92d6d/267e5/inc.png 1000w,
-/static/13e967c660c89f2be4cc2207d2a92d6d/d12ef/inc.png 1500w,
-/static/13e967c660c89f2be4cc2207d2a92d6d/5c01d/inc.png 2000w,
-/static/13e967c660c89f2be4cc2207d2a92d6d/4dffc/inc.png 2021w&quot; sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;&gt;
-  &lt;/span&gt;
+  &lt;figure class=&quot;gatsby-resp-image-figure&quot; style&gt;
+    &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1000px;&quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 60.36615536862939%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAARlAAAEZQAGA43XUAAACaklEQVQozx2QSW/TUBSF86NhgxBiw5JNtywQG1ggUVW0VCltk9RO4im24yGe43ke4imJayc2L0h38aR3z/3OOaPhVA1dNbTF0GT9Pj3XcVsEbe7vM7uMjTq2qtguI2Of2M3ObTLXUVlP57PQ7JpsNHQlUPaH9LxPTtVFGTtylRixp1hbNnRkS2W3Epl66oZewE+3GDTekPMs0PuuHA2num/L/nhhFqERmsJWWrkGv5UpkUXsLaeJK5FDI1d+uv/17cuVq7EAMLR53xUXcv+aA3JbRXXm7CIDbOsKvWGW+PKRo2BFIGhixtFzkVlGlgSCHDOnLcOh2Y3AgfMx7fbxsQzy2Iw8RWAQQ6FFFr27+YHNH5/H11efP+kSBbwwJGSra1BBk/sg5sX2+Zh1VdiUQehIrrGROMy3RYHBPrx7M/l7Q+Gz2+vvhkzpMi2wSOBIRaAfUqctwlHf7M6HpK0CcCz1NVUgWBKWeZzGIRqbrYkX8AbhKXzqbDmFJ0JLzEP9uHO7EohBW0162senKootiUZnH9+/XaEzVxc4csFRc2G9pJCJQC9lFkNexhKLXZKn1mvuXch9k3R1aCmMJpAKj//8/tWQGEvj1wSsCZStcuIa0QXSUzmeWlgqE9tS/t/5CFTd1pFvCpv1UtkQAGWpXB6ZoaN4huibUmBJgSm6Ou9uOd8QABaIM08tQn3U1cmh8BNfAz1rIglKVjYrgUU5esGsYBKdksiUWEwQ6AGBxiQyAcOBUlg0c5XRqU67Oj7kHhhTYWaPv2l8RmJTAnmGJ/fQ05/FdAw/30PPdyj0AL4Y/IVbwSqPJ7b8D5tTbJUNUtweAAAAAElFTkSuQmCC&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;inc naive&quot; title=&quot;inc naive&quot; src=&quot;/static/13e967c660c89f2be4cc2207d2a92d6d/332ff/inc.png&quot; srcset=&quot;/static/13e967c660c89f2be4cc2207d2a92d6d/3e256/inc.png 250w,
+/static/13e967c660c89f2be4cc2207d2a92d6d/b30f8/inc.png 500w,
+/static/13e967c660c89f2be4cc2207d2a92d6d/332ff/inc.png 1000w,
+/static/13e967c660c89f2be4cc2207d2a92d6d/de2df/inc.png 1500w,
+/static/13e967c660c89f2be4cc2207d2a92d6d/99e71/inc.png 2000w,
+/static/13e967c660c89f2be4cc2207d2a92d6d/2ee02/inc.png 2021w&quot; sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;inc naive&lt;/figcaption&gt;
+  &lt;/figure&gt;
   &lt;figcaption&gt;Computer Graphics Principles and Practice in C&amp;#x200A;&amp;#x2014;&amp;#x200A;Foley et al.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;লাইন খাতায় আঁকতে গেলে আপনি অবচেতন মনে যেটা করেন যে, আপনি ঢাল কীভাবে কাজ করছে সেটা নিয়ে বিশেষ একটা মাথা ঘামান না। আদতে ঢালের কাজ কি? খুব সহজ ভাষায় বললে ঢাল ডিফাইন করে আপনার লাইনটা কীভাবে সামনের দিকে যাবে। মানে বেসলাইন থেকে কতটা উপরে বা নিচে সরে যাবে। এজন্য সচরাচর বলা হয় ঢাল হচ্ছে আপনার সরলরেখা x অক্ষ থেকে কোন অ্যাঙ্গেলে সরে থাকবে।&lt;/p&gt;
@@ -605,15 +642,9 @@ done!&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;নাম Naive কেন ?&lt;/h2&gt;
 &lt;p&gt;কারণ এই অ্যালগরিদমের অনেক সমস্যা আছে।&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;এইটা ব্রুট ফোর্স অ্যালগোরিদম। একের পর এক পয়েন্ট স্ক্যান করে যাবে। মেমোরি , প্রসেসর সাইকেল দুইই অপচয় হবে। গ্রাফিক্স প্রোগ্রামিং এ মেমরি বেশ গুরুত্বপূর্ণ। কারণ গ্রাফিক্স মেমরি সস্তা না।&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;গুণ, ভাগ, ডাবল কিংবা ফ্লোটিং পয়েন্ট এরিথমেটিক কম্পিউটেশন বেশ রিসোর্স ইন্টেনসিভ। এককালে এমন সব প্রসেসর পাওয়া যেত যেগুলো ইন্টিজারের বাইরে কোন কিছু নিয়ে কাজ করতে পারতো না। তাছাড়া, প্রসেসর, আর্কিটেকচার ভেদে ফ্লোটিং পয়েন্ট ক্যালকুলেশনে একেক রকম ভ্যালু আসতে পারে। দেখা যাবে আপনার কম্পিউটারে সুন্দর লাইন দেখাচ্ছে আরেকজনের লো পাওয়ার ডিভাইসে দেখাচ্ছে অন্য কিছু।&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;খেয়াল করুন, প্রতিবার ভ্যালু রাউন্ডিং করতে হচ্ছে, ফ্লোর ভ্যালু নিতে হচ্ছে। একটা সামান্য লাইন আঁকার জন্য যদি এত হ্যাপা নিতে হয় তাহলে কমপ্লেক্স স্ট্রাকচার আঁকতে কি করা লাগবে ?&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;এইটা ব্রুট ফোর্স অ্যালগোরিদম। একের পর এক পয়েন্ট স্ক্যান করে যাবে। মেমোরি , প্রসেসর সাইকেল দুইই অপচয় হবে। গ্রাফিক্স প্রোগ্রামিং এ মেমরি বেশ গুরুত্বপূর্ণ। কারণ গ্রাফিক্স মেমরি সস্তা না।&lt;/li&gt;
+&lt;li&gt;গুণ, ভাগ, ডাবল কিংবা ফ্লোটিং পয়েন্ট এরিথমেটিক কম্পিউটেশন বেশ রিসোর্স ইন্টেনসিভ। এককালে এমন সব প্রসেসর পাওয়া যেত যেগুলো ইন্টিজারের বাইরে কোন কিছু নিয়ে কাজ করতে পারতো না। তাছাড়া, প্রসেসর, আর্কিটেকচার ভেদে ফ্লোটিং পয়েন্ট ক্যালকুলেশনে একেক রকম ভ্যালু আসতে পারে। দেখা যাবে আপনার কম্পিউটারে সুন্দর লাইন দেখাচ্ছে আরেকজনের লো পাওয়ার ডিভাইসে দেখাচ্ছে অন্য কিছু।&lt;/li&gt;
+&lt;li&gt;খেয়াল করুন, প্রতিবার ভ্যালু রাউন্ডিং করতে হচ্ছে, ফ্লোর ভ্যালু নিতে হচ্ছে। একটা সামান্য লাইন আঁকার জন্য যদি এত হ্যাপা নিতে হয় তাহলে কমপ্লেক্স স্ট্রাকচার আঁকতে কি করা লাগবে ?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;এই অ্যালগোরিদম এফিশিয়েন্ট না। তাহলে এফিশিয়েন্ট অ্যালগোরিদম কোনটা ?&lt;/strong&gt;&lt;/p&gt;
 &lt;h2&gt;ব্রেজেনহামের অ্যালগোরিদম&lt;/h2&gt;
@@ -644,9 +675,9 @@ done!&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
     &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; a&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; x&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
         &lt;span class=&quot;token function&quot;&gt;drawPoint&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-        error &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; m&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        error &lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt; m&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
         &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;error &lt;span class=&quot;token operator&quot;&gt;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-            y &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;sign&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;dy&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            y &lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;sign&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;dy&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
             error&lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
         &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
@@ -663,29 +694,35 @@ done!&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;d &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
             &lt;span class=&quot;token comment&quot;&gt;// go upwards&lt;/span&gt;
             y&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-            d &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; dx&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            d &lt;span class=&quot;token operator&quot;&gt;-=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; dx&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
         &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
         &lt;span class=&quot;token comment&quot;&gt;// update d&lt;/span&gt;
-        d &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; dy&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        d &lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; dy&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Bresenham%27s_line_algorithm&quot;&gt;ডেরিভেশনটা এখান থেকে&lt;/a&gt; দেখে নিতে পারেন । কিন্তু ব্রেজেনহাম সাহেবের অ্যালগোরিদমের প্রবলেম ছিলো যে এই জিনিস দিয়ে বৃত্ত কিংবা কনিক আঁকতে গেলে ভালো রেজাল্ট পাওয়া যেত না। এইটা একটা বেশ বড় সমস্যা ছিলো। এর সমাধান দিয়েছিলেন পিটওয়ে এবং ভন অ্যাকেন । তারা একটা নতুন অ্যালগোরিদম দিলেন । নাম মিডপয়েন্ট অ্যালগোরিদম ।&lt;/p&gt;
-&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block;  max-width: 500px; margin-left: auto; margin-right: auto;&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAUEAgP/xAAXAQEBAQEAAAAAAAAAAAAAAAADAgAE/9oADAMBAAIQAxAAAAGv1A2jVZEafGic6YQhf//EABwQAAICAgMAAAAAAAAAAAAAAAACAQMSIRETMv/aAAgBAQABBQLrIWYNlTzngoztDVeuC7T/AP/EABkRAAIDAQAAAAAAAAAAAAAAAAABAhExA//aAAgBAwEBPwFRstI5YS0//8QAGxEAAQQDAAAAAAAAAAAAAAAAAAECAzESE1H/2gAIAQIBAT8BdLjZsXhLY2j/xAAbEAADAAIDAAAAAAAAAAAAAAAAAREQMTJBof/aAAgBAQAGPwLZy8Nk6ZYyKQWf/8QAHxABAAEDBAMAAAAAAAAAAAAAAQARMUEhUWGBcdHw/9oACAEBAAE/IfFfn3FlBV+ZgZ19TQDgazTOjHggQFvMoqu95YG0/9oADAMBAAIAAwAAABDs7wP/xAAYEQEBAQEBAAAAAAAAAAAAAAABABEhcf/aAAgBAwEBPxDLoyrFn37E3f/EABkRAQEBAAMAAAAAAAAAAAAAAAEAETGx4f/aAAgBAgEBPxAFghDe3k28d//EABwQAQEBAQACAwAAAAAAAAAAAAERACExYUFxsf/aAAgBAQABPxAhoHlwGUkfrX5hjmvRM02JFcjgPkBUon3k1JAO33luhsx8ZdRZgfDpAQJ5v//Z&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-    &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot; alt=&quot;pitteway&quot; title src=&quot;/static/af40122daa2b3b23b724096366ef6e33/bf9a4/2rcrll.png&quot; srcset=&quot;/static/af40122daa2b3b23b724096366ef6e33/fbc2a/2rcrll.png 250w,
-/static/af40122daa2b3b23b724096366ef6e33/bf9a4/2rcrll.png 500w&quot; sizes=&quot;(max-width: 500px) 100vw, 500px&quot;&gt;
-  &lt;/span&gt;
+&lt;figure class=&quot;gatsby-resp-image-figure&quot; style&gt;
+    &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 500px;&quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAARlAAAEZQAGA43XUAAAEHElEQVQ4y4VRaVBTVxR+/zud6U9bhAh59yUvyUsghH0Ja0uAxBQrtePCFpDSvWqp2oWqCBMVRWkEDCAwQCpip2gZlmBCCIS1UAqdAQbDhJkwQkhIIJCFhN4CA3b80W/OnPfd+51z33fuRdra2qqrq1tbW0dGRiYmJmAeGBjQ6XQOh2N3CbG0tLS9ve1+Dcjg4KBcLm9qaqqtra2srGxoaBCLxZ2dnbAaNkulUijtN2//F8jKysrCwsLk5CSsMBgMkM/Ozi4uLg4NDY2NjU1NTWm1WqPROD8/D8n4+Pj09DQkGo1mZmYGaW9vLykpKS4uhv01NTXwzxKJZHh4GLqoqKgoKiqCGTqHUlVVFZQgKSsrg8Pq9XrE5XLt+oFkeXnZtYNXB9s1vLu/z/ds78s7ZK8afnfj4IiDsw4y8uoFvHYj/wNky+n8NxwOp8Pudjvcbqdt075hdUJve9JBOFzuLef2ltXusNpsWy4n8jA7RZopuC7+IL9cONgc657k6boSf7sY0JAR35TNb8jiNWYm1WfyG0XC0rO87+/yiqQJNQ/jRjt4+gE+UprAuRxP5X/CiLtIXP/Oa01BNirpCimvMpN5UxBUcixCLIy4IQi9mcwpTDwk+eHtkZYjL+XArkYXfgdIuZArSmb6Zwez8sKiMvzrCj0Nyshmae6TqjTZ/VzZz6frbh9vlGQ3lyZp6sKWuv0c/bhDTbPKGfW3qchdXqjgKMHOivBLjwxIj3nvONFYQDJ2eJt7fUxKYFaSTUofo4JsVgGrBph6gKkTzP3KuHYJROfSkIJ3OcFHCeJ0CPtUGI0fAKKZ+TkkSw/D0kdYNXSLmrqqophVmEmJGxXEWh+ufwq+zT0clMXx/TQQEcX5slI5xIfB7I+4xLFAv0TKoztkQxcuPePxxwOSfZRmUmLrfWD8AeVeqseLVmBV0279SOV+4x9zNQRJiMHQRN9D7COkMJ/AnIjkHNZwPW5TsR5/dfivWm9tC6p9Ql7TUP5uwh6f8zK0M9x9xPMa/P1CXCBhI1EpDGpKIBpHpwvx8AvcEyfQ7pMeq48oW6P0TQ1jTkbXyhgWNb7ah9lVrLkrXrobpKkWRkYxVXifiYScYbHzuMF50dHn4+MucXMS31Fw39Ld89wYwI1yfPgqdfYK8VKGramBsQUdErwxlPrmwlPi60Kf2GsEEvtFKFXEBulMWiaTkoZ+eRboy1nr7eh6P77UAeQiqvZz/swtklUFNroo+nIvfTnJ1sOsLqUkFfghUXnssPzQ2IJIXmF4/E8BaefAi2fEZj/FrMQsaspiMzYjBvpfUEsvZlaAdZiVqE2FPa/G+BcoSJQoIOKzoPDLfvw7/illHP5572dlnpuDuLEHg69q7gUmBXynHa4Alm7U0E2GI/wpAykfe/4DZ9b4Ui9qyXIAAAAASUVORK5CYII=&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;pitteway&quot; title=&quot;pitteway&quot; src=&quot;/static/af40122daa2b3b23b724096366ef6e33/b30f8/2rcrll.png&quot; srcset=&quot;/static/af40122daa2b3b23b724096366ef6e33/3e256/2rcrll.png 250w,
+/static/af40122daa2b3b23b724096366ef6e33/b30f8/2rcrll.png 500w&quot; sizes=&quot;(max-width: 500px) 100vw, 500px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;pitteway&lt;/figcaption&gt;
+  &lt;/figure&gt;
 &lt;h2&gt;পিটওয়ে এর মিডপয়েন্ট অ্যালগোরিদম&lt;/h2&gt;
 &lt;figure&gt;
-  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 85.42795232936079%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAARABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAH3czJ1USBsH//EABsQAQEAAQUAAAAAAAAAAAAAAAEAEQIQISIx/9oACAEBAAEFAmzZl7DpjkfTb//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABgQAQADAQAAAAAAAAAAAAAAAAEAECEx/9oACAEBAAY/Aux2gjpRf//EABsQAQACAwEBAAAAAAAAAAAAAAEAETFBURAh/9oACAEBAAE/IV9MIjZA9uNqD1gLkXQjfqGJ/9oADAMBAAIAAwAAABDDAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EB//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EB//xAAdEAEAAgMAAwEAAAAAAAAAAAABABEhMUFRcbGB/9oACAEBAAE/EKC6a/IICFaXBEmPZUTeGNlC45W8zLMcqNvi4IgHpPr+Tv1Nc//Z&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-    &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot; alt=&quot;inc naive&quot; title src=&quot;/static/af08c1e77a0c2383e53f1eb0cfce1466/267e5/midpoint.png&quot; srcset=&quot;/static/af08c1e77a0c2383e53f1eb0cfce1466/a9340/midpoint.png 250w,
-/static/af08c1e77a0c2383e53f1eb0cfce1466/83ff7/midpoint.png 500w,
-/static/af08c1e77a0c2383e53f1eb0cfce1466/267e5/midpoint.png 1000w,
-/static/af08c1e77a0c2383e53f1eb0cfce1466/d12ef/midpoint.png 1500w,
-/static/af08c1e77a0c2383e53f1eb0cfce1466/4d7a1/midpoint.png 1846w&quot; sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;&gt;
-  &lt;/span&gt;
+  &lt;figure class=&quot;gatsby-resp-image-figure&quot; style&gt;
+    &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1000px;&quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 85.42795232936079%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAIAAABSJhvpAAAACXBIWXMAARlAAAEZQAGA43XUAAAB8ElEQVQ4y12Sx8rCUBCF85g+lQtxJf4rQXe+gKAgggUbWDD2Hiyx9xL/j4zcJM4iuXfuzJwzZ0azLOtjm+Uy5Xk+nx+X3e9391X7eM00TUnje71eZ7OZ5HC+XC79fp9yCkCTH67VamUYRj6fn8/n4/F4MpkQWqlU8C+Xy+12y2u9Xp9Op3io5SDztl6v9/t9s9k8nU5SEUAKKSIYmer8Sxt84SkRt9tNkt/vNx6+uq4rFfBo8uNBmqS2Oxny7Xb7eDxKAtdfZHUnmcbIIZozvTUajVQqhfN8PnPt9XrD4VDUGQwGX9o0DOFut1ur1ZCHt91uxxWFRHMI53K5ZDKZTqfL5TJ0NpuNprp9vV4kUFWa5EtoIBDIZDKtVgv9H48HRUVnj2DCHLUpCbdisciQUD6RSFSrVRUwGo2YCweQPKMiLZvNEgo4IDj5ot/hcFDJdCfieZYEtMViwYbEYjE4m7ahbalUQjMYUR0tOp0O4HSHfk4yiwFOKBTy+Xx0xTOA6ARzOQPIFwnhQvB3w1gDaoPJDAqFAqGKlXvDxMMrmY5gtE4QXuIYHVTlGWHZbXSGp7SKhHTBzAiTPXOWhLaDwSCz4ZlrNBr1+/3hcJheEILNiUQif7bF43GZpbPb3OkQzWUShm1gohPiAQAjdFJqYf/+w6/VlZB4SwAAAABJRU5ErkJggg==&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;inc naive&quot; title=&quot;inc naive&quot; src=&quot;/static/af08c1e77a0c2383e53f1eb0cfce1466/332ff/midpoint.png&quot; srcset=&quot;/static/af08c1e77a0c2383e53f1eb0cfce1466/3e256/midpoint.png 250w,
+/static/af08c1e77a0c2383e53f1eb0cfce1466/b30f8/midpoint.png 500w,
+/static/af08c1e77a0c2383e53f1eb0cfce1466/332ff/midpoint.png 1000w,
+/static/af08c1e77a0c2383e53f1eb0cfce1466/de2df/midpoint.png 1500w,
+/static/af08c1e77a0c2383e53f1eb0cfce1466/6f5bc/midpoint.png 1846w&quot; sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;inc naive&lt;/figcaption&gt;
+  &lt;/figure&gt;
   &lt;figcaption&gt;Computer Graphics Principles and Practice in C&amp;#x200A;&amp;#x2014;&amp;#x200A;Foley et al.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;পিটওয়ে সাহেবের অ্যালগোরিদম টা কিঞ্চিত জটিল । উনি ব্রেজেনহামের মতন ধরে নেননি যে লাইন কখনো নিজের ঢাল বদলাবে না (যেমন বৃত্ত কিংবা কনিকে , যেখানে প্রতি বিন্দুর ঢাল আলাদা হয়)। উনি ভিন্নভাবে চিন্তা করলেন যে সব সমস্যা তো ঐ y এর মান নিয়েই, তাহলে এইভাবে দেখা যাক, ঢাল হিসাব করার দরকার ই নেই, থ্রেশোল্ড নিয়ে মারামারির ও দরকার নেই। যেহেতু পুরো স্ক্রিনটাই একটা গ্রাফ পেপারের মতন রেক্টাঙ্গুলার গ্রিড, এবং লাইনকে গ্রিডের সেল পার করেই যেতে হবে, তাহলে সেলের মাঝে এমন একটা বিন্দু নিবো যেটাকে বলবো মিডপয়েন্ট (M)। এরপর দেখবো আবার লাইন মিডপয়েন্টের উপরে আছে নাকি নিচে । যদি উপরে থাকে, তাহলে উপরে যাবে। নিচে থাকলে নিচে। এই অ্যালগোরিদম যদি C++ এ লেখি এমন দাঁড়াবে। ভালো হয় যদি এর &lt;a href=&quot;https://academic.oup.com/comjnl/article/10/3/282/494116&quot;&gt;ডেরিভেশনটাও&lt;/a&gt; দেখে আসতে পারেন । যথেষ্ট বড় ডেরিভেশন, সেটা এখানে ডিসকাস করে আপনার আমার ভেজা ফ্রাই করার মানে হয় না ।&lt;/p&gt;
@@ -705,11 +742,11 @@ done!&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; dx&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
         &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;d &lt;span class=&quot;token operator&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
             &lt;span class=&quot;token comment&quot;&gt;// go down&lt;/span&gt;
-            d &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; lower&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            d &lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt; lower&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
             x&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
         &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
             &lt;span class=&quot;token comment&quot;&gt;// go up&lt;/span&gt;
-            d &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; rise&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            d &lt;span class=&quot;token operator&quot;&gt;+=&lt;/span&gt; rise&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
             x&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
             y&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
         &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
@@ -744,11 +781,14 @@ g++ main.cpp -std&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;c++1
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;শেষ!&lt;/h2&gt;
 &lt;p&gt;কম্পিউটার গ্রাফিক্স বিশাল বড় একটা ফিল্ড। আপনি যদি এই বিরক্তিকর পোস্ট পড়ে, একগাদা সমীকরণ দেখে আরো ঘাটাঘাটি করতে ইন্টারেস্ট পান তাহলে Edx, Coursera তে ভালো কিছু কোর্স আছে। এছাড়া রেফারেন্স ম্যাটারিয়াল গুলো পড়তে পারেন।&lt;/p&gt;
-&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block;  max-width: 460px; margin-left: auto; margin-right: auto;&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 113.69565217391305%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAXABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIDBP/EABYBAQEBAAAAAAAAAAAAAAAAAAABA//aAAwDAQACEAMQAAAB5dcU1lRLFSD/xAAdEAABAgcAAAAAAAAAAAAAAAAAAiIBAxAREjFB/9oACAEBAAEFAoExKcac0NLJGn//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAcEAABAwUAAAAAAAAAAAAAAAAAARGhEBIhMTL/2gAIAQEABj8CEVKsZOoHug3B/8QAGxAAAwACAwAAAAAAAAAAAAAAAAEREEEhMVH/2gAIAQEAAT8hQQc87w3CtpoSp2Q1CrCloJ6j/9oADAMBAAIAAwAAABCr9zz/xAAXEQEAAwAAAAAAAAAAAAAAAAABABAR/9oACAEDAQE/EBvJ/8QAFREBAQAAAAAAAAAAAAAAAAAAESD/2gAIAQIBAT8QI//EAB0QAQACAgIDAAAAAAAAAAAAAAEAESExQWFRofD/2gAIAQEAAT8Qsg6DQWtsKCIMYuNtKFo7jYIEpFmGB52D3EQYnOm+TMfP/O5//9k=&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-    &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot; alt=&quot;robert ugh&quot; title src=&quot;/static/37fe8f28090a293ab4d4a263ee7067ad/96ffd/2rcru5.png&quot; srcset=&quot;/static/37fe8f28090a293ab4d4a263ee7067ad/64d27/2rcru5.png 250w,
-/static/37fe8f28090a293ab4d4a263ee7067ad/96ffd/2rcru5.png 460w&quot; sizes=&quot;(max-width: 460px) 100vw, 460px&quot;&gt;
-  &lt;/span&gt;
+&lt;figure class=&quot;gatsby-resp-image-figure&quot; style&gt;
+    &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 460px;&quot;&gt;
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 113.69565217391305%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAIAAACEf/j0AAAACXBIWXMAARlAAAEZQAGA43XUAAAEcklEQVQ4yyWUC2/TVhiG/aNgG40dO1dfjh07iZ2kSZo6iS+J7aSJ3dyaXtIyIIOOQmmnQhnTCrQqqqiAdhMSm7ZfwCZt0piQJk37IftOkI6OLPk8ft/v/b5jwoln3UQGlpfMtjnNF3IDZX6cKXXjchCVWozYikomzeshthriqqFkNcQaFG/SyImlCGdGuslsi1WXeG1ZzI/U8kStOGG+x6BRTHTmknaIq80w4PU51gwLFoOacZnAJJv1WLXNqQHIysWNvN5Jpndk7c/trX8e7/604vs0Xw+xNZKvUQLwVhjZjOgADG69GdzhtUDMD9OlrWIt4NWXtvXv6eH7x3sf9m4eFMulqzEjLNQpWNizGUFOIv0JVltc1he0fmp+JVveLNUmWuXIdj98u/v+4N5fT/YuXPuOUgAGSAN7FhtRyU2mCSi19cmzmB8oxVV14XqpvqEtvFtb+WPn5sfjR/+df/fbRu9tz6+S4Bwy40xasiMpbLvF4pBxVFJ+kC6tqRWAJ7nFU9M6q1hv7Nbfh1/9MlzqJ5XaTBYqN8LIiachMwwvYc+55VR+mCmvaZVJsQrwPa18XNAvXO/nkf9iQbdJoR4WjDBfI1mLRlAmmCfAMI4K5XqpAsBjgAvVzYIeJNNTOXdY0d8N/R/9jn6NNbEywBxgHUFzwXZXyAEZSBgeZUqgDGV3+WwN91Z40e78vnu7h/KVa3wjLBoUVyehZuRLhVZSIboIdyhI5XpyYZQuBUhtMAi62qSRPsd50cxYLJS+4ExKbNKSRQmw4K0vQVNzRFfM+QBLeCoDQTNCvB0W7bDQoGHJjWjGjSp1WnEicoMWbUps0JJB8m5C7ssaESCQxcp9Zd6JpywKAQwnGozUoFNuItfl8iattGKKG5FBHH+aRhC1jzKEL0GTIGpsG3efFk3gGcmNpuywtMTm+2jeZmSAvahiUaJJItihZ720RnQlnFYgYX2LEWapIJheLybbtNhOZAeo6ERAWbbCYsBqv67ferjoVknOZWWwjW9STyqABTjtRFKw10LQGCzSSahDseRGZS8q1+f418Hqx/1HDxabcLcgdgL3ScQT4iMN5r4JziFtkh8I6kAsuIzcSWSdiNRkJC8ibyplP5GxZtNSpzgC7gNggaSBMswthAE1d+PpH7YmMLAQD3iBnACGB3gFezuu2DTmQVkFHsy3E3JtjrVmBcPpgFMNUqhcidZgtkjBpATon0OLDRhsRsTiFD9TFnOBXNwerPnZikEJXiINqxGR4T8xXR53sgsw1TY4j6WMCLJjkhWRPD7blnLEqGw8P3p6enJy/vrV/entJ/sH52dnDx/sX7652F7fevb90eXl5auzl3c3rn+zvXNyfHz6/Hjsdc/gzN37RB8u0OTG3fHmzeXRquFuud3peDJd2di9dWeoNwd6YzpcP3n67ODr+8sV80ZvZefLaSdTmvbHQ8MhunKhhdRmPAWRejgJfuEKU/ksVrkaq5PIT6j6ldik2e2XDR3+RCS3+HncINl6KAk353+rfgPUQCt/BwAAAABJRU5ErkJggg==&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;robert ugh&quot; title=&quot;robert ugh&quot; src=&quot;/static/37fe8f28090a293ab4d4a263ee7067ad/b0e63/2rcru5.png&quot; srcset=&quot;/static/37fe8f28090a293ab4d4a263ee7067ad/3e256/2rcru5.png 250w,
+/static/37fe8f28090a293ab4d4a263ee7067ad/b0e63/2rcru5.png 460w&quot; sizes=&quot;(max-width: 460px) 100vw, 460px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;robert ugh&lt;/figcaption&gt;
+  &lt;/figure&gt;
 &lt;h2&gt;রেফারেন্স&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Computer Graphics Principles and Practices in C, Foley et al, 2nd edition.&lt;/li&gt;
@@ -766,43 +806,47 @@ g++ main.cpp -std&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;c++1
 &lt;p&gt;For testing whether our loader works or not we&apos;ll use this animated gif : &lt;a href=&quot;http://i.giphy.com/xT0GqdXpoKAazgF8t2.gif&quot; target=&quot;_blank&quot;&gt;TotoroGif&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;How it&apos;ll look like?&lt;/h2&gt;
 &lt;p&gt;We expect something like this : &lt;/p&gt;
-&lt;p&gt;&lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 102.84697508896797%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAABYlAAAWJQFJUiTwAAAC4klEQVQ4y6WUaU8TURSG+U/+BhJNjCIIMQhMWzVQ1w9SKUIQBQQigUbwiwaIUYmogFJCwOUD3QjFUKFQZJPShYpCSwmzdNrp650pUzptITGc5OTc3tt57lne3JzNXxbY3TMI+ALweD3wer1J9/l8WFlZgdPpVOxnc7/fj5KSEuSAWCwaQyx2MhcEASqVKgEUf6RbPB7H/xpFUQcZkhtEgOyyCUJcccFRngEUMxQP5CheENgKSH+a+PwJ7F7oMOs0UCowWbIISLVolEd3VzN+uFyobO+AbWkNqa1JhSiAak0CKG4yDA2Pxw0+EpEOqwa/4lStAacbnoJ6PogvLjf2w7vgo9FkJenAZMmiuVxOlJWeR1N9JZ4NGXGnuRNXqSIUF+Si5nIRblZo8PvPVtaeHtnDtraHKCSAgsIz0JcW4FGtFj0vG9H3pgXVVVfwoK4Sr1+9wNzcTMrghExglJQh2s7OX1Trb0BN5aO1XYf1jWE4599idW0ItsledHVW4WJ+LqnkHAwdTWBZRlG2IkN5MG73Otqe6DE11QurrRuuxXeYne3D/EK/5I+b7uL2LTUaG/QIhYIKoELY8iZDcySbfpLVAGjGDIY1k0HYsE+bEN77RiCL2N4OZp2yRqPJBAaDu1hdHSerKbCcFVzESqKFRBtxE2nP+gFIyBiKWkVlyZDhMD09hAhvJhlaJJjoDGuRgP5NBxL6PkY28qQEIdFHo7Efy8vvycqRhAEzcG98hGli7EiRZ8hGLEO00dFh3NOpseD6IAEjvI0MawS1NdcwPjYC5TfHAuPSg7C09BNU2QVJHjX3y1FXdx0adT6KL52Fw/EdHMcpgdlkk56+0TgAna4CrS31MBhaScZaIvCew95BjlmeL57nMx5M0Wh6XzoTITRNI1WzMfEblkM0vIdYKAyB7Kll2ZzIWJ7czEnLcq0WOXa7HSaTCRaLReFmszmrS+dytFphtllhmbTBStZ5eXn4B66r35JAS2J3AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 1000px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 102.84697508896797%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAABYlAAAWJQFJUiTwAAAC4klEQVQ4y6WUaU8TURSG+U/+BhJNjCIIMQhMWzVQ1w9SKUIQBQQigUbwiwaIUYmogFJCwOUD3QjFUKFQZJPShYpCSwmzdNrp650pUzptITGc5OTc3tt57lne3JzNXxbY3TMI+ALweD3wer1J9/l8WFlZgdPpVOxnc7/fj5KSEuSAWCwaQyx2MhcEASqVKgEUf6RbPB7H/xpFUQcZkhtEgOyyCUJcccFRngEUMxQP5CheENgKSH+a+PwJ7F7oMOs0UCowWbIISLVolEd3VzN+uFyobO+AbWkNqa1JhSiAak0CKG4yDA2Pxw0+EpEOqwa/4lStAacbnoJ6PogvLjf2w7vgo9FkJenAZMmiuVxOlJWeR1N9JZ4NGXGnuRNXqSIUF+Si5nIRblZo8PvPVtaeHtnDtraHKCSAgsIz0JcW4FGtFj0vG9H3pgXVVVfwoK4Sr1+9wNzcTMrghExglJQh2s7OX1Trb0BN5aO1XYf1jWE4599idW0ItsledHVW4WJ+LqnkHAwdTWBZRlG2IkN5MG73Otqe6DE11QurrRuuxXeYne3D/EK/5I+b7uL2LTUaG/QIhYIKoELY8iZDcySbfpLVAGjGDIY1k0HYsE+bEN77RiCL2N4OZp2yRqPJBAaDu1hdHSerKbCcFVzESqKFRBtxE2nP+gFIyBiKWkVlyZDhMD09hAhvJhlaJJjoDGuRgP5NBxL6PkY28qQEIdFHo7Efy8vvycqRhAEzcG98hGli7EiRZ8hGLEO00dFh3NOpseD6IAEjvI0MawS1NdcwPjYC5TfHAuPSg7C09BNU2QVJHjX3y1FXdx0adT6KL52Fw/EdHMcpgdlkk56+0TgAna4CrS31MBhaScZaIvCew95BjlmeL57nMx5M0Wh6XzoTITRNI1WzMfEblkM0vIdYKAyB7Kll2ZzIWJ7czEnLcq0WOXa7HSaTCRaLReFmszmrS+dytFphtllhmbTBStZ5eXn4B66r35JAS2J3AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;img&quot;
-        title=&quot;&quot;
-        src=&quot;/static/1e2264235bf5120f808793b26d830a55/267e5/6Tk8YBC.png&quot;
-        srcset=&quot;/static/1e2264235bf5120f808793b26d830a55/a9340/6Tk8YBC.png 250w,
-/static/1e2264235bf5120f808793b26d830a55/83ff7/6Tk8YBC.png 500w,
-/static/1e2264235bf5120f808793b26d830a55/267e5/6Tk8YBC.png 1000w,
-/static/1e2264235bf5120f808793b26d830a55/22ef4/6Tk8YBC.png 1124w&quot;
+        title=&quot;img&quot;
+        src=&quot;/static/1e2264235bf5120f808793b26d830a55/332ff/6Tk8YBC.png&quot;
+        srcset=&quot;/static/1e2264235bf5120f808793b26d830a55/3e256/6Tk8YBC.png 250w,
+/static/1e2264235bf5120f808793b26d830a55/b30f8/6Tk8YBC.png 500w,
+/static/1e2264235bf5120f808793b26d830a55/332ff/6Tk8YBC.png 1000w,
+/static/1e2264235bf5120f808793b26d830a55/72782/6Tk8YBC.png 1124w&quot;
         sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-  &lt;/span&gt;&lt;/p&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;img&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
 &lt;h2&gt;Breaking down the procedure&lt;/h2&gt;
 &lt;p&gt;JLabel can have Icon objects set to them as Icons. So what we&apos;re going to do here is that we&apos;re going to load the animated gif from the URL given earlier into an URL object. Then instantiate an Icon object with the URL. Finally, set the Icon object to the JLabel.
 Now here&apos;s a catch. To make sure you get the animated gif and not a static frame or image, you&apos;ve to load it as a stream via URL object and some exception handling will need to be taken care of. Let&apos;s just keep things simple and use generic exception handlers.&lt;/p&gt;
 &lt;h2&gt;What about the size of the JFrame?&lt;/h2&gt;
 &lt;p&gt;Unless you know the size of the animated gif, it&apos;s better to use pack() and let Swing do the work for you. Why take the hassle of measuring things? Chill!&lt;/p&gt;
 &lt;h2&gt;CODE&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; javax&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;swing&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;*&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; java&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;net&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;URL&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token namespace&quot;&gt;javax&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;swing&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;*&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token namespace&quot;&gt;java&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;net&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;URL&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
 &lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;GifLoader&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; JFrame frame&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; JLabel label&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; Icon icon&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; URL url&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;JFrame&lt;/span&gt; frame&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;JLabel&lt;/span&gt; label&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Icon&lt;/span&gt; icon&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;URL&lt;/span&gt; url&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-    &lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;GifLoader&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;GifLoader&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
         &lt;span class=&quot;token function&quot;&gt;initGUI&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
         &lt;span class=&quot;token function&quot;&gt;addWindowProperties&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
@@ -812,7 +856,7 @@ Now here&apos;s a catch. To make sure you get the animated gif and not a static 
                                       &lt;span class=&quot;token comment&quot;&gt;// it if you don&apos;t like it!&lt;/span&gt;
 
         &lt;span class=&quot;token keyword&quot;&gt;try&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-            url &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;URL&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;http://i.giphy.com/xT0GqdXpoKAazgF8t2.gif&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            url &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;URL&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;http://i.giphy.com/xT0GqdXpoKAazgF8t2.gif&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
         &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;catch&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Exception&lt;/span&gt; e&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// do nothing or just print a message }&lt;/span&gt;
 
         icon &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;ImageIcon&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;url&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
@@ -822,7 +866,7 @@ Now here&apos;s a catch. To make sure you get the animated gif and not a static 
     &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;addWindowProperties&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
         frame&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;label&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
         frame&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;pack&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// you don&apos;t know the size of the gif, so pack&lt;/span&gt;
-        frame&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setDefaultCloseOperation&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;WindowConstants&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;EXIT_ON_CLOSE&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        frame&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setDefaultCloseOperation&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;WindowConstants&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;EXIT_ON_CLOSE&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
         &lt;span class=&quot;token comment&quot;&gt;// you can also use JFrame.EXIT_ON_CLOSE&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
@@ -837,8 +881,8 @@ Now here&apos;s a catch. To make sure you get the animated gif and not a static 
 &lt;p&gt;Let&apos;s create another class where we&apos;ll create an object of the &lt;code class=&quot;language-text&quot;&gt;class GifLoader&lt;/code&gt; and instantiate it and call the &lt;code class=&quot;language-text&quot;&gt;loadApplication()&lt;/code&gt; method to run our Animated Gif Loader.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Main&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
 
-    &lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;String&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; args&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-        GifLoader a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;GifLoader&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; args&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token class-name&quot;&gt;GifLoader&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;GifLoader&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
         a&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;loadApplication&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
