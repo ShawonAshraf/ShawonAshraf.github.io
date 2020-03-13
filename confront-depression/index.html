@@ -26,247 +26,52 @@
 /* sc-component-id: blog-post___StyledSub-sc-1cxuom3-0 */
 .dvEvZo{color:rgba(0,0,0,0.8);}
 /* sc-component-id: blog-post___StyledDiv-sc-1cxuom3-1 */
-.jJLCUM{margin:5rem 0;font-size:1.8rem;}</style><title data-react-helmet="true"></title><link rel="icon" href="/icons/icon-48x48.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link as="script" rel="preload" href="/component---src-templates-blog-post-js-ef6849b35b6c43711d12.js"/><link as="script" rel="preload" href="/commons-1a6d0d23d54a46520900.js"/><link as="script" rel="preload" href="/app-022c0e65b083e626b903.js"/><link as="script" rel="preload" href="/styles-a1f09a029ba4a250f8ea.js"/><link as="script" rel="preload" href="/webpack-runtime-85a364b6118b464eca7a.js"/><link as="fetch" rel="preload" href="/page-data/rocm-tf-ubuntu/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><noscript>Sorry! This site requires JavaScript to be enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><nav class="header__Container-sc-1hjyk8g-0 bcGOHo"><a class="styled-link__StyledLink-sc-1pzq7s8-0 kkmMWD" href="/"><h1 class="header__Title-sc-1hjyk8g-1 gnjbqE">Sprache</h1></a></nav><div class="layout__Content-wzore3-1 cxdbKT"><article class="post-styles__Container-uvw59-0 cTwwbR"><header class="post-styles__Header-uvw59-1 cFTaSW"><h1 class="post-styles__Title-uvw59-2 hXactj">Setting up your AMD GPU for Tensorflow in Ubuntu 18.04</h1><sub class="blog-post___StyledSub-sc-1cxuom3-0 dvEvZo"><span>Posted on <!-- -->March 12, 2020</span><span>  -  </span><span>7 min read</span></sub></header><div class="blog-post___StyledDiv-sc-1cxuom3-1 jJLCUM"><p>If you’ve been working with <strong>Tensorflow</strong> for some time now and extensively use GPUs/TPUs to speed up your compute intensive tasks, you already know that <em>Nvidia GPUs</em> are your only option to get the job done in a cost effective manner. All you need to have is a <em>GeForce GPU</em> and you can get started crunching numbers in no time. But what about <em>AMD GPUs</em>? I mean, it’s been some time that the Team Red has hitting back at the Team Green, they should be a viable option for compute intensive tasks like Deep Learning and such, right? The answer is complicated actually. You can, but not without going the extra mile.</p>
-<h3>ROCm</h3>
-<p>I’ll keep it brief here since discussing on ROCm isn’t the intent of this article and I don’t want to open up a large can of worms. In short, ROCm is AMD’s answer to Nvidia’s <strong>CUDA</strong>. Thanks to this, you can now easily use various GPU dependent computation libraries and softwares with AMD GPUs which could previously be used with Nvidia GPUs only. You can read more about it <a href="https://rocm.github.io">here on their official page</a>.</p>
-<h3>GPU support</h3>
-<p>Although ROCm opens up new possibilities for AMD GPUs, not all of them can support it. As of now, only Vega, Polaris, Fiji and Hawaii GPUs are supported. Despite being a recent and popular release, Navi wasn’t included and nobody knows why! Check the <a href="https://github.com/RadeonOpenCompute/ROCm#Hardware-and-Software-Support">full list here</a>.</p>
-<p>For this setup process I’m using a <strong>Radeon VII GPU</strong>.</p>
-<h3>OS Support</h3>
-<p>It’s Linux only as of now. Even so, AMD has builds for only <strong>Ubuntu, RHEL and CentOS</strong>. As the title says, I’ll be setting up ROCm on Ubuntu 18.04.</p>
-<h3>Setup</h3>
-<h4>ROCm</h4>
-<ul>
-<li>Before you begin, make sure to have your system up to date. Run the following commands in Terminal.</li>
-</ul>
-<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">apt</span> update
-<span class="token function">sudo</span> <span class="token function">apt</span> dist-upgrade</code></pre></div>
-<ul>
-<li>Install the dependency <code class="language-text">libnuma-dev</code> for ROCm.</li>
-</ul>
-<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">apt</span> <span class="token function">install</span> libnuma-dev</code></pre></div>
-<ul>
-<li>Once <code class="language-text">libnuma-dev</code> gets installed, add the official ROCm repos to <code class="language-text">apt</code></li>
-</ul>
-<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">wget</span> -qO - http://repo.radeon.com/rocm/apt/debian/rocm.gpg.key <span class="token operator">|</span> <span class="token function">sudo</span> apt-key <span class="token function">add</span> -</code></pre></div>
-<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token builtin class-name">echo</span> <span class="token string">'deb [arch=amd64] http://repo.radeon.com/rocm/apt/debian/ xenial main'</span> <span class="token operator">|</span> <span class="token function">sudo</span> <span class="token function">tee</span> /etc/apt/sources.list.d/rocm.list</code></pre></div>
-<ul>
-<li>Install the ROCm kernel</li>
-</ul>
-<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">	<span class="token function">sudo</span> <span class="token function">apt</span> update
-	<span class="token function">sudo</span> <span class="token function">apt</span> <span class="token function">install</span> rocm-dkms</code></pre></div>
-<ul>
-<li>Add your user to the <code class="language-text">VIDEOGROUP</code></li>
-</ul>
-<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">usermod</span> -a -G video <span class="token environment constant">$LOGNAME</span></code></pre></div>
-<ul>
-<li>Add ROCm binaries to your path (bash or zsh whichever you use)</li>
-</ul>
-<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token builtin class-name">echo</span> <span class="token string">'export PATH=<span class="token environment constant">$PATH</span>:/opt/rocm/bin:/opt/rocm/profiler/bin:/opt/rocm/opencl/bin/x86_64'</span> <span class="token operator">|</span> <span class="token function">sudo</span> <span class="token function">tee</span> -a /etc/profile.d/rocm.sh</code></pre></div>
-<ul>
-<li>Test if your installation was successful or not. If your installation was successful, you should be able to see the supported GPUs installed on your system in the output.</li>
-</ul>
-<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">/opt/rocm/bin/rocminfo
-
-<span class="token comment"># you should see something like this</span>
-ROCk module is loaded
-shawon is member of video group
-<span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">=</span>
-HSA System Attributes
-<span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">=</span>
-Runtime Version:         <span class="token number">1.1</span>
-System Timestamp Freq.:  <span class="token number">1000</span>.000000MHz
-Sig. Max Wait Duration:  <span class="token number">18446744073709551615</span> <span class="token punctuation">(</span>0xFFFFFFFFFFFFFFFF<span class="token punctuation">)</span> <span class="token punctuation">(</span>timestamp count<span class="token punctuation">)</span>
-Machine Model:           LARGE
-System Endianness:       LITTLE
-
-<span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span>
-HSA Agents
-<span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span>
-*******
-Agent <span class="token number">1</span>
-*******
-  Name:                    Intel<span class="token punctuation">(</span>R<span class="token punctuation">)</span> Core<span class="token punctuation">(</span>TM<span class="token punctuation">)</span> i7-5820K CPU @ <span class="token number">3</span>.30GHz
-  Marketing Name:          Intel<span class="token punctuation">(</span>R<span class="token punctuation">)</span> Core<span class="token punctuation">(</span>TM<span class="token punctuation">)</span> i7-5820K CPU @ <span class="token number">3</span>.30GHz
-  Vendor Name:             CPU
-  Feature:                 None specified
-  Profile:                 FULL_PROFILE
-  Float Round Mode:        NEAR
-  Max Queue Number:        <span class="token number">0</span><span class="token punctuation">(</span>0x0<span class="token punctuation">)</span>
-  Queue Min Size:          <span class="token number">0</span><span class="token punctuation">(</span>0x0<span class="token punctuation">)</span>
-  Queue Max Size:          <span class="token number">0</span><span class="token punctuation">(</span>0x0<span class="token punctuation">)</span>
-  Queue Type:              MULTI
-  Node:                    <span class="token number">0</span>
-  Device Type:             CPU
-  Cache Info:
-    L1:                      <span class="token number">32768</span><span class="token punctuation">(</span>0x8000<span class="token punctuation">)</span> KB
-  Chip ID:                 <span class="token number">0</span><span class="token punctuation">(</span>0x0<span class="token punctuation">)</span>
-  Cacheline Size:          <span class="token number">64</span><span class="token punctuation">(</span>0x40<span class="token punctuation">)</span>
-  Max Clock Freq. <span class="token punctuation">(</span>MHz<span class="token punctuation">)</span>:   <span class="token number">3600</span>
-  BDFID:                   <span class="token number">0</span>
-  Internal Node ID:        <span class="token number">0</span>
-  Compute Unit:            <span class="token number">12</span>
-  SIMDs per CU:            <span class="token number">0</span>
-  Shader Engines:          <span class="token number">0</span>
-  Shader Arrs. per Eng.:   <span class="token number">0</span>
-  WatchPts on Addr. Ranges:1
-  Features:                None
-  Pool Info:
-    Pool <span class="token number">1</span>
-      Segment:                 GLOBAL<span class="token punctuation">;</span> FLAGS: KERNARG, FINE GRAINED
-      Size:                    <span class="token number">32805216</span><span class="token punctuation">(</span>0x1f49160<span class="token punctuation">)</span> KB
-      Allocatable:             TRUE
-      Alloc Granule:           4KB
-      Alloc Alignment:         4KB
-      Acessible by all:        TRUE
-    Pool <span class="token number">2</span>
-      Segment:                 GLOBAL<span class="token punctuation">;</span> FLAGS: COARSE GRAINED
-      Size:                    <span class="token number">32805216</span><span class="token punctuation">(</span>0x1f49160<span class="token punctuation">)</span> KB
-      Allocatable:             TRUE
-      Alloc Granule:           4KB
-      Alloc Alignment:         4KB
-      Acessible by all:        TRUE
-  ISA Info:
-    N/A
-*******
-Agent <span class="token number">2</span>
-*******
-  Name:                    gfx906
-  Marketing Name:          Vega <span class="token number">20</span>
-  Vendor Name:             AMD
-  Feature:                 KERNEL_DISPATCH
-  Profile:                 BASE_PROFILE
-  Float Round Mode:        NEAR
-  Max Queue Number:        <span class="token number">128</span><span class="token punctuation">(</span>0x80<span class="token punctuation">)</span>
-  Queue Min Size:          <span class="token number">4096</span><span class="token punctuation">(</span>0x1000<span class="token punctuation">)</span>
-  Queue Max Size:          <span class="token number">131072</span><span class="token punctuation">(</span>0x20000<span class="token punctuation">)</span>
-  Queue Type:              MULTI
-  Node:                    <span class="token number">1</span>
-  Device Type:             GPU
-  Cache Info:
-    L1:                      <span class="token number">16</span><span class="token punctuation">(</span>0x10<span class="token punctuation">)</span> KB
-  Chip ID:                 <span class="token number">26287</span><span class="token punctuation">(</span>0x66af<span class="token punctuation">)</span>
-  Cacheline Size:          <span class="token number">64</span><span class="token punctuation">(</span>0x40<span class="token punctuation">)</span>
-  Max Clock Freq. <span class="token punctuation">(</span>MHz<span class="token punctuation">)</span>:   <span class="token number">1801</span>
-  BDFID:                   <span class="token number">1280</span>
-  Internal Node ID:        <span class="token number">1</span>
-  Compute Unit:            <span class="token number">60</span>
-  SIMDs per CU:            <span class="token number">4</span>
-  Shader Engines:          <span class="token number">4</span>
-  Shader Arrs. per Eng.:   <span class="token number">1</span>
-  WatchPts on Addr. Ranges:4
-  Features:                KERNEL_DISPATCH
-  Fast F16 Operation:      FALSE
-  Wavefront Size:          <span class="token number">64</span><span class="token punctuation">(</span>0x40<span class="token punctuation">)</span>
-  Workgroup Max Size:      <span class="token number">1024</span><span class="token punctuation">(</span>0x400<span class="token punctuation">)</span>
-  Workgroup Max Size per Dimension:
-    x                        <span class="token number">1024</span><span class="token punctuation">(</span>0x400<span class="token punctuation">)</span>
-    y                        <span class="token number">1024</span><span class="token punctuation">(</span>0x400<span class="token punctuation">)</span>
-    z                        <span class="token number">1024</span><span class="token punctuation">(</span>0x400<span class="token punctuation">)</span>
-  Max Waves Per CU:        <span class="token number">40</span><span class="token punctuation">(</span>0x28<span class="token punctuation">)</span>
-  Max Work-item Per CU:    <span class="token number">2560</span><span class="token punctuation">(</span>0xa00<span class="token punctuation">)</span>
-  Grid Max Size:           <span class="token number">4294967295</span><span class="token punctuation">(</span>0xffffffff<span class="token punctuation">)</span>
-  Grid Max Size per Dimension:
-    x                        <span class="token number">4294967295</span><span class="token punctuation">(</span>0xffffffff<span class="token punctuation">)</span>
-    y                        <span class="token number">4294967295</span><span class="token punctuation">(</span>0xffffffff<span class="token punctuation">)</span>
-    z                        <span class="token number">4294967295</span><span class="token punctuation">(</span>0xffffffff<span class="token punctuation">)</span>
-  Max fbarriers/Workgrp:   <span class="token number">32</span>
-  Pool Info:
-    Pool <span class="token number">1</span>
-      Segment:                 GLOBAL<span class="token punctuation">;</span> FLAGS: COARSE GRAINED
-      Size:                    <span class="token number">16760832</span><span class="token punctuation">(</span>0xffc000<span class="token punctuation">)</span> KB
-      Allocatable:             TRUE
-      Alloc Granule:           4KB
-      Alloc Alignment:         4KB
-      Acessible by all:        FALSE
-    Pool <span class="token number">2</span>
-      Segment:                 GROUP
-      Size:                    <span class="token number">64</span><span class="token punctuation">(</span>0x40<span class="token punctuation">)</span> KB
-      Allocatable:             FALSE
-      Alloc Granule:           0KB
-      Alloc Alignment:         0KB
-      Acessible by all:        FALSE
-  ISA Info:
-    ISA <span class="token number">1</span>
-      Name:                    amdgcn-amd-amdhsa--gfx906
-      Machine Models:          HSA_MACHINE_MODEL_LARGE
-      Profiles:                HSA_PROFILE_BASE
-      Default Rounding Mode:   NEAR
-      Default Rounding Mode:   NEAR
-      Fast f16:                TRUE
-      Workgroup Max Size:      <span class="token number">1024</span><span class="token punctuation">(</span>0x400<span class="token punctuation">)</span>
-      Workgroup Max Size per Dimension:
-        x                        <span class="token number">1024</span><span class="token punctuation">(</span>0x400<span class="token punctuation">)</span>
-        y                        <span class="token number">1024</span><span class="token punctuation">(</span>0x400<span class="token punctuation">)</span>
-        z                        <span class="token number">1024</span><span class="token punctuation">(</span>0x400<span class="token punctuation">)</span>
-      Grid Max Size:           <span class="token number">4294967295</span><span class="token punctuation">(</span>0xffffffff<span class="token punctuation">)</span>
-      Grid Max Size per Dimension:
-        x                        <span class="token number">4294967295</span><span class="token punctuation">(</span>0xffffffff<span class="token punctuation">)</span>
-        y                        <span class="token number">4294967295</span><span class="token punctuation">(</span>0xffffffff<span class="token punctuation">)</span>
-        z                        <span class="token number">4294967295</span><span class="token punctuation">(</span>0xffffffff<span class="token punctuation">)</span>
-      FBarrier Max Size:       <span class="token number">32</span>
-*** Done ***</code></pre></div>
-<h4>Tensorflow</h4>
-<ul>
-<li>Install the dependency packages</li>
-</ul>
-<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">apt</span> <span class="token function">install</span> rocm-libs hipcub miopen-hip</code></pre></div>
-<ul>
-<li>Create a <code class="language-text">virtualenv</code> using python. (Use python3)</li>
-</ul>
-<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token comment"># cd into some dir</span>
-python3 -m venv ./env
-
-<span class="token comment"># activate env</span>
-<span class="token builtin class-name">source</span> env/bin/activate</code></pre></div>
-<ul>
-<li>Install Tensorflow ROCM</li>
-</ul>
-<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">pip <span class="token function">install</span> tensorflow-rocm</code></pre></div>
-<ul>
-<li>You’ll require RCCL libs as the recent versions of ROCm tend to exclude them for mysterious reasons.</li>
-</ul>
-<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">apt</span> <span class="token function">install</span> rccl</code></pre></div>
-<ul>
-<li>You’re all done now! Time to test this Tensorflow setup with some python code.</li>
-</ul>
-<h3>Testing the setup</h3>
-<p>Open up your favourite text editor and execute the following python script in the <code class="language-text">venv</code> we created to install Tensorflow.</p>
-<div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python"><span class="token keyword">import</span> tensorflow <span class="token keyword">as</span> tf
-
-
-x <span class="token operator">=</span> tf<span class="token punctuation">.</span>Variable<span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span> name<span class="token operator">=</span><span class="token string">"x"</span><span class="token punctuation">)</span>
-y <span class="token operator">=</span> tf<span class="token punctuation">.</span>Variable<span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span> name<span class="token operator">=</span><span class="token string">"y"</span><span class="token punctuation">)</span>
-f <span class="token operator">=</span> x<span class="token operator">*</span>x <span class="token operator">+</span> y<span class="token operator">*</span>y <span class="token operator">+</span> <span class="token number">2</span>
-
-
-tf<span class="token punctuation">.</span><span class="token keyword">print</span><span class="token punctuation">(</span>f<span class="token punctuation">)</span></code></pre></div>
-<p>Output should be something like this</p>
-<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token number">2020</span>-03-12 <span class="token number">22</span>:32:31.858480: I tensorflow/stream_executor/platform/default/dso_loader.cc:44<span class="token punctuation">]</span> Successfully opened dynamic library libhip_hcc.so
-<span class="token number">2020</span>-03-12 <span class="token number">22</span>:32:31.909918: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1573<span class="token punctuation">]</span> Found device <span class="token number">0</span> with properties:
-pciBusID: 0000:05:00.0 name: Vega <span class="token number">20</span>     ROCm AMD GPU ISA: gfx906
-coreClock: <span class="token number">1</span>.801GHz coreCount: <span class="token number">60</span> deviceMemorySize: <span class="token number">15</span>.98GiB deviceMemoryBandwidth: -1B/s
-<span class="token number">2020</span>-03-12 <span class="token number">22</span>:32:31.948506: I tensorflow/stream_executor/platform/default/dso_loader.cc:44<span class="token punctuation">]</span> Successfully opened dynamic library librocblas.so
-<span class="token number">2020</span>-03-12 <span class="token number">22</span>:32:31.949600: I tensorflow/stream_executor/platform/default/dso_loader.cc:44<span class="token punctuation">]</span> Successfully opened dynamic library libMIOpen.so
-<span class="token number">2020</span>-03-12 <span class="token number">22</span>:32:31.950580: I tensorflow/stream_executor/platform/default/dso_loader.cc:44<span class="token punctuation">]</span> Successfully opened dynamic library librocfft.so
-<span class="token number">2020</span>-03-12 <span class="token number">22</span>:32:31.950766: I tensorflow/stream_executor/platform/default/dso_loader.cc:44<span class="token punctuation">]</span> Successfully opened dynamic library librocrand.so
-<span class="token number">2020</span>-03-12 <span class="token number">22</span>:32:31.950855: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697<span class="token punctuation">]</span> Adding visible gpu devices: <span class="token number">0</span>
-<span class="token number">2020</span>-03-12 <span class="token number">22</span>:32:31.951100: I tensorflow/core/platform/cpu_feature_guard.cc:142<span class="token punctuation">]</span> Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA
-<span class="token number">2020</span>-03-12 <span class="token number">22</span>:32:31.955707: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94<span class="token punctuation">]</span> CPU Frequency: <span class="token number">3299240000</span> Hz
-<span class="token number">2020</span>-03-12 <span class="token number">22</span>:32:31.956437: I tensorflow/compiler/xla/service/service.cc:168<span class="token punctuation">]</span> XLA <span class="token function">service</span> 0x7b95380 initialized <span class="token keyword">for</span> platform Host <span class="token punctuation">(</span>this does not guarantee that XLA will be used<span class="token punctuation">)</span>. Devices:
-<span class="token number">2020</span>-03-12 <span class="token number">22</span>:32:31.956476: I tensorflow/compiler/xla/service/service.cc:176<span class="token punctuation">]</span>   StreamExecutor device <span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span>: Host, Default Version
-<span class="token number">2020</span>-03-12 <span class="token number">22</span>:32:31.959003: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1573<span class="token punctuation">]</span> Found device <span class="token number">0</span> with properties:
-pciBusID: 0000:05:00.0 name: Vega <span class="token number">20</span>     ROCm AMD GPU ISA: gfx906
-coreClock: <span class="token number">1</span>.801GHz coreCount: <span class="token number">60</span> deviceMemorySize: <span class="token number">15</span>.98GiB deviceMemoryBandwidth: -1B/s
-<span class="token number">2020</span>-03-12 <span class="token number">22</span>:32:31.959067: I tensorflow/stream_executor/platform/default/dso_loader.cc:44<span class="token punctuation">]</span> Successfully opened dynamic library librocblas.so
-<span class="token number">2020</span>-03-12 <span class="token number">22</span>:32:31.959094: I tensorflow/stream_executor/platform/default/dso_loader.cc:44<span class="token punctuation">]</span> Successfully opened dynamic library libMIOpen.so
-<span class="token number">2020</span>-03-12 <span class="token number">22</span>:32:31.959118: I tensorflow/stream_executor/platform/default/dso_loader.cc:44<span class="token punctuation">]</span> Successfully opened dynamic library librocfft.so
-<span class="token number">2020</span>-03-12 <span class="token number">22</span>:32:31.959141: I tensorflow/stream_executor/platform/default/dso_loader.cc:44<span class="token punctuation">]</span> Successfully opened dynamic library librocrand.so
-<span class="token number">2020</span>-03-12 <span class="token number">22</span>:32:31.959285: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697<span class="token punctuation">]</span> Adding visible gpu devices: <span class="token number">0</span>
-<span class="token number">2020</span>-03-12 <span class="token number">22</span>:32:31.959398: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1096<span class="token punctuation">]</span> Device interconnect StreamExecutor with strength <span class="token number">1</span> edge matrix:
-<span class="token number">2020</span>-03-12 <span class="token number">22</span>:32:31.959421: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102<span class="token punctuation">]</span>      <span class="token number">0</span>
-<span class="token number">2020</span>-03-12 <span class="token number">22</span>:32:31.959434: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115<span class="token punctuation">]</span> <span class="token number">0</span>:   N
-<span class="token number">2020</span>-03-12 <span class="token number">22</span>:32:31.959730: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1241<span class="token punctuation">]</span> Created TensorFlow device <span class="token punctuation">(</span>/job:localhost/replica:0/task:0/device:GPU:0 with <span class="token number">15306</span> MB memory<span class="token punctuation">)</span> -<span class="token operator">></span> physical GPU <span class="token punctuation">(</span>device: <span class="token number">0</span>, name: Vega <span class="token number">20</span>, pci bus id: 0000:05:00.0<span class="token punctuation">)</span>
-<span class="token number">27</span></code></pre></div>
-<h3>Fertig!</h3>
-<p>That’s it! You can now use your AMD GPU with Tensorflow on your Ubuntu installation.</p></div><div class="share__Container-sc-1hk3kno-0 cEMEGp"><p class="share___StyledP-sc-1hk3kno-1 heDbda">Share if you liked it:</p></div><ul class="post-styles__LinkList-uvw59-3 iiHafo"><li><a rel="prev" href="/schwabider-deshe/">← <!-- -->শোয়াবিদের দেশে</a></li><li><a rel="next" href="/confront-depression/">My confrontation with depression<!-- --> →</a></li></ul></article></div><footer class="layout__Footer-wzore3-0 hDoXMK"></footer></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/rocm-tf-ubuntu/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-022c0e65b083e626b903.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-49ac284587dff2030b81.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-ef6849b35b6c43711d12.js"],"component---src-pages-404-js":["/component---src-pages-404-js-767805d6a3af4f10a393.js"],"component---src-pages-index-js":["/component---src-pages-index-js-2f1e38a1c6076c64b336.js"]};/*]]>*/</script><script src="/webpack-runtime-85a364b6118b464eca7a.js" async=""></script><script src="/styles-a1f09a029ba4a250f8ea.js" async=""></script><script src="/app-022c0e65b083e626b903.js" async=""></script><script src="/commons-1a6d0d23d54a46520900.js" async=""></script><script src="/component---src-templates-blog-post-js-ef6849b35b6c43711d12.js" async=""></script></body></html>
+.jJLCUM{margin:5rem 0;font-size:1.8rem;}</style><title data-react-helmet="true"></title><link rel="icon" href="/icons/icon-48x48.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link as="script" rel="preload" href="/component---src-templates-blog-post-js-ef6849b35b6c43711d12.js"/><link as="script" rel="preload" href="/commons-1a6d0d23d54a46520900.js"/><link as="script" rel="preload" href="/app-022c0e65b083e626b903.js"/><link as="script" rel="preload" href="/styles-a1f09a029ba4a250f8ea.js"/><link as="script" rel="preload" href="/webpack-runtime-85a364b6118b464eca7a.js"/><link as="fetch" rel="preload" href="/page-data/confront-depression/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><noscript>Sorry! This site requires JavaScript to be enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><nav class="header__Container-sc-1hjyk8g-0 bcGOHo"><a class="styled-link__StyledLink-sc-1pzq7s8-0 kkmMWD" href="/"><h1 class="header__Title-sc-1hjyk8g-1 gnjbqE">Sprache</h1></a></nav><div class="layout__Content-wzore3-1 cxdbKT"><article class="post-styles__Container-uvw59-0 cTwwbR"><header class="post-styles__Header-uvw59-1 cFTaSW"><h1 class="post-styles__Title-uvw59-2 hXactj">My confrontation with depression</h1><sub class="blog-post___StyledSub-sc-1cxuom3-0 dvEvZo"><span>Posted on <!-- -->March 13, 2020</span><span>  -  </span><span>9 min read</span></sub></header><div class="blog-post___StyledDiv-sc-1cxuom3-1 jJLCUM"><p>It took me a long time and a lot of courage to write this article. I don’t know about others but talking about your lows and insecurities is never an easy task for anybody. I don’t know when I began to realise that I, was depressed, so much that I couldn’t muster any motivation to do anything, even things I liked, cherish people I loved. I pushed people away, broke relations, got frustrated at the shortcomings of things and this melancholic list is only going to rage on. After all that damage, after burning all my bridges, I got a blank slate that made me realise what I’ve become and how to get away from it. I can make up for the damage I’ve done to innate objects but I don’t know how to make up for the relations I lost. I’m just hoping to try my luck at recovering what’s lost.</p>
+<p>—</p>
+<h3>Happiness</h3>
+<blockquote>
+<p>I am free and that is why I am lost. - Kafka</p>
+</blockquote>
+<p>For a long time, I thought I was happy. But how can you know that you’re happy? I don’t know. I really had no challenges in life to make me worry over the day to day flow of my life. I guess I considered that happiness. My family let me explore any avenues I wanted, given that I stay focused on my studies and don’t do anything immoral. I stayed true to that. I explored, learnt, tried new things and I was happy! I knew things (unlike Tryrion Lannister, who drinks a lot as well), I have no pressure of expectations from anybody - what could go wrong? For a time, that was true. May be I was happy. I’m saying may be because I never found a definite answer, because all this time I was lying to myself and soon enough I was going to crash on a wall on the happy ride freeway (or Autobahn as the Germans call it).</p>
+<h3>False Expectations</h3>
+<p>I used to say that I’m pretty lucky, given all the tight situations I’ve gotten out of in my life. And, that somewhat made me over-confident that I’ll always get through difficult situations. However, riding your luck isn’t like riding a bi-cycle on a smooth road. It’s like riding a raging bull. You can get overthrown anytime.</p>
+<p>The problem doesn’t end there. When everything is going your way, you start creating expectations for people around you, regardless of the degree of involvement they have with you or the relation they’ve with you. My case was no exception. I created expectations and made promises I couldn’t fulfil. I got frustrated at that, made people frustrated at me. Instead of facing the problems, I tried running away, over and over again, ignoring them and pretending as if nothing had happened. Troubles kept mounting. And then came the time for the collapse.</p>
+<p>The raging bull finally throw me under its feet and crushed everything I had or pretended that I still had.</p>
+<h3>Money</h3>
+<blockquote>
+<p>Even if no salvation should come, I want to be worthy of it at every moment. - Kafka</p>
+</blockquote>
+<p>Some people get very happy when they get money. They can get anything they want now. I’m pretty sure about this at least that this one thing never bothered me. I could’ve asked my parents for money if I ever wanted, mostly for gadgets and games I played. For a time it was good. Then suddenly it wasn’t.</p>
+<p>I wanted to get away from the frustration mounting around me, as I said earlier, I just wanted to run away, instead of facing them. I started seeking refuge in innate objects - the gadgets I was so passionate about, games I used to play. It never occurred to me that I was buying one thing after another indiscriminately, without even thinking whether I’d need them or not at all. I didn’t realise buying stuff can never make me happy, be it for myself or someone else. I was just trying to hide behind these and run away. You can’t hide behind money or the things you can buy with it and pretend like there’s nothing bad in your life. Consider this an ominous sign in your life.</p>
+<blockquote>
+<p>I’m alone inside the world of the story, my favorite feeling in the world. - Murakami</p>
+</blockquote>
+<h3>Expression and Frustration</h3>
+<blockquote>
+<p>I carry the bars within me. - Kafka</p>
+</blockquote>
+<p>I grew up alone, had no friends until I went to school because there’s nobody of my age that time in the family or in the neighbourhood. Sounds strange? Yeah that’s how it was. I had no problem over that, ever. I had Swat Cats, Blue Falcon, Ninja Senshi Tobikage, DBZ and numerous hits to make my child and teen-hood worthwhile. Not to mention the video games of that time. Even EA and Ubisoft used to make good games then. It was fun but it also cost me something. I knew what to say to people but could never express it properly, always thinking I can do it my way and people won’t understand, as people around me always used to say, “You’re too young to understand”.</p>
+<p>I used to talk to myself when I was a kid. Couldn’t get rid of this habit to this day. I considered my imaginary self the only who I can have a meaningful conversation with. I could tell everything to myself but not to others. Oftentimes I was prepared to say something but what came out was entirely different. Eventually I stopped telling people how I felt or what I thought, keeping everything to myself. Even if I did it was an outburst, originating from my frustration at things. And it always gave the wrong message.</p>
+<h3>Love</h3>
+<blockquote>
+<p>You are the knife I turn inside myself; that is love. That, my dear, is love. - Kafka</p>
+</blockquote>
+<p>I fell in love with a wonderful girl. Together we thought that our life was perfect. Then it started falling apart. I couldn’t treat her right in the right circumstances. I couldn’t give her the happiness she deserved, despite everything she gave me. Is love a construct of equal exchange? I don’t know. May be it isn’t. How’re you going to quantify the affection when someone has opened up their entire being for you? Wouldn’t it be an insult even trying to quantify that? We both got frustrated, angry and grew tired of each other, subconsciously and consciously as well. We felt betrayed, as if only one person had the right to express their feelings. Well, I’m kind of numb in this department so she won it. I lost. I had created false expectations. Our relation paid the highest price for it.</p>
+<p>I forgot that I don’t have the ability to love; I can only lie to myself that I love her, as I’ve been lying to myself over everything else in my life. I never understood love. I’m still confused. My only wish is that she gives me a second chance to redeem myself from what I went into. May be, now, I can create the right expectations and no exaggerations.</p>
+<blockquote>
+<p>I dream of a grave, deep and narrow, where we could clasp each other in our arms as with clamps, and I would hide my face in you and you would hide your face in me, and nobody would ever see us any more. - Kafka</p>
+</blockquote>
+<p>—</p>
+<p>Perhaps there’s no salvation for me in your court. I still want to try, as I always have, only this time, I’m not taking anything for granted and willing to accept my fate.</p>
+<h3>Contemplation</h3>
+<blockquote>
+<p>Wherever I turn, the black wave rushes down on me. - Kafka</p>
+</blockquote>
+<p>I left for Germany in the October of 2019. By the time of this writing, I’m back home on a vacation and almost six months have passed. During these six months, wandering among the hills of Stuttgart and Esslingen, I realised what I’d done. And it came like a gust of wind.</p>
+<p>I’m a photographer by hobby and try to carry a camera with me where ever I go. Something was missing from my photos. What was it? How much of it was missing? It wasn’t until a FotoMarathon in Esslingen that I found the missing piece - people. I grew up so alone that I never considered that we all need people in our life to make it lively and give it new dimensions. Life is like a picture. A barren landscape with a high contrast filter may look good for a while but you’ll soon get tired of it. I began asking myself questions over past events and everything I did and why. I pushed myself to find a reason. It took some time, but the answers finally started pouring in like monsoon. I discovered myself depressed and why it happened and also, how to get out of it.</p>
+<p>I had only one solution in mind. Gratitude and simplicity - constructs I hardly thought about. I tried narrowing down my life and taking responsibility of things I had done. It wasn’t easy but now, I no longer feel the frustration but only the agony of my actions. I can’t take it all back. Some deeds are irreversible. And we fragile humans need to accept that.</p>
+<h3>Light at the end of the tunnel</h3>
+<p>Seeing light at the end of the tunnel can mean anything. I don’t know what it has in store for me. As much optimistic as I am, I’ve trained myself to accept how life is. Accepting how things are is the biggest step someone can take I guess. And if you think you can change it, why not give it a try? I see no harm in that at all!</p>
+<blockquote>
+<p>Maybe working on the little things as dutifully and honestly as we can is how we stay sane when the world is falling apart. - Murakami</p>
+</blockquote></div><div class="share__Container-sc-1hk3kno-0 cEMEGp"><p class="share___StyledP-sc-1hk3kno-1 heDbda">Share if you liked it:</p></div><ul class="post-styles__LinkList-uvw59-3 iiHafo"><li><a rel="prev" href="/rocm-tf-ubuntu/">← <!-- -->Setting up your AMD GPU for Tensorflow in Ubuntu 18.04</a></li><li></li></ul></article></div><footer class="layout__Footer-wzore3-0 hDoXMK"></footer></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/confront-depression/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-022c0e65b083e626b903.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-49ac284587dff2030b81.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-ef6849b35b6c43711d12.js"],"component---src-pages-404-js":["/component---src-pages-404-js-767805d6a3af4f10a393.js"],"component---src-pages-index-js":["/component---src-pages-index-js-2f1e38a1c6076c64b336.js"]};/*]]>*/</script><script src="/webpack-runtime-85a364b6118b464eca7a.js" async=""></script><script src="/styles-a1f09a029ba4a250f8ea.js" async=""></script><script src="/app-022c0e65b083e626b903.js" async=""></script><script src="/commons-1a6d0d23d54a46520900.js" async=""></script><script src="/component---src-templates-blog-post-js-ef6849b35b6c43711d12.js" async=""></script></body></html>
