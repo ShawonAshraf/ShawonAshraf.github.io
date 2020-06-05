@@ -78,17 +78,24 @@
 <ul>
 <li>Add ROCm binaries to your path (bash or zsh whichever you use)</li>
 </ul>
-<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token builtin class-name">echo</span> <span class="token string">'export PATH=<span class="token environment constant">$PATH</span>:/opt/rocm/bin:/opt/rocm/profiler/bin:/opt/rocm/opencl/bin/x86_64'</span> <span class="token operator">|</span> <span class="token function">sudo</span> <span class="token function">tee</span> -a /etc/profile.d/rocm.sh</code></pre></div>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token builtin class-name">echo</span> <span class="token string">'export PATH=<span class="token environment constant">$PATH</span>:/opt/rocm/bin:/opt/rocm/profiler/bin:/opt/rocm/opencl/bin/'</span> <span class="token operator">|</span> <span class="token function">sudo</span> <span class="token function">tee</span> -a /etc/profile.d/rocm.sh</code></pre></div>
 <ul>
 <li>Test if your installation was successful or not. If your installation was successful, you should be able to see the supported GPUs installed on your system in the output.</li>
 </ul>
 <div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">sudo</span> /opt/rocm/bin/rocminfo
-<span class="token function">sudo</span> /opt/rocm/opencl/bin/x86_64/clinfo</code></pre></div>
+<span class="token function">sudo</span> /opt/rocm/opencl/bin/clinfo</code></pre></div>
 <h4>Tensorflow</h4>
 <ul>
 <li>Install the dependency packages</li>
 </ul>
-<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">apt</span> <span class="token function">install</span> rocm-libs hipcub miopen-hip rccl</code></pre></div>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">apt</span> <span class="token function">install</span> rocm-libs hipcub miopen-hip</code></pre></div>
+<ul>
+<li>Install <code class="language-text">rccl</code> from source. The apt package no longer works.</li>
+</ul>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">apt</span> <span class="token function">install</span> cmake
+<span class="token function">git</span> clone git@github.com:ROCmSoftwarePlatform/rccl.git
+<span class="token builtin class-name">cd</span> rccl
+<span class="token function">sudo</span> ./install.sh -i</code></pre></div>
 <ul>
 <li>Create a <code class="language-text">virtualenv</code> using python. (Use python3)</li>
 </ul>
