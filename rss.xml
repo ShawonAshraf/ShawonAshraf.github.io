@@ -1,4 +1,258 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Freiheit]]></title><description><![CDATA[I solemnly swear that I'm upto no good]]></description><link>https://shawonashraf.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 20 Jan 2021 17:52:38 GMT</lastBuildDate><item><title><![CDATA[Demystifying Autocomplete - Part 1]]></title><description><![CDATA[The autocomplete How many times has the autocomplete feature on your phone’s keyboard app saved (or sometimes ruined, depending on what you…]]></description><link>https://shawonashraf.github.io/demystify-autocomplete-1/</link><guid isPermaLink="false">https://shawonashraf.github.io/demystify-autocomplete-1/</guid><pubDate>Wed, 14 Oct 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;The autocomplete&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Freiheit]]></title><description><![CDATA[I solemnly swear that I'm upto no good]]></description><link>https://shawonashraf.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 23 Feb 2021 01:03:45 GMT</lastBuildDate><item><title><![CDATA[Fedora 33 post installation steps]]></title><description><![CDATA[I recently installed Fedora on my workstation to make my home and lab computers consistent with each other. This is a simple post…]]></description><link>https://shawonashraf.github.io/fedora-33-post-install/</link><guid isPermaLink="false">https://shawonashraf.github.io/fedora-33-post-install/</guid><pubDate>Wed, 14 Oct 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I recently installed Fedora on my workstation to make my home and lab computers consistent with each other. This is a simple post installation guide I followed. If you plan to use Fedora sometime in the future, check it out.&lt;/p&gt;
+&lt;h2&gt;Update system&lt;/h2&gt;
+&lt;deckgo-highlight-code language=&quot;bash&quot;  terminal=&quot;carbon&quot; theme=&quot;one-dark&quot; line-numbers=&quot;true&quot; &gt;
+          &lt;code slot=&quot;code&quot;&gt;sudo dnf update&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;h2&gt;Add Windows to grub for dual boot&lt;/h2&gt;
+&lt;p&gt;Fedora uses grub2 and it works different than ubuntu or other distros. You can’t just run grub update and call it a day.&lt;/p&gt;
+&lt;p&gt;Run &lt;code class=&quot;language-text&quot;&gt;os-prober&lt;/code&gt; to check for other os entries.&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;bash&quot;  terminal=&quot;carbon&quot; theme=&quot;one-dark&quot; line-numbers=&quot;true&quot; &gt;
+          &lt;code slot=&quot;code&quot;&gt;sudo os-prober&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;Update grub entries&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;bash&quot;  terminal=&quot;carbon&quot; theme=&quot;one-dark&quot; line-numbers=&quot;true&quot; &gt;
+          &lt;code slot=&quot;code&quot;&gt;sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;h2&gt;Edit grub timeout&lt;/h2&gt;
+&lt;p&gt;Edit &lt;code class=&quot;language-text&quot;&gt;/etc/default/grub&lt;/code&gt; and change &lt;code class=&quot;language-text&quot;&gt;GRUB_TIMEOUT&lt;/code&gt; to the desired value. The default is 5 (5 seconds). (Edit with sudo)&lt;/p&gt;
+&lt;h2&gt;Additional software repos&lt;/h2&gt;
+&lt;p&gt;These can be enabled from Software Center as well. Whichever way you prefer!&lt;/p&gt;
+&lt;h3&gt;rpm-fusion&lt;/h3&gt;
+&lt;p&gt;There are two repos to enable. The one with free software and the other with proprietary software. If you happen to have an Nvidia GPU or some hardware part that needs proprietary driver, you’ll need the second one. Why not the free Nvidia driver? Because it’s bad. Real bad. Apple Maps bad. Period.&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;bash&quot;  terminal=&quot;carbon&quot; theme=&quot;one-dark&quot; line-numbers=&quot;true&quot; &gt;
+          &lt;code slot=&quot;code&quot;&gt;sudo rpm -Uvh http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+
+sudo rpm -Uvh http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;h3&gt;Flatpak&lt;/h3&gt;
+&lt;deckgo-highlight-code language=&quot;bash&quot;  terminal=&quot;carbon&quot; theme=&quot;one-dark&quot; line-numbers=&quot;true&quot; &gt;
+          &lt;code slot=&quot;code&quot;&gt;flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+flatpak update&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;h3&gt;Snap&lt;/h3&gt;
+&lt;deckgo-highlight-code language=&quot;bash&quot;  terminal=&quot;carbon&quot; theme=&quot;one-dark&quot; line-numbers=&quot;true&quot; &gt;
+          &lt;code slot=&quot;code&quot;&gt;sudo dnf install -y snapd
+sudo ln -s /var/lib/snapd/snap /snap # for classic snap support
+sudo reboot now # needed to update paths. Snap is annoying!
+
+# after reboot
+sudo snap refresh&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;h2&gt;Make dnf faster&lt;/h2&gt;
+&lt;p&gt;Unlike apt or zypper or pacman, dnf doesn’t look for the fastest mirror to download packages from by deafult. You’ve to explicitly tell it to do so.&lt;/p&gt;
+&lt;p&gt;Add the following line to your &lt;code class=&quot;language-text&quot;&gt;/etc/dnf/dnf.conf&lt;/code&gt; file. (Edit with sudo)&lt;/p&gt;
+&lt;deckgo-highlight-code   terminal=&quot;carbon&quot; theme=&quot;one-dark&quot; line-numbers=&quot;true&quot; &gt;
+          &lt;code slot=&quot;code&quot;&gt;fastestmirror=true&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;h2&gt;Improved fonts&lt;/h2&gt;
+&lt;p&gt;Fedora maintainers have a strict policy of shipping only free and open source material with the distro. For this, you may miss out on some proprietary fonts used in many websites. Luckily you can enable them with this fedora community package package or copr package.&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;bash&quot;  terminal=&quot;carbon&quot; theme=&quot;one-dark&quot; line-numbers=&quot;true&quot; &gt;
+          &lt;code slot=&quot;code&quot;&gt;sudo dnf copr enable dawid/better_fonts
+
+sudo dnf install -y fontconfig-enhanced-defaults fontconfig-font-replacements&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;h2&gt;Gnome extensions and tweaks&lt;/h2&gt;
+&lt;p&gt;I’m not a big fan of heavy customization and tweaks. This is one of the many reasons I like Fedora; it comes with absolute stock Gnome. But if you switch between Operating Systems a lot like me everyday, you may want to customize a bit. These two tools will give you all the power to customize your Gnome DE the way you want.&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;bash&quot;  terminal=&quot;carbon&quot; theme=&quot;one-dark&quot; line-numbers=&quot;true&quot; &gt;
+          &lt;code slot=&quot;code&quot;&gt;sudo dnf install gnome-extensions-app
+
+sudo dnf install gnome-tweaks&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;Here is a list of the extensions I use:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Auto Switcher&lt;/li&gt;
+&lt;li&gt;Clipboard Indicator&lt;/li&gt;
+&lt;li&gt;Dash to Dock&lt;/li&gt;
+&lt;li&gt;No Topleft Hot Corner&lt;/li&gt;
+&lt;li&gt;OpenWeather&lt;/li&gt;
+&lt;li&gt;Removable Drive Menu&lt;/li&gt;
+&lt;li&gt;Screenshot Tool&lt;/li&gt;
+&lt;li&gt;Places Status Indicator&lt;/li&gt;
+&lt;li&gt;User Themes&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://extensions.gnome.org/extension/120/system-monitor/&quot;&gt;https://extensions.gnome.org/extension/120/system-monitor/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can install these from &lt;a href=&quot;https://extensions.gnome.org/&quot;&gt;https://extensions.gnome.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You should also check out the customization options in the Tweaks app.&lt;/p&gt;
+&lt;h2&gt;Enable noise cancellation for supported head phones&lt;/h2&gt;
+&lt;p&gt;Edit &lt;code class=&quot;language-text&quot;&gt;/etc/pulse/default.pa&lt;/code&gt; (again with sudo) and add these lines at the end of the file.&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;bash&quot;  terminal=&quot;carbon&quot; theme=&quot;one-dark&quot; line-numbers=&quot;true&quot; &gt;
+          &lt;code slot=&quot;code&quot;&gt;.ifexists module-echo-cancel.so
+load-module module-echo-cancel aec_method=webrtc source_name=echocancel sink_name=echocancel1
+set-default-source echocancel
+set-default-sink echocancel1
+.endif&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;Now restart pulseaudio for changes to take effect.&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;bash&quot;  terminal=&quot;carbon&quot; theme=&quot;one-dark&quot; line-numbers=&quot;true&quot; &gt;
+          &lt;code slot=&quot;code&quot;&gt;pulseaudio -k&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;h2&gt;Proprietary multimedia codecs&lt;/h2&gt;
+&lt;p&gt;You’ll need these to play everyday music and video files. Because Fedora doesn’t ship with proprietary software.&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;bash&quot;  terminal=&quot;carbon&quot; theme=&quot;one-dark&quot; line-numbers=&quot;true&quot; &gt;
+          &lt;code slot=&quot;code&quot;&gt;sudo dnf groupupdate Multimedia&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;h2&gt;Applications&lt;/h2&gt;
+&lt;p&gt;Which applications to install? Well that’s upto you. I don’t know your use case so can’t suggest any. You can search around in Software Center and install applications as you see fit! However, I’d recommend installing these two. (both are command line based btw.)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/aristocratos/bpytop&quot;&gt;bpytop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/Syllo/nvtop&quot;&gt;nvtop - for monitoring nvidia gpu usage&lt;/a&gt; (you have to build it from source since the maintainers didn’t release a package for Fedora, instructions in the repo)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Default Shell&lt;/h2&gt;
+&lt;p&gt;The default shell on most linux distros is bash and Fedora is no exception here. I personally prefer zsh with &lt;a href=&quot;https://github.com/ohmyzsh/ohmyzsh&quot;&gt;oh-my-zsh&lt;/a&gt; and &lt;a href=&quot;https://github.com/denysdovhan/spaceship-prompt&quot;&gt;spaceship-prompt&lt;/a&gt;. Some people like the fish shell. It’s completely upto you actually. Pick the one that better suits your workflow.&lt;/p&gt;
+&lt;h2&gt;Enable night light&lt;/h2&gt;
+&lt;p&gt;If you’ve never used this thing yet on other operating systems you should now. You’ll appreciate it in the long run. Go to &lt;em&gt;Settings &gt; Displays &gt; Night Light&lt;/em&gt; and set it up.&lt;/p&gt;
+&lt;h2&gt;Display Scaling&lt;/h2&gt;
+&lt;p&gt;Fedora for somewhat reason doesn’t support fractional scaling for Gnome. If you have a high resolution display, your best bet is to change the font scaling from the Tweaks app from above. Go &lt;em&gt;Tweaks &gt; Fonts &gt; Scaling Factor&lt;/em&gt; and pick an appropriate value. The default is 1.00. Depending on your value, choose the one that you find most comfortable.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; [object Object]&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2389108ce517aec7f04898184813b766/4a00e/font-scaling.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 61.963190184049076%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAABvklEQVQoz5VTwY7TMBD1xwBSk5bGSRwndqibpiRqyoUDN+6cEGe+AIlP4AQ5IfEDq4JWQkKIM6hXJP6CJc0Oz6ZdpYIu2sPTZDxPz/NmHMZ5+CJT+kcUi6++P96ORiPA23reMXzf36Zpuh2Px1dnf7gO3yaTyXdwXjEZ87daRnTXu0Mi4lTVNRljKI5jEkKcRBiGpLSmxWJBeZ67s0SIjyxZPnqjVo/plmguQrXsH6xXfdM0vda6h2gPoosH2DyKIheNmfVVVfUQ/aWUojSVZ8y7/6T1V0/pdvWsC8xDKosZmXlJGgR766HTYYR1sgIqv0dlWZKZzXY2T5Jkw/IsaUujyWjZZVKAnMH2CjY0oZMjsaEgHFCxWFKzXlNd1ztrHbUNS2TappmigIcdFmRvcXPJsvSvOQ67PFxmwTnf2ZkiosM8b4uisITOkubzubNz3VIOXUKAgiC4EgQ2DEkrpSSsvbPFf81tKHSitttvfsPwnlqIEd4XLPNLFC5BdrDfp/LhOXAk+Hov+BMddih0INwUF3vBMyv4bi/oZnLdY/4fIPiJ4bd5jl/mC4TfT6fTcyzmHAUXb4APwGc4fPkbvfd0rDvFXW8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;font scaling&quot;
+        title=&quot;font scaling&quot;
+        src=&quot;/static/2389108ce517aec7f04898184813b766/a6d36/font-scaling.png&quot;
+        srcset=&quot;/static/2389108ce517aec7f04898184813b766/222b7/font-scaling.png 163w,
+/static/2389108ce517aec7f04898184813b766/ff46a/font-scaling.png 325w,
+/static/2389108ce517aec7f04898184813b766/a6d36/font-scaling.png 650w,
+/static/2389108ce517aec7f04898184813b766/e548f/font-scaling.png 975w,
+/static/2389108ce517aec7f04898184813b766/3c492/font-scaling.png 1300w,
+/static/2389108ce517aec7f04898184813b766/4a00e/font-scaling.png 1406w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Writing Bangla&lt;/h2&gt;
+&lt;p&gt;Install OpenBanglaKeyboard - &lt;a href=&quot;https://openbangla.github.io/&quot;&gt;https://openbangla.github.io/&lt;/a&gt;
+Don’t forget to install the fonts from &lt;a href=&quot;https://www.omicronlab.com/bangla-fonts.html&quot;&gt;https://www.omicronlab.com/bangla-fonts.html&lt;/a&gt; !&lt;/p&gt;
+&lt;p&gt;To install user fonts you’ll need Gnome font manager. Just install it from the software center or,&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;bash&quot;  terminal=&quot;carbon&quot; theme=&quot;one-dark&quot; line-numbers=&quot;true&quot; &gt;
+          &lt;code slot=&quot;code&quot;&gt;dnf copr enable jerrycasiano/FontManager
+dnf install font-manager&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;h2&gt;Extras (advanced)&lt;/h2&gt;
+&lt;p&gt;You better know what you’re doing before you run anything in this section! :P&lt;/p&gt;
+&lt;h3&gt;Enable SSH&lt;/h3&gt;
+&lt;deckgo-highlight-code language=&quot;bash&quot;  terminal=&quot;carbon&quot; theme=&quot;one-dark&quot; line-numbers=&quot;true&quot; &gt;
+          &lt;code slot=&quot;code&quot;&gt;sudo dnf install -y openssh-server
+
+sudo systemctl start sshd.service
+
+sudo systemctl enable sshd.service&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;h3&gt;Automating tasks with systemd daemons&lt;/h3&gt;
+&lt;p&gt;Read more here: &lt;a href=&quot;https://github.com/torfsen/python-systemd-tutorial&quot;&gt;https://github.com/torfsen/python-systemd-tutorial&lt;/a&gt; . systemd is no simple thing to discuss in a readme file!&lt;/p&gt;
+&lt;h3&gt;Podman containers&lt;/h3&gt;
+&lt;p&gt;Fedora, following their RHEL traditions, dropped support for Docker due to some security issues which I’m too DevOps illiterate to understand. They suggest using Podman instead. Check here: &lt;a href=&quot;https://github.com/containers/podman&quot;&gt;https://github.com/containers/podman&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;NodeJS&lt;/h3&gt;
+&lt;p&gt;If you need it!&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;bash&quot;  terminal=&quot;carbon&quot; theme=&quot;one-dark&quot; line-numbers=&quot;true&quot; &gt;
+          &lt;code slot=&quot;code&quot;&gt;sudo dnf install nodejs
+node -v # shows version when installed
+
+sudo dnf install yarnpkg
+yarn -v # shows version when installed&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;&lt;a href=&quot;https://developer.fedoraproject.org/tech/languages/nodejs/nodejs.html&quot;&gt;https://developer.fedoraproject.org/tech/languages/nodejs/nodejs.html&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Setting up CUDA for Nvidia GPUs&lt;/h3&gt;
+&lt;p&gt;If you’re into running compute stuff on your GPU that is! I personally prefer installing cuda-toolkit from Anaconda repositories to work with python. This way you’ve lesser chances of messing up your system. Since Fedora is a rolling release and will always opt for the latest stable kernel, your CUDA installation may stop working. Worse, it can get updated with a version that’s compatible with neither Tensorflow or Pytorch. Be on the safer side and install Anaconda, create an env and install cuda toolkit with Tensorflow or Pytorch. However if you really want to live on the edge and don’t care about consequences, follow this guide: &lt;a href=&quot;https://www.if-not-true-then-false.com/2018/install-nvidia-cuda-toolkit-on-fedora/&quot;&gt;https://www.if-not-true-then-false.com/2018/install-nvidia-cuda-toolkit-on-fedora/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you run into errors, don’t at at me!&lt;/p&gt;
+&lt;h3&gt;Dropdown Terminals&lt;/h3&gt;
+&lt;p&gt;Install guake from software center! Once done, run it and press F12.&lt;/p&gt;
+&lt;p&gt;I usually run bpytop on guake, so that even if I close the Terminal app, it keeps running and I can check it anytime with a F12 press.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; [object Object]&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4a4529bad80e5d8e649497f61bb57f08/9b29b/bpytop_guake.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 29.447852760736193%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsTAAALEwEAmpwYAAABEUlEQVQY001QSXLEIBDDC1uzg7EncVUuqVzy//8pDTOV5CDUgpZoEOQIu9whFoFlXX55YmMtBFzwOK4O6zwMWebwx87CxzR7UmkQq9x4GeYVy75hYz2DXuHrvkJqCWUNrE/QZEAvnpoDjYscTlDGQLTsYdUyEUmhtwJyBrXHiVYz+nmglIzr7Cg5I6eInNMTKaG1iutxIXOveHsvOK/AJo/HW8J5VpQW8fH1wOf3jd4rEjdGNt/3jePoqJV7SkGMEYkDvffzfDxfEHkobbDtElJpSKmxrht21sM0JvL8P+QdT5SnecASPWEtiNnxudIKwhEnaztBxsEa4pom19pQ+aNHaAyB6zInSjFM/R+BLxn7PwyciDxVX9aBAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;guake bpytop&quot;
+        title=&quot;guake bpytop&quot;
+        src=&quot;/static/4a4529bad80e5d8e649497f61bb57f08/a6d36/bpytop_guake.png&quot;
+        srcset=&quot;/static/4a4529bad80e5d8e649497f61bb57f08/222b7/bpytop_guake.png 163w,
+/static/4a4529bad80e5d8e649497f61bb57f08/ff46a/bpytop_guake.png 325w,
+/static/4a4529bad80e5d8e649497f61bb57f08/a6d36/bpytop_guake.png 650w,
+/static/4a4529bad80e5d8e649497f61bb57f08/e548f/bpytop_guake.png 975w,
+/static/4a4529bad80e5d8e649497f61bb57f08/3c492/bpytop_guake.png 1300w,
+/static/4a4529bad80e5d8e649497f61bb57f08/9b29b/bpytop_guake.png 3840w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;Neofetch&lt;/h3&gt;
+&lt;p&gt;Let the geek in you show off some system spec to people out there.&lt;/p&gt;
+&lt;deckgo-highlight-code language=&quot;bash&quot;  terminal=&quot;carbon&quot; theme=&quot;one-dark&quot; line-numbers=&quot;true&quot; &gt;
+          &lt;code slot=&quot;code&quot;&gt;sudo dnf install neofetch -y&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; [object Object]&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6044cea0dd44c51304a60a580d1d04b4/ec09f/neofetch.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75.4601226993865%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsTAAALEwEAmpwYAAACE0lEQVQ4y52Sy27TQBSG/RAU3Ngzk/HdsZM4huAEkiYpbRUV0R2XBbQICfoAiFdgzUsggQAhFt2wR3gHKGLFgteg1NbPieNWlEKCsvgkezzn03/OsdJNgufNZvjNNIwvUlYnpmkQ5kRKOZm+27Y9ieN40mg0ivO/4bruZ+K77/vPlDAwP/lBCFa1YHsBRFVCSBN+PYbtN2BaNqgIJIZhSDDGzsA5h67rqNfrB4rOzY8qMzHe3vm5u3c/NywnF3aYt7uDfDgc5kmS5K1WK/c8L7csKydBToI/OSyFbxRuuKlTa+Duvd0sitvQGUfVi+G1+hgM1kBCRFFUJNQ0rUhznOo3jkrhW6WiizSoN/Hw0X52qZ1AFyakFyHpXUOn0wWlKtoRQvxLdlpo2G66Nd7GzVu3M254ND8L3AoRd4bY2txAr98HDbuQHgvmJpSWl17prcEPmyR0IaYDNmuIOpsYDUbYGA2LtsMwBG1+ccJKRU9VVaUEWjb9qHEdvnDw4IbEnb0dXN9/jKR7GavqatH2QqHnsNSyDDDOScigEzaXWE8Erg7auLg+huM6JwtZ2LLv8XT2f/GMkYzTlnUqWFEZLpxXsbpyjmT6iWhhQk1j6ewSy6ayQkqXhOCzzc7f7lkhXUzLgqLlOUX/LfxQCg+Jo2Wg+h+l8PVU+HXJVKcohe8VenhK0nfES+LVkrygxR0EQe3JL9+YliYvBJo2AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;neofetch&quot;
+        title=&quot;neofetch&quot;
+        src=&quot;/static/6044cea0dd44c51304a60a580d1d04b4/a6d36/neofetch.png&quot;
+        srcset=&quot;/static/6044cea0dd44c51304a60a580d1d04b4/222b7/neofetch.png 163w,
+/static/6044cea0dd44c51304a60a580d1d04b4/ff46a/neofetch.png 325w,
+/static/6044cea0dd44c51304a60a580d1d04b4/a6d36/neofetch.png 650w,
+/static/6044cea0dd44c51304a60a580d1d04b4/e548f/neofetch.png 975w,
+/static/6044cea0dd44c51304a60a580d1d04b4/3c492/neofetch.png 1300w,
+/static/6044cea0dd44c51304a60a580d1d04b4/ec09f/neofetch.png 1916w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Acknowledgements&lt;/h2&gt;
+&lt;p&gt;You can check these links for further tweak and post install instructions&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://fosspost.org/things-to-do-after-installing-fedora-33/&quot;&gt;https://fosspost.org/things-to-do-after-installing-fedora-33/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.dedoimedo.com/computers/fedora-32-essential-tweaks.html&quot;&gt;https://www.dedoimedo.com/computers/fedora-32-essential-tweaks.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://mutschler.eu/linux/install-guides/fedora-post-install/&quot;&gt;https://mutschler.eu/linux/install-guides/fedora-post-install/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://eftalor.medium.com/11-things-to-do-after-installing-fedora-33-f68751eef156&quot;&gt;https://eftalor.medium.com/11-things-to-do-after-installing-fedora-33-f68751eef156&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://fedoramagazine.org/&quot;&gt;https://fedoramagazine.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/Fedora/&quot;&gt;https://www.reddit.com/r/Fedora/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Demystifying Autocomplete - Part 1]]></title><description><![CDATA[The autocomplete How many times has the autocomplete feature on your phone’s keyboard app saved (or sometimes ruined, depending on what you…]]></description><link>https://shawonashraf.github.io/demystify-autocomplete-1/</link><guid isPermaLink="false">https://shawonashraf.github.io/demystify-autocomplete-1/</guid><pubDate>Wed, 14 Oct 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;The autocomplete&lt;/h2&gt;
 &lt;p&gt;How many times has the autocomplete feature on your phone’s keyboard app saved (or sometimes ruined, depending on what you wanted to type) your conversations? Judging from the number of texts and emails we sent around everyday, the number would be staggering and you may not even count it as something significant because you’ve grown so used to this often overlooked and underrated piece of technology. And you may even go on and say, “Eh, what’s so special about it anyway, it’s so simple, I write a word and it predicts the next thing.”&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
