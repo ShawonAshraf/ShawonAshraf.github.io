@@ -22,4 +22,4 @@ social:
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/shawon-ashraf-96162763/'}
 
 contacts:
-- {name: 'Dr. Academia', title: 'Professor', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/contact.jpg'}
+- {name: 'Shawon Ashraf', title: 'Student', department: 'Institut für Maschinelle Sprachverarbeitung (IMS)', institution: 'Universität Stuttgart', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'shawon.ashraf@ims.uni-stuttgart.de', office: 'Science Building 505', image: 'assets/img/contact.jpg'}
