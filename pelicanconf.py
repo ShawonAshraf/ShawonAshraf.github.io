@@ -18,12 +18,14 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 # links go here
 LINKS = (('Github', 'https://github.com/ShawonAshraf'),
-         ('Flickr', 'https://www.flickr.com/photos/rockash93/'),)
+         ('Flickr', 'https://www.flickr.com/photos/rockash93/'),
+         ('Blog', 'https://blog.shawonashraf.com/'),
+         ('Medium', 'https://medium.com/@shawonashraf'),
+         )
 
 # Social widget
 # socials go here
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Twitter', 'https://twitter.com/shawon_ashraf'),)
 
 DEFAULT_PAGINATION = 10
 
