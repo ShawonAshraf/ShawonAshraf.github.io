@@ -17,8 +17,8 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 # links go here
-LINKS = (('Github', 'https://getpelican.com/'),
-         ('Flickr', 'https://www.python.org/'),)
+LINKS = (('Github', 'https://github.com/ShawonAshraf'),
+         ('Flickr', 'https://www.flickr.com/photos/rockash93/'),)
 
 # Social widget
 # socials go here
