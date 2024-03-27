@@ -2,37 +2,36 @@
 
 > Junior AI Engineer, ellamind GmbH
 
-[![Website](https://img.shields.io/badge/--website?label=Website&logo=safari&style=social)](https://shawonashraf.com)
-[![Blog](https://img.shields.io/badge/--blog?label=Blog&logo=blog&style=social)](https://blog.shawonashraf.com/)
 
-
-### 🤔 Myself?
-- I have a Master's degree in Computational Linguistics from IMS, Universität Stuttgart, with the primary focus being on Applied Natural Language Processing, Machine Learning and Multi-Modality in NLP.
-- I used to write a lot of Java and C++ (honourable mention, JS) in the past but ever since I started my master's degree, I got hardstuck into Python
-and that's where I am now.
-- Pytorch and Jax.
-- Other than Python, I am an open-source and Linux aficionado, (no I don't use Arch, btw). I am also a tinkerer at home and may have self-hosted a lot of things (I need to check what's currently running on my home server).
-- Also, Docker and Podman. 
-
-- I've prior experience as a Software Engineer (I only wrote Javascript, to be precise).
-- I have organised workshops and tutorials for students, ranging from beginner to intermediate topics in Machine Learning, Linux and Software Development.
-- I've also been a teaching assistant for the Bachelor's and Master's programming courses offered at IMS from 2020 to 2023.
-- Junior AI Engineer at ellamind GmbH from April 2024
-
-### 🔭 Reading
-You can check which books I'm currently reading on my Goodreads profile. 
-
-https://www.goodreads.com/review/list/45256672?shelf=currently-reading
-
-
-### 📫 Me on the internet
-```json
-{
-  "flickr": "https://www.flickr.com/photos/rockash93/",
-  "blog": "https://blog.shawonashraf.com/",
-  "medium": "https://medium.com/@shawonashraf",
-  "twitter": "https://twitter.com/shawon_ashraf",
-  "goodreads": "https://www.goodreads.com/user/show/45256672-shawon-ashraf"
-}
+```python
+print("Hello World!")
 ```
 
+
+## Myself
+I am a Junior AI Engineer at [ellamind GmbH](https://ellamind.com/en/). I have a MSc. in Computational Linguistics from IMS, Universität Stuttgart, Germany and a Bachelor's in Computer Science and Engineering from North South University, Bangladesh. I primarily work on language models and their applications. As for programming language, mostly Python. I won't call myself an expert but I can write Pytorch and Jax(+Flax) without asking an LLM Agent. 
+
+I've previously worked as a Software Engineer (Javascript) and also as a TA for the Bachelor's and Master's level programming courses at IMS.
+
+Other than work, I write on my blog on Deep Learning and NLP and a few tutorial series which are also on my Github.
+
+## Github
+ShawonAshraf : [link](https://github.com/ShawonAshraf)
+
+## Blog
+Freiheit: [link](https://blog.shawonashraf.com/)
+
+## Photography
+Flickr: [link](https://www.flickr.com/photos/rockash93/)
+Website: [link](https://shawonashraf.myportfolio.com/)
+
+## Reading
+Goodreads Profile: [link](https://www.goodreads.com/review/list/45256672?shelf=currently-reading)
+
+## Socials
+X: [@shawon_ashraf](https://twitter.com/shawon_ashraf)
+LinkedIn: [link](https://www.linkedin.com/in/shawon-ashraf-96162763/)
+
+
+## Research
+Google Scholar: [link](https://scholar.google.de/citations?user=oBUTqt8AAAAJ&hl=en)
