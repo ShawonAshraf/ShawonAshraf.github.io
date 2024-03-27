@@ -23,6 +23,7 @@ Freiheit: [link](https://blog.shawonashraf.com/)
 
 ## Photography
 Flickr: [link](https://www.flickr.com/photos/rockash93/)
+
 Website: [link](https://shawonashraf.myportfolio.com/)
 
 ## Reading
@@ -30,6 +31,7 @@ Goodreads Profile: [link](https://www.goodreads.com/review/list/45256672?shelf=c
 
 ## Socials
 X: [@shawon_ashraf](https://twitter.com/shawon_ashraf)
+
 LinkedIn: [link](https://www.linkedin.com/in/shawon-ashraf-96162763/)
 
 
