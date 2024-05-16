@@ -1,6 +1,7 @@
 > NLP, Computational Linguistics, Multi-Modal Deep Learning
 
 > Junior AI Engineer, ellamind GmbH
+> DiscoResearch
 
 
 ```python
