@@ -1,8 +1,4 @@
-> NLP, Computational Linguistics, Multi-Modal Deep Learning
-
-> AI Engineer, ellamind GmbH
-
-> DiscoResearch
+> NLP, Computational Linguistics, Multi-Modal Deep Learning, Information Retrieval
 
 
 ```python
