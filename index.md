@@ -7,7 +7,7 @@ print("Hello World!")
 
 
 ## Myself
-I am a Junior AI Engineer at [ellamind GmbH](https://ellamind.com/en/). I completed my Master's in Computational Linguistics from IMS, Universität Stuttgart, Germany and  Bachelor's in Computer Science and Engineering from North South University, Bangladesh. I primarily work on language models and their applications. 
+I completed my Master's in Computational Linguistics from IMS, Universität Stuttgart, Germany and  Bachelor's in Computer Science and Engineering from North South University, Bangladesh. I primarily work on language models and their applications. 
 
 I've previously worked as a Software Engineer (Javascript, Swift, SwiftUI) and also as a TA for the Bachelor's and Master's level programming courses at IMS.
 
