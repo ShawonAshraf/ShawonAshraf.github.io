@@ -1,4 +1,4 @@
-> NLP, Computational Linguistics, Multi-Modal Deep Learning, Information Retrieval
+> Tinkering with type safetly and bare metal
 
 
 ```python
