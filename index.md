@@ -17,19 +17,16 @@ Other than work, I write on my blog on topics related to deep learning and natur
 ShawonAshraf : [link](https://github.com/ShawonAshraf)
 
 ## Blog
-Freiheit: [link](https://blog.shawonashraf.com/)
+Freiheit: [link]([https://blog.shawonashraf.com/](https://shawonashraf.hashnode.dev/))
 
 ## Photography
-Flickr: [link](https://www.flickr.com/photos/rockash93/)
-
-Website: [link](https://shawonashraf.myportfolio.com/)
+Instagram: [link]()
+(I moved away from Flickr)
 
 ## Reading
 Goodreads Profile: [link](https://www.goodreads.com/review/list/45256672?shelf=currently-reading)
 
 ## Socials
-X: [@shawon_ashraf](https://twitter.com/shawon_ashraf)
-
 LinkedIn: [link](https://www.linkedin.com/in/shawon-ashraf-96162763/)
 
 
