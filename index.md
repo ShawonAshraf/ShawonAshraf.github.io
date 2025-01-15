@@ -19,13 +19,6 @@ ShawonAshraf : [link](https://github.com/ShawonAshraf)
 ## Blog
 Freiheit: [link]([https://blog.shawonashraf.com/](https://shawonashraf.hashnode.dev/))
 
-## Photography
-Instagram: [link]()
-(I moved away from Flickr)
-
-## Reading
-Goodreads Profile: [link](https://www.goodreads.com/review/list/45256672?shelf=currently-reading)
-
 ## Socials
 LinkedIn: [link](https://www.linkedin.com/in/shawon-ashraf-96162763/)
 
