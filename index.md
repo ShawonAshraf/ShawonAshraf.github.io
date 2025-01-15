@@ -1,5 +1,3 @@
-> Tinkering with type safetly and bare metal
-
 
 ```python
 print("Hello World!")
